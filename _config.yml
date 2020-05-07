@@ -1,7 +1,7 @@
 # Setup
 title: Leon's Summer Research Blog
 tagline: NSERC 2020
-url: "" 
+url: "/ResearchJournal/" 
 paginate: 5
 baseurl: "/ResearchJournal/"
 permalink: pretty
