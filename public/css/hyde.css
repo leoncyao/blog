@@ -79,8 +79,9 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: "Abril Fatface", sans-serif;
   font-size: 3.25rem;
+  vertical-align: middle;
 }
 
 /* Sidebar nav */
@@ -111,6 +112,10 @@ a.sidebar-nav-item:focus {
     right:  1rem;
     bottom: 1rem;
     left:   1rem;
+    top: 3rem;
+      /* display: flex;
+  justify-content: center;
+  align-items: center; */
   }
 }
 
@@ -224,7 +229,7 @@ a.sidebar-nav-item:focus {
 
 /* Blue */
 .theme-base-0d .sidebar {
-  background-color: #6a9fb5;
+  background-color: #0f007e;
 }
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
