@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rational Tangles
-date: 2020/05/3
+date: 2020/05/6
 permalink: /:year/:month/:day
 ---
 
@@ -21,14 +21,14 @@ Here is an example of a rational tangle (again all of these were drawn by Matthe
 
 <img src = "{{site.baseurl}}/assets/img/RationalTangleExample.jpg">
 
-The main is reason I feel this is a cool construction because of the way we can represent these tangle diagrams as rational numbers. 
+The main is reason I feel this is a cool construction is because of the way we can represent these tangle diagrams as rational numbers. 
 
-As we construct these tangles with R and T operations, it is clear that each sequence of letters of R, T determines a tangle. For example, the sequence TTTTTRTTRTT produces the tangle in the previous example, as seen here.
+As we construct these tangles with R and T operations, it is clear that each sequence of letters of R, T determines a tangle. For example, the sequence TTTTTRTTRTTT produces the tangle in the previous example, as seen here.
 
 <img src = "{{site.baseurl}}/assets/img/Tangle.gif">
 
-Now you might wonder why we call these rational tangles. We will first note that the R operations have inverses. You can verify that R^-1 = R^3 geometrically. 
-The proof that T^-1 = RTRTR can be seen with this gif. 
+We note that the R and T operations have inverses. You can verify that R^-1 = R^3 geometrically. 
+The proof that T^-1 = RTRTR can be seen with this animation. 
 
 
 
