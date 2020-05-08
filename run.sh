@@ -1,2 +1,2 @@
 bundle exec jekyll serve $*
-echo CURRENTLY HOSTING
+echo "\n" CURRENTLY HOSTING
