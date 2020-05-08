@@ -27,8 +27,10 @@ As we construct these tangles with R and T operations, it is clear that each seq
 
 <img src = "{{site.baseurl}}/assets/img/Tangle.gif">
 
-We note that the R and T operations have inverses. You can verify that R^-1 = R^3 geometrically. 
-The proof that T^-1 = RTRTR can be seen with this animation. 
+We note that the R and T operations have inverses. You can see geometrically that R^4 = I, meaning that if you rotate by 90 degrees 4 times you end up with the same tangle. We therefore let the inverse of R, R^(-1), be equal to R^3. 
+The proof that TRTRTR = I can be seen with this animation. Note that we say tangles are equal when we stretch and bend one tangle to another, without breaking or tearing any of the strands. 
+
+<img src = "{{site.baseurl}}/assets/img/TwistInverse.gif">
 
 
 
