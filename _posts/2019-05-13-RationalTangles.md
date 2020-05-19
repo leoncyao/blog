@@ -14,16 +14,18 @@ A tangle is a diagram of a small part of a knot. One way to construct tangles to
 Here is an example of a tangle. 
 <img src = "{{site.baseurl}}/assets/img/TangleExample.jpg">
 
-...
 <!--more-->
 
-One particular type of tangle is called a rational tangle. We construct rational tangles in the following way 
+One particular type of tangle is called a rational tangle. We construct rational tangles in the following way:
 
 <img src = "{{site.baseurl}}/assets/img/RationalTangles.jpg">
 
 Here is an example of a rational tangle (again all of these were drawn by Matthew Solomone). 
 
 <img src = "{{site.baseurl}}/assets/img/RationalTangleExample.jpg">
+
+We can generalize these operations on 
+
 
 The main is reason I feel this is a cool construction is because of the way we can represent these tangle diagrams as rational numbers. 
 
@@ -91,12 +93,9 @@ We will take the sequence of integers and alternate between applying the $r$ and
 
 For $3, -4, -10, 2$, this would look like:
 
-$$((3 \cdot \frac{-1}{4]) + (-10)) \frac{1}{2}$$
+$$((3 \cdot \frac{-1}{4}) + (-10)) \cdot \frac{1}{2} $$
 
-
-
-
-It turns out these operations encapsulate the twist and rotation operations on tangle. If you take two tangles G and H, and convert them to their 
+It turns out these operations encapsulate the twist and rotation operations on tangle. If you take two tangles G and H, and convert them to their continued fraction representation, and then
 
 Isn't this cool? This means that if you add or multiply rational tangles together 
 

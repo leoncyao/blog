@@ -11,10 +11,22 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
+    {% assign test1 = post.date | slice : 0, 4 | plus : 1%}
+    {% assign test2 = post.date | slice : 4, 100 %}
+    <span class="post-date">{{ test1 | append : test2 | date_to_string }}</span>
+    <script>
+    console.log("{{post.excerpt | size}}");
+    console.log("{{post.content | size}}");
 
-    <span class="post-date">{{ post.time | date_to_string }}</span>
-
+    </script>
+    {% assign l1 = post.excerpt | size %}
+    {% assign l2 = post.content | size %}
+    {% if l1 < l2 %}
     {{ post.excerpt }}
+    <h1>...</h1>
+    {% else %}
+    {{ post.content }}
+    {% endif %} 
   </div>
   {% endfor %}
 </div>
