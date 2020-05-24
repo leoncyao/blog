@@ -27,8 +27,9 @@ I want to share a particular kind of tangle which I thought has a cool correspon
 This post will be regurgitating the video series given by <a href = "https://www.youtube.com/playlist?list=PLL0ATV5XYF8BfT8CmmzKnfTlf3V9hQgj9">Matthew Salomone</a  >. I highly recommend you check out this series if you have a background in topology or group theory, and you are interested in knot theory. 
 
 
-<div id="tangle"></div>
+<div id="tangle">
 A tangle is a diagram of a small part of a knot. One way to construct tangles to draw a circle on the knot diagram such that the knot intersects the circle at exactly 4 places. Here is an example of a knot diagram. 
+</div>
 <img src = "{{site.baseurl}}/assets/img/KnotDiagramExample.jpg">
 
 Here is an example of a tangle. 
