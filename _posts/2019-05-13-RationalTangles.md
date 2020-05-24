@@ -4,6 +4,20 @@ title: Rational Tangles
 time: 2020/5/20
 excerpt_separator: <!--more-->
 ---
+<style>
+    img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    details {
+        margin-left: 5%;
+    }
+    summary {
+        margin-left: -5%;
+        position : relat;
+    }
+</style>
 
 I want to share a particular kind of tangle which I thought has a cool correspondence with rational numbers. 
 
@@ -18,21 +32,14 @@ Here is an example of a tangle.
 
 One particular type of tangle is called a rational tangle. We construct rational tangles in the following way:
 
-<img src = "{{site.baseurl}}/assets/img/RationalTangles.jpg">
+<img src = "{{site.baseurl}}/assets/img/RationalTangles.jpg" class="center">
 
 Here is an example of a rational tangle (again all of these were drawn by Matthew Solomone). 
 
-<img src = "{{site.baseurl}}/assets/img/RationalTangleExample.jpg">
+<img src = "{{site.baseurl}}/assets/img/RationalTangleExample.jpg" class="center">
 
-We can generalize these operations on 
-
-
-The main is reason I feel this is a cool construction is because of the way we can represent these tangle diagrams as rational numbers. 
-
-As we construct these tangles with $R$ and $T$ operations, it is clear that each sequence of letters of $R, T$ determines a tangle. For example, the sequence $TTTTTRTTRTTT$ produces the tangle in the previous example, as seen here.
-
-<img src = "{{site.baseurl}}/assets/img/Tangle.gif">
-
+<details>
+<summary>Cool fact! $R$ and $T$ operations have inverses</summary> 
 We note that the $R$ operation has an inverse. You can see geometrically that $R^2 = I$, meaning that if you rotate by 90 degrees 2 times you end up with the same tangle (this is due to the vertical symmetry we started with at with empty tangle). Therefore the inverse of $R, R^{-1}$, is equal to itself. 
 
 We also note that the $T$ operation has an inverse. The proof that
@@ -41,6 +48,14 @@ $TRTRTR = I$ can be seen with this animation below. Note that we say tangles are
 <img src = "{{site.baseurl}}/assets/img/TwistInverse.gif">
 
 Thus, we let the inverse of $T, T^{-1} = RTRTR$
+</details>
+<br>
+The main is reason I feel this is a cool construction is because of the way we can represent these tangle diagrams as rational numbers. 
+
+As we construct these tangles with $R$ and $T$ operations, it is clear that each sequence of letters of $R, T$ determines a tangle. For example, the sequence $TTTTTRTTRTTT$ produces the tangle in the previous example, as seen here.
+
+<img src = "{{site.baseurl}}/assets/img/Tangle.gif">
+
 
 Next, we first identify every sequence of $R, T, R^{-1}，T^{-1}$ with a sequence of integers. We will first cancel out the chunks of $R$s and $R^{-1}$s and $T$s, $T^{-1}$s. 
 
@@ -58,6 +73,9 @@ For example:
 $3, -4, -10, 2 \iff  T^3R^{-4}T^{-10}R^2$
 
 Why is this a useful encoding? 
+
+The $R$ and $T$ operations above are specific examples of the more general operations $+$ and $\cdot$. 
+
 Recall that the R and T operations satisfiy TRTRTR = I.
 It turns out there are operations rational numbers that this same equation. 
 
@@ -89,11 +107,11 @@ $$
 <br>
 Using these operations, we can turn the sequence of integers into a rational number. 
 
-We will take the sequence of integers and alternate between applying the $r$ and $t$ operations on the number built up so far. 
+We will take the sequence of integers and alternate between applying the $r$ and $t$ functions on the number built up so far. 
 
 For $3, -4, -10, 2$, this would look like:
 
-$$((3 \cdot \frac{-1}{4}) + (-10)) \cdot \frac{1}{2} $$
+$$(((3 \cdot \frac{-1}{4}) + (-10)) \cdot \frac{1}{2} $$
 
 It turns out these operations encapsulate the twist and rotation operations on tangle. If you take two tangles G and H, and convert them to their continued fraction representation, and then
 
@@ -116,8 +134,6 @@ An simple example of an invariant can be found in rock-paper-scissors. Let's say
 Going back to tangles, we need a property of tangle that does not change when we rotate or twist. If we can calculate such an invariant for empty tangle and for the given tangle, and the invariants are not equal, then it must be that the given tangle is not rational. 
 
 Part of my research this summer will be to calculate such an invariant, called the Khovanov Homology, for certain tangles. Wish me luck!
-
-<details>test</details>
 
 
 
