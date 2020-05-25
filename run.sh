@@ -1,2 +1,6 @@
-bundle exec jekyll serve $*
-echo "\n" CURRENTLY HOSTING
+bundle exec jekyll serve $* 
+
+# xdg-open http://127.0.0.1:4000/ResearchJournal/
+
+
+# ./ngrok http 4000 &
