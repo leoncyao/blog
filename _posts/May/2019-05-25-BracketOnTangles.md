@@ -134,7 +134,8 @@ One might then realize that you can draw the  resolution for $G + H$ in the foll
 
 With this construction, the formula for the bracket becomes clearer. 
 
-In order to smooth $G+ H$ into the zero tangle, you have to smooth both $G$ and $H$ into the zero tangles. Recall that $P_0$ is the sum of the ways to smooth $G$ into the $0$ tangle, and $Q_0$ is the sum of the ways to smooth $H$ into the $0$ tangle, so each term in the product $P_0 \cdot Q_0$ will correspond to a combination of smoothings that smooth $G+H$ into the $0$ tangle. 
+In order to smooth $G + H$ into the zero tangle, you have to smooth both $G$ and $H$ into the zero tangles. Recall that $P_0$ is the sum of the ways to smooth $G$ into the $0$ tangle, and $Q_0$ is the sum of the ways to smooth $H$ into the $0$ tangle, so each term in the product $P_0 \cdot Q_0$ will correspond to a combination of smoothings that smooth $G+H$ into the $0$ tangle. 
 
+One useful application of tangles is that we can "close" them up to form knots, and the invariants of knots become easy to calculate using the invariants of the tangle. 
 
 <!-- <img src="{{site.baseurl}}/assets/img/3twistsZoomedIn.jpg" title="A mathematician might say that the 2 trees are isomorphic, meaning that each node of the tree on left the gets mapped to a corresponding node of the tree on the right, such that the structure of the tree is preserved. See more into graph theory if you like trees!"> -->
