@@ -17,12 +17,13 @@
       <main>
         {{ content }}
       </main>
-      
-      <footer class="footer">
-        <small>
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">1984</time>. I have no rights reserved.
-        </small>
-      </footer>
+      <div id="footer">
+        <footer class="footer">
+          <small>
+            &copy; <time datetime="{{ site.time | date_to_xmlschema }}">1984</time>. I have no rights reserved.
+          </small>
+        </footer>
+      </div>
     </div>
 
     {% if site.ga_analytics %}
