@@ -4,7 +4,7 @@ tagline: NSERC 2020
 url: "/ResearchJournal/" 
 paginate: 5
 baseurl: "/ResearchJournal/"
-# permalink: pretty
+permalink: :title
 description: "NSERC 2020"
 
 
@@ -55,3 +55,7 @@ defaults:
       images: true
 
 # theme: jekyll-theme-hyde
+
+Collections:
+  - CappedTrivialTangles:
+    - hi

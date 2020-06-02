@@ -37,7 +37,7 @@ Here is an example of a tangle.
 <br>    
 <img src = "{{site.baseurl}}/assets/img/TangleExample.jpg">
 <!--more-->
-The purple arrows point to crossings inherent to the knot diagram, while the blue arrows represent the 4 intersections between the circle and the knot diagram.
+The purple arrows point to crossings inherent to the knot diagram, while the blue arrows represent the 4 intersections between the circle and the knot diagram. To save on ink we still stop drawing the circle from now on and only draw the intersections, but know that there is a circle that seperates the tangle from the rest of the knot at exactly 4 points. 
 
 One particular type of tangle is called a rational tangle. We construct rational tangles in the following way:
 
@@ -46,6 +46,47 @@ One particular type of tangle is called a rational tangle. We construct rational
 Here is an example of a rational tangle (again all of these were drawn by Matthew Solomone). 
 
 <img src = "{{site.baseurl}}/assets/img/RationalTangleExample.jpg" class="center">
+
+Instead of writing $T$ to represent doing a twist, we will generalize this operation slightly by using an addition symbol. 
+
+<img src = "{{site.baseurl}}/assets/img/TangleAdditionWithExamples.jpg" class="center">
+
+Note boxes with $G$ and $H$ in them represent any arbitrary tangles. 
+
+Similarly, instead of writing $R$ to represent rotating, we will write 1/G. This allows us to define multiplication. 
+
+<img src = "{{site.baseurl}}/assets/img/TangleMultiplicationWithExamples.jpg" class="center">
+
+In the last picture, notice we defined the "negative" of a knot. The reason this is well defined can be show with the following image. 
+
+<img src = "{{site.baseurl}}/assets/img/TwistInverse.gif">
+
+First note that when we say two tangles are equal, we mean one can be stretched and squeezed into the other without moving the 4 interesection dots. 
+
+This means that taking any knot and performing $TRTRTR$ can be deformed back into the original knot. We can also write this as meaning 
+
+$$T(R(T(R(T(R(G)))))) = [1] + \frac{[-1]}{[1] + \frac{[-1]}{[1] + \frac{[-1]}{G}}} = G $$
+
+Notice that if take any number $x$, the algebraic statement also holds for normal numbers. Is this a coincidence?
+
+$$ 1 + \frac{-1}{1 + \frac{-1}{1 + \frac{-1}{x}}}    = x$$
+
+<details> <summary> Messy Algebra showing the above </summary>
+$$ \begin{equation*}
+    \begin{split}
+        1 + \frac{-1}{1 + \frac{-1}{  1 + \frac{-1}{x}}} &= 1 + \frac{-1}{\frac{-1}{1 + \frac{x - 1}{x}}} \\
+        &= 1 + \frac{-1}{1 + \frac{-x}{x - 1}} \\
+        &= 1 + \frac{-1}{\frac{x - 1 - x}{x - 1}}\\
+        &= 1 + x - 1 = x \\
+    \end{split}    
+\end{equation*}
+$$
+</details>
+
+<br>
+What this really means is that if we defined $G + [-1]$ to mean performing $RTRTR$ operation on $G$, then for any tangle $G$, $G + [1] + [-1] = G$. It is almost like these tangles behave like numbers!
+
+This also implies that $[1] + [-1] = [0]$ where $[0]$ is the empty tangle. I'll leave it as an exercise to the reader to show this.   
 
 <details>
 <summary>Cool fact! $R$ and $T$ operations have inverses</summary> 
