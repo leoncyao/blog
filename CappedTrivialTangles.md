@@ -26,7 +26,7 @@ ${{test}}$
 {% assign xD = "/" %}
 <div class="row">
 {% for item in site.static_files %}
-{% if item.path contains {{test | append: xD }} %}
+{% if item.path contains test %}
   <div class="column">
     <img src ="{{site.baseurl}}/{{ item.path }}" style="width:100%">
   </div>
