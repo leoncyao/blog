@@ -7,6 +7,7 @@ baseurl: "/ResearchJournal/"
 permalink: :title
 description: "NSERC 2020"
 
+host: "192.168.1.73"
 
 # Gems
 plugins:

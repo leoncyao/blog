@@ -3,6 +3,7 @@ layout: default
 title: Capped Trivial Tangles
 time: 2020-05-15
 ---
+<script src="./jquery-3.4.1.min.js"></script>
 <style>
     .column {
   float: left;
@@ -20,7 +21,9 @@ time: 2020-05-15
 h1 {text-align: left;}
 </style>
 
-{% assign lol = "1-trivial,1-one-crossing,3_1,4_1,5_1,5_2-vertical,5_2-horizontal,6_1-vertical,6_2-vertical" | split: ',' %}
+
+
+{% assign lol = "1-trivial,1-one-crossing,3_1,4_1-vertical,4_1-horizontal,5_1,5_2-vertical,5_2-horizontal,6_1-vertical,6_2-vertical" | split: ',' %}
 {% for test in lol %}
 ${{test}}$
 {% assign xD = "/" %}
