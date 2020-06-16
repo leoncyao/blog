@@ -6,8 +6,7 @@ paginate: 5
 baseurl: "/ResearchJournal/"
 permalink: :title
 description: "NSERC 2020"
-
-host: "192.168.1.73"
+host: "192.168.1.69"
 
 # Gems
 plugins:
@@ -56,7 +55,3 @@ defaults:
       images: true
 
 # theme: jekyll-theme-hyde
-
-Collections:
-  - CappedTrivialTangles:
-    - hi

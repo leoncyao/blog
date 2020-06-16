@@ -23,13 +23,17 @@ h1 {text-align: left;}
 
 
 
-{% assign lol = "1-trivial,1-one-crossing,3_1,4_1-vertical,4_1-horizontal,5_1,5_2-vertical,5_2-horizontal,6_1-vertical,6_2-vertical" | split: ',' %}
+{% assign lol = "0_1,3_1,4_1-vertical,4_1-horizontal,5_1,5_2-vertical,5_2-horizontal,6_1-vertical,6_2-horizontal,6_3,7_1" | split: ',' %}
+
 {% for test in lol %}
-${{test}}$
-{% assign xD = "/" %}
+{% assign stuff = test | split: "-" %}
+{% assign number = stuff | first %}
+{% assign type = stuff[1] %}
+<a href="http://katlas.org/wiki/{{number}}">${{number}}$</a> 
+<!-- {{type}} -->
 <div class="row">
 {% for item in site.static_files %}
-{% if item.path contains test %}
+{% if item.path contains test and item.path contains "png" %}
   <div class="column">
     <img src ="{{site.baseurl}}/{{ item.path }}" style="width:100%">
   </div>
