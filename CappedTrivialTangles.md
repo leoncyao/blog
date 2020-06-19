@@ -23,7 +23,7 @@ h1 {text-align: left;}
 
 
 
-{% assign lol = "0_1,3_1,4_1-vertical,4_1-horizontal,5_1,5_2-vertical,5_2-horizontal,6_1-vertical,6_2-horizontal,6_3,7_1" | split: ',' %}
+{% assign lol = "0_1,3_1,4_1-vertical,4_1-horizontal,5_1,5_2-vertical,5_2-horizontal,6_1-vertical,6_2-horizontal,6_3,7_1,7_2,7_3,7_4,7_5" | split: ',' %}
 
 {% for test in lol %}
 {% assign stuff = test | split: "-" %}
