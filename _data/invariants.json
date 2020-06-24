@@ -1,0 +1,14 @@
+[ 
+  {
+    "name": "0_1", 
+    "secuma-polynomial": "0"
+  },
+  {
+    "name":"3_1", 
+    "secuma-polynomial": "2,0,-1"
+  },
+  {
+    "name":"4_1-horizontal", 
+    "secuma-polynomial": "2,-1,-1,1"
+  }
+]

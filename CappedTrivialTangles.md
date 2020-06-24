@@ -30,7 +30,7 @@ h1 {text-align: left;}
 {% assign number = stuff | first %}
 {% assign type = stuff[1] %}
 <a href="http://katlas.org/wiki/{{number}}">${{number}}$</a> 
-<!-- {{type}} -->
+  
 <div class="row">
 {% for item in site.static_files %}
 {% if item.path contains test and item.path contains "png" %}
@@ -40,4 +40,9 @@ h1 {text-align: left;}
 {% endif %}
 {% endfor %}
 </div>
+{% for tangle in site.data.invariants %}
+    {% if tangle.name == test %}
+      Secuma-polynomial : {{tangle.secuma-polynomial}}
+    {% endif %} 
+{% endfor %}    
 {% endfor %}
