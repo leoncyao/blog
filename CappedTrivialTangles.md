@@ -7,8 +7,8 @@ time: 2020-05-15
 <style>
     .column {
   float: left;
-  width: 50.0%;
-  padding: 5px;
+  width: 100.0%;
+  padding: 5px;d
 }
 
 /* Clear floats after image containers */
