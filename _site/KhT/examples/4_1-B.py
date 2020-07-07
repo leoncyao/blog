@@ -2,7 +2,7 @@ name = "4_1-B"
 tangle = "cap1.cap2.neg1.neg0.pos2.pos1.pos1.pos2.pos2.neg0.pos2.cup1"
 Tangle = Tangle(tangle)
 
-figured_out_tangle = False
+figured_out_tangle = True
 
 html_content=""
 
@@ -69,11 +69,7 @@ if figured_out_tangle:
     html_content += multicurveKh.html(name,"_Khr2","hdelta",Tangle)
             
             
-    header="""---
-    title: 2-cable trefoil
-    layout: default
-    filename: 2-cable-trefoil
-    ---
+    header="""
     <link rel="stylesheet" href="css/main.css">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
