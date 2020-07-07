@@ -8,7 +8,6 @@ html_content=""
 #complex1 = BN_complex.ToCob() # conversion back to Cob does not work yet, since Z is not implemented over BNAlgebra and Cob is only implemented over Z.
 
 #drawtangle(tangle,name+"test",start=1,title=[name+"test",""])
-gg
 #Khr=BNr.cone(1) # compute the complex Khr as a cone [BNr---H¹--->BNr]
 #Khr.clean_up() # try to find the immersed curve invariant Khr through a sequence of random isotopies
 #multicurve_KhT=Khr.to_multicurve() # if the previous step was successful, separate the components
