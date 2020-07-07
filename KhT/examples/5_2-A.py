@@ -2,7 +2,7 @@ name = "5_2-A"
 tangle = "cap1.cap2.neg1.neg0.neg0.neg1.neg1.neg0.neg0.neg1.neg1.neg1.neg0.neg0.pos2.cup1"
 Tangle = Tangle(tangle)
 
-figured_out_tangle = False
+figured_out_tangle = True
 
 html_content=""
 
