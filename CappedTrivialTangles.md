@@ -30,18 +30,17 @@ time: 2020-05-15
 {% assign number = stuff | first %}
 {% assign type = stuff[1] %}
 <a href="http://katlas.org/wiki/{{number}}">${{number}}{{type}}$</a> 
-{% assign pa = '_includes/' | append: test | append: '.html' %}
-{% capture KH_exists %}{% file_exists {{ pa }} %}{% endcapture %}
+
 
 
 <div class="row">
 <img src ="{{site.baseurl}}/assets/img/Capped-Trivial-Tangles/{{test}}/{{test}}.png" style="width:100%">
-{% if KH_exists == "true" %}
+
+
   <a href="{{site.baseurl}}/assets/img/Capped-Trivial-Tangles/{{test}}/{{test}}.html">Khovanov Invariants</a> 
 {% comment %}
   {% include {{test}}.html %}
-  {% endcomment %}
-{% endif %}
+{% endcomment %}
 
 {% comment %}
 <!-- {% for item in site.static_files %}
