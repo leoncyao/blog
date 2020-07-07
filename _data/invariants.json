@@ -14,18 +14,6 @@
   {
     "name":"4_1-B", 
     "Sakuma-polynomial": "[-2,1,1,-1]"
-  },
-  {
-    "name":"5_1", 
-    "Sakuma-polynomial": "[2,0,-1]"
-  },
-  {
-    "name":"5_2-A", 
-    "Sakuma-polynomial": "[2,0,-1]"
-  },
-  {
-    "name":"6_1-A", 
-    "Sakuma-polynomial": "[2,0,-1]"
   }
 
 ]

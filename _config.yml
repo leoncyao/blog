@@ -8,6 +8,11 @@ permalink: :title
 description: "NSERC 2020"
 host: "192.168.1.69"
 
+kramdown:
+  parse_span_html: false
+
+sanitize: true
+
 # Gems
 plugins:
   - jekyll-paginate

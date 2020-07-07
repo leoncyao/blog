@@ -4,22 +4,22 @@ title: Capped Trivial Tangles
 time: 2020-05-15
 ---
 <script src="./jquery-3.4.1.min.js"></script>
-<style>
+<!-- <style>
     .column {
   float: left;
   width: 100.0%;
   padding: 5px;d
 }
 
-/* Clear floats after image containers */
+<!-- /* Clear floats after image containers */
 .row::after {
   content: "";
   clear: both;
   display: table;
   width: 200%;
-}
-h1 {text-align: left;}
-</style>
+} -->
+<!-- h1 {text-align: left;}
+</style> --> 
 
 
 
@@ -30,15 +30,33 @@ h1 {text-align: left;}
 {% assign number = stuff | first %}
 {% assign type = stuff[1] %}
 <a href="http://katlas.org/wiki/{{number}}">${{number}}{{type}}$</a> 
+{% assign pa = '_includes/' | append: test | append: '.html' %}
+{% capture KH_exists %}{% file_exists {{ pa }} %}{% endcapture %}
+
+
 <div class="row">
-{% for item in site.static_files %}
+<img src ="{{site.baseurl}}/assets/img/Capped-Trivial-Tangles/{{test}}/{{test}}.png" style="width:100%">
+{% if KH_exists == "true" %}
+  <a href="{{site.baseurl}}/assets/img/Capped-Trivial-Tangles/{{test}}/{{test}}.html">Khovanov Invariants</a> 
+{% comment %}
+  {% include {{test}}.html %}
+  {% endcomment %}
+{% endif %}
+
+{% comment %}
+<!-- {% for item in site.static_files %}
 {% if item.path contains test and item.path contains "png" %}
   <div class="column">
     <img src ="{{site.baseurl}}/{{ item.path }}" style="width:100%">
   </div>
 {% endif %}
-{% endfor %}
+{% endfor %} -->
+{% endcomment %}
 </div>
+
+
+
+
 {% for tangle in site.data.invariants %}
     {% if tangle.name == test %}
       Sakuma-polynomial : {{tangle.Sakuma-polynomial}}
