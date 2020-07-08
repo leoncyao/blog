@@ -263,6 +263,8 @@ class BNComplex(object):
     def to_multicurve(self):
         """convert a loop-type BNComplex into multicurve, ie split along differentials
         """
+        print("self is ")
+        print(self)
         if self.is_looptype == False:
             raise Exception('I cannot convert this complex into a multicurve, because it is not loop-type!')
         

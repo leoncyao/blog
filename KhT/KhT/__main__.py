@@ -16,7 +16,7 @@ def main(data):
     BNComplexes.filepath = filepath
     Drawing.filename = filename
     Drawing.filepath = filepath
-    print("data is " + data)
+    # print("data is " + data)
     exec(data)
     print("-------------------------")
     print("KhT executed successfully")
