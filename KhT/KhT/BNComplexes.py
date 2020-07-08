@@ -263,8 +263,8 @@ class BNComplex(object):
     def to_multicurve(self):
         """convert a loop-type BNComplex into multicurve, ie split along differentials
         """
-        print("self is ")
-        print(self)
+        # print("self is ")
+        # print(self)
         if self.is_looptype == False:
             raise Exception('I cannot convert this complex into a multicurve, because it is not loop-type!')
         
@@ -404,6 +404,8 @@ class multicurve(object):
         return "multicurve({})".format(self.comps)
     
     def save(self,name):
+        # print('test')
+        # print(repr(self))
         with open(filepath+"BNComplexes/"+name, "w") as text_file:
             print(repr(self), file=text_file)
     
@@ -419,8 +421,12 @@ class multicurve(object):
 """
         if thumbnails == True:
             vertex_switch=""
-        
+        print("self.comps")
+        # print(self.comps)
         for i,comp in enumerate(self.comps):
+            # print("TEST")
+            # print(i)
+            # print(comp)
             size = len(comp.gens)
             if thumbnails == True:
                 scaledsize=size/6
@@ -437,6 +443,7 @@ class multicurve(object):
             content+="\\begin{{pspicture}}(-{0},-{0})({0},{0})\n\\psset{{nodesep=2pt,shortput=nab,linewidth=1.5pt}}\n".format(canvassize)
         
             for i, gen in enumerate(comp.gens):
+                print(gen)
                 if gen.idem == 0:
                     dottype="*" #black
                 else:

@@ -1,8 +1,7 @@
-print("FILENAME IS " + filename)
-print("FILEPATH IS " + filepath)
+# print("FILENAME IS " + filename)
+# print("FILEPATH IS " + filepath)
 name = filename
 f = open(name + ".txt", "r")
-# print(f.read())
 tangle = f.read()
 # tangle = "cap1.cap2.pos1.pos0.neg2.neg1.neg1.neg2.neg2.pos0.neg2.cup1"
 Tangle = Tangle(tangle)
@@ -19,11 +18,13 @@ BNr.eliminateAll() # cancel all identity components of the differential
 # print(BNr)
 BNr.clean_up() # try to find the immersed curve invariant BNr through a sequence of random isotopies
 #BNr.draw(name)
-print(BNr)
-multicurve = BNr.to_multicurve()
-multicurve.save(name)
-html_content += multicurve.html(name,"_BNr7","hdelta",Tangle)
 
+multicurve = BNr.to_multicurve()
+
+multicurve.save(name)
+
+html_content += multicurve.html(name,"_BNr7","hdelta",Tangle)
+print(BNr)
 # html_content += "<h4>Figure-8 invariant over \(\mathbb{F}_7\)</h4>"
 
 # Khr = BNr.cone(1)
