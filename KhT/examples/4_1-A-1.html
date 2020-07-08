@@ -1,0 +1,28 @@
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <script>
+    function on(file,pagenumber) {
+        document.getElementById("overlay_content").src=String(file)+".pdf";
+        document.getElementById("overlay_title").innerHTML=String(file);
+        document.getElementById("overlay").style.display = "block";
+    }
+
+    function off() {
+        document.getElementById("overlay").style.display = "none";
+    } 
+    </script>
+
+    <div id="overlay" onclick="off()" >
+    <div id="text">
+    <div id="overlay_title_frame"><h4 id="overlay_title"></h4></div>
+    <iframe id="overlay_content" width="500px" height="500px">
+    </iframe></div>
+    </div> 
+    <h4>Arc invariant over \(\mathbb{F}_2\)</h4>
+<p><span onclick=on('4_1-A-1/4_1-A-1_BNr7')><img class=tangle_diagram src='4_1-A-1/4_1-A-1_BNr7_thumbs-1.png'></span>
+<span onclick=on('4_1-A-1/4_1-A-1_BNr7_02')><img class=component src='4_1-A-1/4_1-A-1_BNr7_thumbs-2.png'></span>
+
+</p>
