@@ -1,5 +1,5 @@
 name = "3_1" 
-tangle = "cap1.neg0.neg0.cap2.pos1.neg2.cup3"
+tangle = "cap1.neg0.neg0.neg0.cap2.pos1.neg2.cup3"
 Tangle = Tangle(tangle)
 html_content=""
 
