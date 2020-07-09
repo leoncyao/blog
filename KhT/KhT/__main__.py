@@ -1,5 +1,4 @@
 import sys
-
 import os
 from BNComplexes import *
 from CobComplexes import *
