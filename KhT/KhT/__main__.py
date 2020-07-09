@@ -23,10 +23,15 @@ def main(data):
     
 if __name__ == "__main__":
     filename=sys.argv[1]
-    filepath="examples/"+filename+"/"
+    if len(sys.argv) > 1:
+        filepath="examples/" + sys.argv[2]
+    else:
+        filepath="examples/"+filename
     # filename = name of example file called by kht
     # filepath = examples/<filename>/
 
+    print(filepath)
+    print(filename)
 
     with open("examples/template.py", "r") as text_file:
         data = text_file.read()
@@ -40,9 +45,9 @@ if __name__ == "__main__":
         
     paths=["","/PSTricks","/BNComplexes","/CobComplexes"]
     for path in paths:
-        if not os.path.exists('examples/'+filename+path):
-            os.makedirs('examples/'+filename+path)
-    
+        if not os.path.exists(filepath+path):
+            os.makedirs(filepath+path)
+    filepath+="/"
     main(data)
     
     

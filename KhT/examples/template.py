@@ -1,9 +1,7 @@
-# print("FILENAME IS " + filename)
-# print("FILEPATH IS " + filepath)
+
 name = filename
 f = open(name + ".txt", "r")
 tangle = f.read()
-# tangle = "cap1.cap2.pos1.pos0.neg2.neg1.neg1.neg2.neg2.pos0.neg2.cup1"
 Tangle = Tangle(tangle)
 
 figured_out_tangle = True
@@ -12,17 +10,11 @@ html_content=""
 
 html_content += "<h4>Arc invariant over \(\mathbb{F}_2\)</h4>"
 cx = BNbracket(tangle,0,0,1) # compute Bar-Natan's bracket
-# print(cx)
 BNr = cx.ToBNAlgebra(2) # convert the Bar-Natan's bracket into a complex over BNAlgebra
 BNr.eliminateAll() # cancel all identity components of the differential
-# print(BNr)
 BNr.clean_up() # try to find the immersed curve invariant BNr through a sequence of random isotopies
-#BNr.draw(name)
-
 multicurve = BNr.to_multicurve()
-
 multicurve.save(name)
-
 html_content += multicurve.html(name,"_BNr7","hdelta",Tangle)
 print(BNr)
 # html_content += "<h4>Figure-8 invariant over \(\mathbb{F}_7\)</h4>"
