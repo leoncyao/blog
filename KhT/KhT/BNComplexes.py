@@ -531,7 +531,10 @@ class multicurve(object):
             if counter == 0:
                 pdf_suffix=""
             # html_row+="<span onclick=on('"+filename+"/"+longname+pdf_suffix+"')><img class="+classname+" src='"+filename+"/"+longname+"_thumbs-"+png_suffix+".png'></span>\n"
-            html_row+="<span onclick=on('"+filepath+longname+pdf_suffix+"')><img class="+classname+" src='"+filepath+longname+"_thumbs-"+png_suffix+".png'></span>\n"    
+            print("filepath is " + filepath)
+            print("'"+filepath+longname+pdf_suffix+"'")
+            print(filepath+longname+"_thumbs-"+png_suffix)
+            html_row+="<span onclick=on('"+"../" + filepath+longname+pdf_suffix+"')><img class="+classname+" src='"+ "../"+ filepath+longname+"_thumbs-"+png_suffix+".png'></span>\n"    
         html_row+="\n</p>"
         return html_row
         

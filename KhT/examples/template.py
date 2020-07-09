@@ -16,7 +16,7 @@ BNr.clean_up() # try to find the immersed curve invariant BNr through a sequence
 multicurve = BNr.to_multicurve()
 multicurve.save(name)
 html_content += multicurve.html(name,"_BNr7","hdelta",Tangle)
-print(BNr)
+# print(BNr)
 # html_content += "<h4>Figure-8 invariant over \(\mathbb{F}_7\)</h4>"
 
 # Khr = BNr.cone(1)
