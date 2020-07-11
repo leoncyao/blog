@@ -421,12 +421,7 @@ class multicurve(object):
 """
         if thumbnails == True:
             vertex_switch=""
-        print("self.comps")
-        # print(self.comps)
         for i,comp in enumerate(self.comps):
-            # print("TEST")
-            # print(i)
-            # print(comp)
             size = len(comp.gens)
             if thumbnails == True:
                 scaledsize=size/6
@@ -443,7 +438,7 @@ class multicurve(object):
             content+="\\begin{{pspicture}}(-{0},-{0})({0},{0})\n\\psset{{nodesep=2pt,shortput=nab,linewidth=1.5pt}}\n".format(canvassize)
         
             for i, gen in enumerate(comp.gens):
-                print(gen)
+                # print(gen)
                 if gen.idem == 0:
                     dottype="*" #black
                 else:
@@ -531,9 +526,6 @@ class multicurve(object):
             if counter == 0:
                 pdf_suffix=""
             # html_row+="<span onclick=on('"+filename+"/"+longname+pdf_suffix+"')><img class="+classname+" src='"+filename+"/"+longname+"_thumbs-"+png_suffix+".png'></span>\n"
-            print("filepath is " + filepath)
-            print("'"+filepath+longname+pdf_suffix+"'")
-            print(filepath+longname+"_thumbs-"+png_suffix)
             html_row+="<span onclick=on('"+"../" + filepath+longname+pdf_suffix+"')><img class="+classname+" src='"+ "../"+ filepath+longname+"_thumbs-"+png_suffix+".png'></span>\n"    
         html_row+="\n</p>"
         return html_row
