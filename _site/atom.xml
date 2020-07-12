@@ -13,9 +13,20 @@
 
  
  <entry>
+   <title>Week 10</title>
+   <link href="http://192.168.1.69:4000/Week10"/>
+   <updated>2019-07-06T00:00:00-07:00</updated>
+   <id>http://192.168.1.69:4000/Week10</id>
+   <content type="html">&lt;p&gt;Last week I used the KH program to calculate chain complexes for some simple tangles.&lt;/p&gt;
+
+&lt;p&gt;This week I am tasked with finding the minimal number of twists on the tangle such that the tail of the arc invariant chain complex dissapears.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Week 9</title>
    <link href="http://192.168.1.69:4000/Week9"/>
-   <updated>2019-06-22T00:00:00-07:00</updated>
+   <updated>2019-06-29T00:00:00-07:00</updated>
    <id>http://192.168.1.69:4000/Week9</id>
    <content type="html">&lt;p&gt;Last week I continued to polish tangles. I find it tricky to perform “band” R1 moves, as there are often strands that go through the band, and it is hard to visualize what happens to the band.&lt;/p&gt;
 

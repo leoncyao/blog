@@ -38,7 +38,7 @@ time: 2020-05-15
 
 
   <!-- <a href="{{site.baseurl}}/assets/img/Capped-Trivial-Tangles/{{test}}/{{test}}.html">Khovanov Invariants</a>  -->
-  <a href="{{site.baseurl}}/KhT/examples/{{test}}.html">Khovanov Invariants</a>
+  <a href="{{site.baseurl}}/KhT/examples/{{test}}_together.html">Khovanov Invariants</a>
 {% comment %}
   {% include {{test}}.html %}
 {% endcomment %}
