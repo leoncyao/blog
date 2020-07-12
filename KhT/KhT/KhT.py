@@ -21,9 +21,9 @@ def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
         blockPrint()
     filename=tangle_name
     if resultingdirectory:
-        filepath="examples/" + resultingdirectory
+        filepath="../examples/" + resultingdirectory
     else:
-        filepath="examples/"+filename
+        filepath="../examples/"+filename
     # filename = name of example file called by kht
     # filepath = examples/<filename>/
 
