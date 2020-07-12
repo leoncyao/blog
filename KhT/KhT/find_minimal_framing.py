@@ -30,7 +30,7 @@ def main(name, tangle_path=None, resultingdirectory=None):
     # print(tangle_path_str + name + ".txt")
     tangle_str = f.read()
     # print("tangle_str: " + tangle_str)
-    tries = [0] + [(-1)**(i) * int((i)/2) for i in range(2, 20)]
+    tries = [(-1)**(i) * int((i)/2) for i in range(2, 20)]
     for i in tries:
         if i > 0:
             new_tangle_str = tangle_str + ".pos0" * i
@@ -53,6 +53,7 @@ def main(name, tangle_path=None, resultingdirectory=None):
             new_name = name + "_minimal"
             f = open(tangle_path_str + new_name + ".txt", "w+")
             f.write(new_tangle_str)
+            f.write(new_tangle_str[:-5])
             f.close()
             # if len(sys.argv) == 2:
             #     KhT.asdf(new_name)
