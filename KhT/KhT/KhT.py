@@ -16,14 +16,14 @@ def enablePrint():
     sys.stdout = sys.__stdout__
 
 def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
-    verbose = False
+    verbose = True
     if not verbose:
         blockPrint()
     filename=tangle_name
     if resultingdirectory:
-        filepath="../examples/" + resultingdirectory
+        filepath="examples/" + resultingdirectory
     else:
-        filepath="../examples/"+filename
+        filepath="examples/"+filename
     # filename = name of example file called by kht
     # filepath = examples/<filename>/
 
@@ -74,6 +74,7 @@ def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
     BNr.clean_up() # try to find the immersed curve invariant BNr through a sequence of random isotopies
     multicurve = BNr.to_multicurve()
     multicurve.save(name)
+    print(name)
     html_content += multicurve.html(name,"_BNr7","hdelta",Tangle)
     # print(BNr)
     # html_content += "<h4>Figure-8 invariant over \(\mathbb{F}_7\)</h4>"
