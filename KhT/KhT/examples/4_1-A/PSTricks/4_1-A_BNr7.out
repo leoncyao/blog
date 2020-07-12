@@ -28,7 +28,7 @@ auto-pst-pdf: Auxiliary LaTeX compilation
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex)
 entering extended mode
 This is dvips(k) 5.997 Copyright 2017 Radical Eye Software (www.radicaleye.com)
-' TeX output 2020.07.12:0034' -> 4_1-A_BNr7-autopp.ps
+' TeX output 2020.07.12:0056' -> 4_1-A_BNr7-autopp.ps
 </usr/share/texlive/texmf-dist/dvips/base/tex.pro>
 </usr/share/texlive/texmf-dist/dvips/config/alt-rule.pro>
 </usr/share/texlive/texmf-dist/dvips/pstricks/pstricks.pro>
@@ -101,8 +101,7 @@ thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex
  v1.41, 2017/12/30))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty))
-No file 4_1-A_BNr7.aux.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)) (./4_1-A_BNr7.aux)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 )

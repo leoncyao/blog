@@ -10,7 +10,7 @@ def main(filename):
         with open("../examples/"+filename+".html", "r") as text_file2:
             print(text_file2.read(), file=new_text_file)
 
-        with open("../examples/"+filename+"_minimal.html", "r") as text_file3:
+        with open("examples/"+filename+"_minimal.html", "r") as text_file3:
             print(text_file3.read(), file=new_text_file)
 if __name__ == "__main__":
     filename = sys.argv[1]
