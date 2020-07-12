@@ -28,7 +28,7 @@ auto-pst-pdf: Auxiliary LaTeX compilation
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex)
 entering extended mode
 This is dvips(k) 5.997 Copyright 2017 Radical Eye Software (www.radicaleye.com)
-' TeX output 2020.07.10:1840' -> 4_1-A_minimal_BNr7_thumbs-autopp.ps
+' TeX output 2020.07.12:0013' -> 4_1-A_minimal_BNr7_thumbs-autopp.ps
 </usr/share/texlive/texmf-dist/dvips/base/tex.pro>
 </usr/share/texlive/texmf-dist/dvips/config/alt-rule.pro>
 </usr/share/texlive/texmf-dist/dvips/pstricks/pstricks.pro>
@@ -86,17 +86,28 @@ tex)
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)))
 `PSTricks' v2.82  <2018/01/06> (tvz,hv)
-(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
-! Interruption.
-\XKV@for@eo #1#2#3->\def #2{\XKV@f@r #2{#3
-                                          }}\expandafter #2#1,\@nil ,
-l.1282 \psset[pstricks]{hatchsep=4pt}
-                                     
-? 
-! Emergency stop.
-\XKV@for@eo #1#2#3->\def #2{\XKV@f@r #2{#3
-                                          }}\expandafter #2#1,\@nil ,
-l.1282 \psset[pstricks]{hatchsep=4pt}
-                                     
-!  ==> Fatal error occurred, no output PDF file produced!
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con))
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex))
+(/usr/share/texmf/tex/latex/preview/preview.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def)
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))))
+(/usr/share/texlive/texmf-dist/tex/latex/pst-node/pst-node.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex
+ v1.41, 2017/12/30))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty))
+(./4_1-A_minimal_BNr7_thumbs.aux)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+[1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./
+4_1-A_minimal_BNr7_thumbs-pics.pdf>] (./4_1-A_minimal_BNr7_thumbs.aux) )</usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on 4_1-A_minimal_BNr7_thumbs.pdf (1 page, 10777 bytes).
 Transcript written on 4_1-A_minimal_BNr7_thumbs.log.
