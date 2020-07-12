@@ -28,7 +28,7 @@ auto-pst-pdf: Auxiliary LaTeX compilation
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex)
 entering extended mode
 This is dvips(k) 5.997 Copyright 2017 Radical Eye Software (www.radicaleye.com)
-' TeX output 2020.07.12:0025' -> asimov_1_minimal_BNr7-tangle-autopp.ps
+' TeX output 2020.07.12:0118' -> asimov_1_minimal_BNr7-tangle-autopp.ps
 </usr/share/texlive/texmf-dist/dvips/base/tex.pro>
 </usr/share/texlive/texmf-dist/dvips/config/alt-rule.pro>
 </usr/share/texlive/texmf-dist/dvips/pstricks/pstricks.pro>
@@ -102,7 +102,7 @@ thmetics.code.tex)))
  v1.41, 2017/12/30))
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty))
-No file asimov_1_minimal_BNr7-tangle.aux.
+(./asimov_1_minimal_BNr7-tangle.aux)
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 )
@@ -115,5 +115,5 @@ Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./
 asimov_1_minimal_BNr7-tangle-pics.pdf>] (./asimov_1_minimal_BNr7-tangle.aux) )<
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on asimov_1_minimal_BNr7-tangle.pdf (1 page, 21218 bytes).
+Output written on asimov_1_minimal_BNr7-tangle.pdf (1 page, 21569 bytes).
 Transcript written on asimov_1_minimal_BNr7-tangle.log.

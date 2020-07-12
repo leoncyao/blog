@@ -28,7 +28,7 @@ auto-pst-pdf: Auxiliary LaTeX compilation
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex)
 entering extended mode
 This is dvips(k) 5.997 Copyright 2017 Radical Eye Software (www.radicaleye.com)
-' TeX output 2020.07.12:0013' -> 4_1-A_minimal_BNr7_thumbs-tangle-autopp.ps
+' TeX output 2020.07.12:0104' -> 4_1-A_minimal_BNr7_thumbs-tangle-autopp.ps
 </usr/share/texlive/texmf-dist/dvips/base/tex.pro>
 </usr/share/texlive/texmf-dist/dvips/config/alt-rule.pro>
 </usr/share/texlive/texmf-dist/dvips/pstricks/pstricks.pro>
@@ -106,11 +106,9 @@ Preview: PDFoutput 1
 [1
 Non-PDF special ignored!
 Non-PDF special ignored!
-Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \vbox (20.05833pt too high) has occurred while \output is active
-[2 <./4_1-A_minimal_BNr7_thumbs-tangle-pics.pdf>]
-(./4_1-A_minimal_BNr7_thumbs-tangle.aux) )
-(see the transcript file for additional information)</usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
-Output written on 4_1-A_minimal_BNr7_thumbs-tangle.pdf (2 pages, 10002 bytes).
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./
+4_1-A_minimal_BNr7_thumbs-tangle-pics.pdf>]
+(./4_1-A_minimal_BNr7_thumbs-tangle.aux) )</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss10.pfb>
+Output written on 4_1-A_minimal_BNr7_thumbs-tangle.pdf (1 page, 9638 bytes).
 Transcript written on 4_1-A_minimal_BNr7_thumbs-tangle.log.

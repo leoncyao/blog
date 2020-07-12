@@ -28,7 +28,7 @@ auto-pst-pdf: Auxiliary LaTeX compilation
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex)
 entering extended mode
 This is dvips(k) 5.997 Copyright 2017 Radical Eye Software (www.radicaleye.com)
-' TeX output 2020.07.12:0025' -> asimov_1_BNr7_thumbs-autopp.ps
+' TeX output 2020.07.12:0117' -> asimov_1_BNr7_thumbs-autopp.ps
 </usr/share/texlive/texmf-dist/dvips/base/tex.pro>
 </usr/share/texlive/texmf-dist/dvips/config/alt-rule.pro>
 </usr/share/texlive/texmf-dist/dvips/pstricks/pstricks.pro>
@@ -109,5 +109,5 @@ Non-PDF special ignored!
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./
 asimov_1_BNr7_thumbs-pics.pdf>] (./asimov_1_BNr7_thumbs.aux) )</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on asimov_1_BNr7_thumbs.pdf (1 page, 9816 bytes).
+Output written on asimov_1_BNr7_thumbs.pdf (1 page, 9815 bytes).
 Transcript written on asimov_1_BNr7_thumbs.log.
