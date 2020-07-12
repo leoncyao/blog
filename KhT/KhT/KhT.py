@@ -7,7 +7,18 @@ from Drawing import *
 import CrossingTangle
 
 
+
+def blockPrint():
+    sys.stdout = open(os.devnull, 'w')
+
+# Restore
+def enablePrint():
+    sys.stdout = sys.__stdout__
+
 def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
+    verbose = False
+    if not verbose:
+        blockPrint()
     filename=tangle_name
     if resultingdirectory:
         filepath="../examples/" + resultingdirectory
@@ -16,8 +27,8 @@ def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
     # filename = name of example file called by kht
     # filepath = examples/<filename>/
 
-    print(filepath)
-    print(filename)
+    # print(filepath)
+    # print(filename)
 
     # try:# assuming KhT calls file without including the '.py'-ending
     #     with open("examples/"+filename+".py", "r") as text_file:
@@ -32,6 +43,7 @@ def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
         if not os.path.exists(filepath+path):
             os.makedirs(filepath+path)
     filepath+="/"
+
     print("----------------")
     print("KhT, version ???")
     print("----------------")
@@ -48,7 +60,7 @@ def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
         tangle_str_path += "miscellaneous"
     f = open(tangle_str_path + "/" + filename + ".txt", "r")
     tangle = f.read()
-    print(tangle)
+
     Tangle = CrossingTangle.Tangle(tangle)
 
     figured_out_tangle = True
@@ -95,6 +107,8 @@ def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
         with open("../examples/"+filename+".html", "w") as text_file:
             # print(header+html_content, file=text_file)
             print(html_content, file=text_file)
+    if not verbose:
+        enablePrint()
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:

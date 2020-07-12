@@ -7,6 +7,7 @@ if __name__ == "__main__":
 		filename = "asimov_" + str(i)
 		filepath = "../examples/asimov/" + filename + ".txt"
 		f = open(filepath, "w+")
+		# print("WRITING " + new_t)
 		f.write(new_t)
 		f.close()
 

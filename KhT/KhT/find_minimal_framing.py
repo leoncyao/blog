@@ -17,6 +17,9 @@ import ConcatWebpages
 #   calculate chain complex for tangle with i twists at bottom
 #   check that the number of blacks dots becomes 0 
 def main(name, tangle_path=None, resultingdirectory=None):
+    print("------------------------------------------------------")
+    print("STARTING SMALL ARC CALCULATION")
+    print("------------------------------------------------------")
     tangle_path_str = "../examples/"
     if tangle_path:
         tangle_path_str += tangle_path
@@ -24,10 +27,10 @@ def main(name, tangle_path=None, resultingdirectory=None):
         tangle_path_str += "miscellaneous"
     tangle_path_str += "/"
     f = open(tangle_path_str + name + ".txt", "r")
-    print(tangle_path_str + name + ".txt")
+    # print(tangle_path_str + name + ".txt")
     tangle_str = f.read()
-    print("hello " + tangle_str)
-    tries = [0] + [(-1)**(i) * int((i)/2) for i in range(2, 50)]
+    # print("tangle_str: " + tangle_str)
+    tries = [0] + [(-1)**(i) * int((i)/2) for i in range(2, 20)]
     for i in tries:
         if i > 0:
             new_tangle_str = tangle_str + ".pos0" * i
@@ -35,7 +38,7 @@ def main(name, tangle_path=None, resultingdirectory=None):
             new_tangle_str = tangle_str + ".neg0" * abs(i)
 
         # Tangle = Tangle(new_tangle)
-        print("test" + new_tangle_str)
+        # print("test" + new_tangle_str)
         cx = BNbracket(new_tangle_str,0,0,1) # compute Bar-Natan's bracket
         BNr = cx.ToBNAlgebra(2) # convert the Bar-Natan's bracket into a complex over BNAlgebra
         BNr.eliminateAll() # cancel all identity components of the differential
@@ -49,7 +52,7 @@ def main(name, tangle_path=None, resultingdirectory=None):
         if order[0].h <= order[1].h:    
             new_name = name + "_minimal"
             f = open(tangle_path_str + new_name + ".txt", "w+")
-            f.write(new_tangle_str[:-5])
+            f.write(new_tangle_str)
             f.close()
             # if len(sys.argv) == 2:
             #     KhT.asdf(new_name)
