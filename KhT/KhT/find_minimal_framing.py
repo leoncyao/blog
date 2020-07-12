@@ -52,7 +52,7 @@ def main(name, tangle_path=None, resultingdirectory=None):
         if order[0].h <= order[1].h:    
             new_name = name + "_minimal"
             f = open(tangle_path_str + new_name + ".txt", "w+")
-            f.write(new_tangle_str)
+            # f.write(new_tangle_str)
             f.write(new_tangle_str[:-5])
             f.close()
             # if len(sys.argv) == 2:
