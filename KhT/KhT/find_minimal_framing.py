@@ -30,6 +30,7 @@ def main(name, tangle_path=None, resultingdirectory=None):
     # print(tangle_path_str + name + ".txt")
     tangle_str = f.read()
     # print("tangle_str: " + tangle_str)
+    # tries = [0] + [(-1)**(i) * int((i)/2) for i in range(2, 20)]
     tries = [(-1)**(i) * int((i)/2) for i in range(2, 20)]
     for i in tries:
         if i > 0:
@@ -47,22 +48,23 @@ def main(name, tangle_path=None, resultingdirectory=None):
         #BNr.draw(name)
         multicurve = BNr.to_multicurve()
 
-        # assuming has one comp
+        # assuming arc invariant has only one comp
         order = multicurve.comps[0].gens
-        if order[0].h <= order[1].h:    
-            new_name = name + "_minimal"
-            f = open(tangle_path_str + new_name + ".txt", "w+")
-            # f.write(new_tangle_str)
-            f.write(new_tangle_str[:-5])
-            f.close()
-            # if len(sys.argv) == 2:
-            #     KhT.asdf(new_name)
-            # if len(sys.argv) == 3:
-            #     KhT.asdf(new_name, resultingdirectory=resultingdirectory)
-            # if len(sys.argv) == 4:
-            KhT.asdf(new_name, tangle_path=tangle_path, resultingdirectory=resultingdirectory)
-            ConcatWebpages.main(name)
+        # for gen in order:
+        #     print(gen.h)
+        # print(order[0].h)
+        # print(order[1].h)
 
+        new_name = name + "_" + str(i) + "_minimal" 
+        f = open(tangle_path_str + new_name + ".txt", "w+")
+        # f.write(new_tangle_str)
+        f.write(new_tangle_str[:-5])
+        f.close()
+        KhT.asdf(new_name, tangle_path=tangle_path, resultingdirectory=resultingdirectory)
+
+        if order[0].h <= order[1].h:    
+            break
+    ConcatWebpages.main(name)
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:

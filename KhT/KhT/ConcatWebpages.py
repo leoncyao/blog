@@ -10,8 +10,16 @@ def main(filename):
         with open("../examples/"+filename+".html", "r") as text_file2:
             print(text_file2.read(), file=new_text_file)
 
+        tries = [(-1)**(i) * int((i)/2) for i in range(2, 6)]
+        for num_twists in tries:
+            with open("../examples/"+filename + "_" + str(num_twists) + "_minimal.html", "r") as text_file_temp:
+                print(text_file_temp.read(), file=new_text_file)
+            text_file_temp.close()
+        
         with open("../examples/"+filename+"_minimal.html", "r") as text_file3:
             print(text_file3.read(), file=new_text_file)
+
+        
 if __name__ == "__main__":
     filename = sys.argv[1]
     main(filename)
