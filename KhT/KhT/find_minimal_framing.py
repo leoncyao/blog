@@ -54,16 +54,22 @@ def main(name, tangle_path=None, resultingdirectory=None):
         #     print(gen.h)
         # print(order[0].h)
         # print(order[1].h)
-
-        new_name = name + "_" + str(i) + "_minimal" 
-        f = open(tangle_path_str + new_name + ".txt", "w+")
-        # f.write(new_tangle_str)
-        f.write(new_tangle_str[:-5])
-        f.close()
-        KhT.asdf(new_name, tangle_path=tangle_path, resultingdirectory=resultingdirectory)
-
         if order[0].h <= order[1].h:    
+            new_name = name + "_minimal" 
+            f = open(tangle_path_str + new_name + ".txt", "w+")
+            # f.write(new_tangle_str)
+            f.write(new_tangle_str[:-5])
+            f.close()
+            KhT.asdf(new_name, tangle_path=tangle_path, resultingdirectory=resultingdirectory)
             break
+        
+        # new_name = name + "_" + str(i) + "_minimal" 
+        # f = open(tangle_path_str + new_name + ".txt", "w+")
+        # # f.write(new_tangle_str)
+        # f.write(new_tangle_str[:-5])
+        # f.close()
+        # KhT.asdf(new_name, tangle_path=tangle_path, resultingdirectory=resultingdirectory)
+
     ConcatWebpages.main(name)
 
 if __name__ == "__main__":
