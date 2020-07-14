@@ -40,10 +40,14 @@ def main(name, tangle_path=None, resultingdirectory=None):
 
     k = 0
     if name == "asimov_2":
-        k = 1
+        return 0
+        # k = 1
 
     # assuming arc invariant has only one comp
     order = multicurve.comps[k].gens
+
+    for gen in order:
+        print(gen.h)
 
     # need to figure out whether the last connected component is increasing or decreasing (and the list is reversed)
 
@@ -77,7 +81,7 @@ def main(name, tangle_path=None, resultingdirectory=None):
         #     print(gen.h)
         # print(order[0].h)
         # print(order[1].h)
-
+        print(i)
         if not (order[0].h <= order[1].h)  == flag :    
             new_name = name + "_minimal" 
             f = open(tangle_path_str + new_name + ".txt", "w+")
