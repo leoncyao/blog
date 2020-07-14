@@ -92,6 +92,7 @@ def main(name, tangle_path=None, resultingdirectory=None):
             f.close()
             print("tangle path is " + tangle_path)
             print("resulting directory is " + str(resultingdirectory))
+            
             KhT.asdf(new_name, tangle_path=tangle_path, resultingdirectory=name)
             break
         
