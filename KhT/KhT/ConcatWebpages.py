@@ -17,8 +17,8 @@ def main(filename):
         #         print(text_file_temp.read(), file=new_text_file)
         #     text_file_temp.close()
         # if os.path.is
-        # with open("../examples/" + filename + "/" + filename+"_minimal.html", "r") as text_file3:
-            # print(text_file3.read(), file=new_text_file)
+        with open("../examples/" + filename + "/" + filename+"_minimal.html", "r") as text_file3:
+            print(text_file3.read(), file=new_text_file)
 
         
 if __name__ == "__main__":
