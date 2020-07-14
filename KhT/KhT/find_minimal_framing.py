@@ -30,6 +30,28 @@ def main(name, tangle_path=None, resultingdirectory=None):
     # print(tangle_path_str + name + ".txt")
     tangle_str = f.read()
     # print("tangle_str: " + tangle_str)
+    
+    cx = BNbracket(tangle_str,0,0,1) # compute Bar-Natan's bracket
+    BNr = cx.ToBNAlgebra(2) # convert the Bar-Natan's bracket into a complex over BNAlgebra
+    BNr.eliminateAll() # cancel all identity components of the differential
+    BNr.clean_up() # try to find the immersed curve invariant BNr through a sequence of random isotopies
+    multicurve = BNr.to_multicurve()
+
+
+    k = 0
+    if name == "asimov_2":
+        k = 1
+
+    # assuming arc invariant has only one comp
+    order = multicurve.comps[k].gens
+
+    # need to figure out whether the last connected component is increasing or decreasing (and the list is reversed)
+
+    # flag == true implies the last chain is increasing, false means decreasing
+    flag = order[0].h <= order[1].h
+
+    KhT.asdf(name, tangle_path=tangle_path, resultingdirectory=name)
+
     # tries = [0] + [(-1)**(i) * int((i)/2) for i in range(2, 20)]
     tries = [(-1)**(i) * int((i)/2) for i in range(2, 20)]
     for i in tries:
@@ -49,18 +71,24 @@ def main(name, tangle_path=None, resultingdirectory=None):
         multicurve = BNr.to_multicurve()
 
         # assuming arc invariant has only one comp
-        order = multicurve.comps[0].gens
+        order = multicurve.comps[k].gens
+        
         # for gen in order:
         #     print(gen.h)
         # print(order[0].h)
         # print(order[1].h)
-        if order[0].h <= order[1].h:    
+
+        if not (order[0].h <= order[1].h)  == flag :    
             new_name = name + "_minimal" 
             f = open(tangle_path_str + new_name + ".txt", "w+")
             # f.write(new_tangle_str)
+
+            # want to start are on a white dot
             f.write(new_tangle_str[:-5])
             f.close()
-            KhT.asdf(new_name, tangle_path=tangle_path, resultingdirectory=resultingdirectory)
+            print("tangle path is " + tangle_path)
+            print("resulting directory is " + str(resultingdirectory))
+            KhT.asdf(new_name, tangle_path=tangle_path, resultingdirectory=name)
             break
         
         # new_name = name + "_" + str(i) + "_minimal" 

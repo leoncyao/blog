@@ -117,8 +117,10 @@ def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
     # # f.close()
 
     if figured_out_tangle:
-        with open("../examples/" + filename + "/" + filename+".html", "w") as text_file:
-            # print(header+html_content, file=text_file)
+        # path = "../examples/" + filename + "/" + filename+".html"
+        path = "../examples/" + resultingdirectory + "/" + filename+".html"
+        # print("saving html in " + path)
+        with open(path, "w") as text_file:
             print(html_content, file=text_file)
     if not verbose:
         enablePrint()

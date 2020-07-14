@@ -14,7 +14,7 @@ if __name__ == "__main__":
 		f.write(new_t)
 		f.close()
 
-		KhT.asdf(filename, "asimov")
+		# KhT.asdf(filename, "asimov")
 
 		print("at this point filename is " + filename)
 		find_minimal_framing.main(filename, tangle_path="asimov", resultingdirectory=filename)
