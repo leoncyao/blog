@@ -39,3 +39,7 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+
+# Fk latex, why is the math ajax script not available for https :(
+# I WON"T BE ABLE TO EDIT HEAD UNLESS I COMMENT THIS OUTTTT
+/_includes/head.html
