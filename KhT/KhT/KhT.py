@@ -94,14 +94,14 @@ def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
     # multicurve = BNr.to_multicurve()
     # multicurve.save(name)
 
-    html_content += "<h4>Figure-8 invariant over \(\mathbb{F}_2\)</h4>"
+    # html_content += "<h4>Figure-8 invariant over \(\mathbb{F}_2\)</h4>"
 
-    Khr = BNr.cone(1)
-    Khr.clean_up()
-    multicurveKh = Khr.to_multicurve()
-    html_content += multicurveKh.html(name,"_Khr2","hdelta",Tangle)
+    # Khr = BNr.cone(1)
+    # Khr.clean_up()
+    # multicurveKh = Khr.to_multicurve()
+    # html_content += multicurveKh.html(name,"_Khr2","hdelta",Tangle)
 
-    html_content += multicurve.html(name,"_BNr7","hdelta",Tangle)
+    # html_content += multicurve.html(name,"_BNr7","hdelta",Tangle)
     # # Jones_poly = BNr.Jones()
     # # print("JONES POLY: " + Jones_poly)
 

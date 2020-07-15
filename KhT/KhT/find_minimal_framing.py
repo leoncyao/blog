@@ -54,6 +54,7 @@ def main(name, tangle_path=None, resultingdirectory=None):
     # flag == true implies the last chain is increasing, false means decreasing
     flag = order[0].h <= order[1].h
 
+    print("flag is " + str(flag))
     KhT.asdf(name, tangle_path=tangle_path, resultingdirectory=name)
 
     # tries = [0] + [(-1)**(i) * int((i)/2) for i in range(2, 20)]
@@ -83,12 +84,16 @@ def main(name, tangle_path=None, resultingdirectory=None):
         # print(order[1].h)
         print(i)
         if not (order[0].h <= order[1].h)  == flag :    
+            print("FOUND SMALL ARC")
+            for gen in order:
+                print(gen.h)
+            
             new_name = name + "_minimal" 
             f = open(tangle_path_str + new_name + ".txt", "w+")
-            # f.write(new_tangle_str)
 
             # want to start are on a white dot
-            f.write(new_tangle_str[:-5])
+            f.write(new_tangle_str)
+            # f.write(new_tangle_str[:-5])
             f.close()
             print("tangle path is " + tangle_path)
             print("resulting directory is " + str(resultingdirectory))
