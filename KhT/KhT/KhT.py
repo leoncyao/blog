@@ -76,7 +76,7 @@ def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
     BNr.clean_up() # try to find the immersed curve invariant BNr through a sequence of random isotopies
     multicurve = BNr.to_multicurve()
     multicurve.save(name)
-    print(name)
+    print("name is " + name)
     html_content += multicurve.html(name,"_BNr7","hdelta",Tangle)
 
     # print(BNr)
@@ -121,8 +121,8 @@ def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
     if figured_out_tangle:
         # path = "../examples/" + filename + "/" + filename+".html"
         # path = "../examples/" + resultingdirectory + "/" + filename+".html"
-        path = "../../_includes/" + filename + ".html"
-        # print("saving html in " + path)
+        path = "../../_includes/" + name + ".html"
+        print("saving html in " + path)
         with open(path, "w") as text_file:
             print(html_content, file=text_file)
     if not verbose:
