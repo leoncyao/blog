@@ -59,8 +59,10 @@ def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
     else:
         tangle_str_path += "miscellaneous"
     f = open(tangle_str_path + "/" + filename + ".txt", "r")
+    # f = open("../examples/asimov/asimov_1_small.txt", "r")
     tangle = f.read()
-
+    # print(f)
+    # print("TANGLE IS " + tangle)
     Tangle = CrossingTangle.Tangle(tangle)
 
     figured_out_tangle = True
@@ -118,7 +120,8 @@ def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
 
     if figured_out_tangle:
         # path = "../examples/" + filename + "/" + filename+".html"
-        path = "../examples/" + resultingdirectory + "/" + filename+".html"
+        # path = "../examples/" + resultingdirectory + "/" + filename+".html"
+        path = "../../_includes/" + filename + ".html"
         # print("saving html in " + path)
         with open(path, "w") as text_file:
             print(html_content, file=text_file)
