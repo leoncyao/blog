@@ -421,12 +421,7 @@ class multicurve(object):
 """
         if thumbnails == True:
             vertex_switch=""
-        print("self.comps")
-        # print(self.comps)
         for i,comp in enumerate(self.comps):
-            # print("TEST")
-            # print(i)
-            # print(comp)
             size = len(comp.gens)
             if thumbnails == True:
                 scaledsize=size/6
@@ -480,7 +475,7 @@ class multicurve(object):
             print(content, file=text_file)
         
         run("cd '"+filepath+"PSTricks' && pdflatex -shell-escape '"+name+".tex' > '"+name+".out' 2>&1", shell=True)
-        run("cd '"+filepath+"PSTricks' && rm "+(" ".join(["'"+name+string+"' " for string in [".log",".aux",".pdf",".out","-autopp.ps","-autopp.dvi","-autopp.log"]])), shell=True)
+        # run("cd '"+filepath+"PSTricks' && rm "+(" ".join(["'"+name+string+"' " for string in [".log",".aux",".pdf",".out","-autopp.ps","-autopp.dvi","-autopp.log"]])), shell=True)
         
         if tangle==None:
             tanglestr=""
@@ -508,7 +503,7 @@ class multicurve(object):
         # split detailed pdf into single pages
         run("cd "+filepath+" && pdftk '"+longname+".pdf' burst output '"+longname+"'_%02d.pdf", shell=True) 
         # remove report from pdftk burst
-        run("cd "+filepath+" && rm doc_data.txt", shell=True) 
+        # run("cd "+filepath+" && rm doc_data.txt", shell=True) 
         
         html_row="\n<p>"
         
@@ -531,7 +526,9 @@ class multicurve(object):
             if counter == 0:
                 pdf_suffix=""
             # html_row+="<span onclick=on('"+filename+"/"+longname+pdf_suffix+"')><img class="+classname+" src='"+filename+"/"+longname+"_thumbs-"+png_suffix+".png'></span>\n"
-            html_row+="<span onclick=on('"+"../" + filepath+longname+pdf_suffix+"')><img class="+classname+" src='"+ "../"+ filepath+longname+"_thumbs-"+png_suffix+".png'></span>\n"    
+            # html_row+="<span onclick=on('" + filepath[12:] + longname+pdf_suffix+"')><img class="+classname+" src='" + filepath[12:] + longname+"_thumbs-"+png_suffix+".png'></span>\n"    
+            # html_row+="<span onclick=on('KhT/examples/" + filepath[12: ] + longname+pdf_suffix+"')><img class="+classname+" src='KhT/examples/" + filepath[12: ] + longname+"_thumbs-"+png_suffix+".png'></span>\n"
+            html_row+="<span onclick=on('KhT/examples/" + filepath[12: ] + longname+pdf_suffix+"')><img class="+classname+" src='KhT/examples/" + filepath[12: ] + longname+"_thumbs-"+png_suffix+".png'></span>\n"    
         html_row+="\n</p>"
         return html_row
         

@@ -13,6 +13,32 @@
 
  
  <entry>
+   <title>Week 11</title>
+   <link href="http://192.168.1.69:4000/Week11"/>
+   <updated>2019-07-13T00:00:00-07:00</updated>
+   <id>http://192.168.1.69:4000/Week11</id>
+   <content type="html">&lt;p&gt;Last week I tried to calculate the ‘small arc’ invariant for some capped trivial tangles, but i misunderstand what makes the invariant small. I thought small meant that the last part of the chain dissapears, but I only need to count the number of vertices.&lt;/p&gt;
+
+&lt;p&gt;So far I know that the immersed curve invariant corresponds some set of curves on the $4$ punctured disk.&lt;br /&gt;
+It turns out that adding positive or negative twists to the ends of the tangle corresponds to switching the punctures on the $4$ punctured disk, which in turns simplifies the tangle. I am tasked with calculating the small arc for different rational tangles, and experimenting to see how different twists affect the invariant. (The invariant is unique up to these kinds of twists).&lt;/p&gt;
+
+&lt;p&gt;I am also tasked with categorizing the capped trivial tangles into families. So far I know of 3 families.&lt;/p&gt;
+
+&lt;p&gt;The first family comes from the quotient of the trefoil knot. 
+&lt;img src=&quot;/ResearchJournal//assets/img/7-15-2020-1.jpg&quot; /&gt; 
+For each $n &amp;gt; 0$, we can twists the designated strands to get a different tangle, and each of these tangles correspond to the quotient tangle of a torus knot. So far it seems that the nth tangle corresponds to the nth torus knot, though I still need to verify some more examples for higher $n$. I wonder how I would prove this? I would need to show the twists on the torus correspond to the n twists on the designated strands.&lt;/p&gt;
+
+&lt;p&gt;The second family from surgery on the first family. I am not sure how exactly it is done, but we can take the designated strand and “wrap” it around the the top band. The case $m = 1$ is shown on the right.
+&lt;img src=&quot;/ResearchJournal//assets/img/7-15-2020-2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The third family comes surgery on the second family. For fixed $n, m$, we can let $k$ be some intger, and add $k$ twists inside the rectange (positive means positively sloped twists, negative is negatively sloped twists). 
+&lt;img src=&quot;/ResearchJournal//assets/img/7-15-2020-3.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I should be able to categorize all of the quotient tangles I have found so far with 5 crossings or less in these 3 families. From 5 crossings onward, I will hopefully find some more interesting families.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Week 10</title>
    <link href="http://192.168.1.69:4000/Week10"/>
    <updated>2019-07-06T00:00:00-07:00</updated>
@@ -136,7 +162,7 @@ img {
     }
 &lt;/style&gt;
 
-&lt;p&gt;This week I reviewed the bracket polynomial on tangles. &lt;a href=&quot;/ResearchJournal//2019/05/25/BracketOnTangles.html&quot;&gt; The formula for the bracket of a sum of tanlges is pretty nice!&lt;/a&gt;
+&lt;p&gt;This week I reviewed the bracket polynomial on tangles. &lt;a href=&quot;/ResearchJournal//2019/05/25/BracketOnTangles.html&quot;&gt; The formula for the bracket of a sum of tangles is pretty nice!&lt;/a&gt;
 I wonder if there is a corresponding formula for multiplication of tangles.&lt;/p&gt;
 
 &lt;p&gt;I started drawing immersed curves as well. I am still a bit shaky on the construction, but it seems like a cool invariant for a tangle.&lt;/p&gt;
