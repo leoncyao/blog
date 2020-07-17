@@ -33,7 +33,7 @@ The curve can be used to calculate Khovanov Homology in the following way. For u
 <img src="assets/img/ImmersedCurveInvariant/ImmersedCurveInvariant-4.jpg">
 
 
-From there, there is a process upon where you first assign gradings to the intersections between the orange curve and the dark straight lines, and then from there you can follow the orange curve to find the gradings groups. 
+From there, there is a process upon where you first assign gradings to the intersections between the orange curve and the dark straight lines, and then from there you can follow the orange curve to find the gradings of the groups. 
 
 
 
