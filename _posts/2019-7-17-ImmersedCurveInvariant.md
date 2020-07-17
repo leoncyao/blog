@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ImmersedCurveInvariant
+title: Immersed Curve Invariant
 ---
 
 I talked with Ben Garbuz today and he taught me a bit about the Immersed Curve Invariant and how it's related to Khovanov homology. 
@@ -28,7 +28,7 @@ The above curve would have chain complex
 
 <img src="assets/img/ImmersedCurveInvariant/ImmersedCurveInvariant-3.jpg">
 
-The curve can be used to calculate Khovanov Homology in the following way. For unreduced Khovanov homology, we draw the following orange curve. We then inspect the intersections between the red tangle curve and the orange curve. The number of intersections tells us how many copies of $\mathbb{F}$ there are in the homology. So here there would be 5 copies (This seems wrong, I think Ben told me you need to draw it in the minimal form, but I am not sure how to do that)
+The curve can be used to calculate Khovanov Homology of the numerator closure of the tangle in the following way. For unreduced Khovanov homology, we draw the following orange curve. We then inspect the intersections between the red tangle curve and the orange curve. The number of intersections tells us how many copies of $\mathbb{F}$ there are in the homology. So here there would be 5 copies (This seems wrong, I think Ben told me you need to draw it in the minimal form, but I am not sure how to do that)
 
 <img src="assets/img/ImmersedCurveInvariant/ImmersedCurveInvariant-4.jpg">
 
