@@ -23,7 +23,7 @@ def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
     if resultingdirectory:
         filepath="../examples/" + resultingdirectory
     else:
-        filepath="../examples/"+filename
+        filepath="../examples/" + filename
     # filename = name of example file called by kht
     # filepath = examples/<filename>/
 
