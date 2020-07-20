@@ -8,7 +8,7 @@ def main(starting_tangle_path, iterating_str, inserting_index, family_name, num_
 	starting_tangle_arr = starting_tangle_str.split('.')
 
 
-	for i in range(1,1 + num_iterations):
+	for i in range(0,0 + num_iterations):
 		new_tangle_arr = list(starting_tangle_arr)
 		new_tangle_arr[inserting_index:inserting_index] = iterating_str.split('.')
 		# new_tangle_str = new_tangle_arr.join('.')
@@ -25,7 +25,7 @@ def main(starting_tangle_path, iterating_str, inserting_index, family_name, num_
 if __name__ == "__main__":
 	# main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
 	# main("asimov_1", "pos0", 5, "asimov")
-	main("cixin_liu_1", "pos3.pos2.pos2.pos3", 2, "cixin_liu")
+	main("cixin_liu_0", "pos3.pos2.pos2.pos3", 3, "cixin_liu")
 	# figure 8 family
 	# f = open("../examples/cixin_liu/cixin_liu.txt", "w")
 	# starting_tangle_str = f.read()
