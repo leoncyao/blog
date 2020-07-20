@@ -15,15 +15,20 @@ def blockPrint():
 def enablePrint():
     sys.stdout = sys.__stdout__
 
-def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
+def asdf(tangle_name,tangle_path="miscellaneous", resultingdirectory=None):
     verbose = True
     if not verbose:
         blockPrint()
+
     filename=tangle_name
+    print(tangle_path)
+
+
+    filepath = "../examples/" + tangle_path + "/"
     if resultingdirectory:
-        filepath="../examples/" + resultingdirectory
+        filepath += resultingdirectory
     else:
-        filepath="../examples/" + filename
+        filepath += filename
     # filename = name of example file called by kht
     # filepath = examples/<filename>/
 
@@ -54,10 +59,7 @@ def asdf(tangle_name,tangle_path=None, resultingdirectory=None):
     name = filename
     
     tangle_str_path = "../examples/"
-    if tangle_path:
-        tangle_str_path += tangle_path
-    else:
-        tangle_str_path += "miscellaneous"
+    tangle_str_path += tangle_path
     f = open(tangle_str_path + "/" + filename + ".txt", "r")
     # f = open("../examples/asimov/asimov_1_small.txt", "r")
     tangle = f.read()
@@ -132,7 +134,6 @@ if __name__ == "__main__":
     if len(sys.argv) == 2:
         asdf(sys.argv[1])
     if len(sys.argv) == 3:
-        asdf(sys.argv[1], sys.argv[2])
+        asdf(sys.argv[1], tangle_path=sys.argv[2])
     if len(sys.argv) == 4:
-        asdf(sys.argv[1], sys.argv[2], sys.argv[3])
-    
+        asdf(sys.argv[1], tangle_path=sys.argv[2], resultingdirectory=sys.argv[3])

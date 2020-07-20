@@ -1,8 +1,9 @@
 
 tangle=$1
-python3 KhT ${tangle}
-pdf_file_path="examples/${tangle}/PSTricks/${tangle}_BNr7-tangle-pics.pdf"
-png_output_file_name="examples/${tangle}/${tangle}-tangle"
+tangle_path=$2
+python3 KhT.py ${tangle} ${tangle_path}
+pdf_file_path="../examples/${tangle_path}/${tangle}/PSTricks/${tangle}_BNr7-tangle-pics.pdf"
+png_output_file_name="../examples/${tangle_path}/${tangle}/${tangle}-tangle"
 
 # wolframscript -code parse.wls < "examples/trefoil/trefoil_jones_poly.txt"
 pdftoppm ${pdf_file_path} ${png_output_file_name} -png
