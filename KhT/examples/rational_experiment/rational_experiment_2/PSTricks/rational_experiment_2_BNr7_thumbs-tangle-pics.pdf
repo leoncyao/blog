@@ -1,5 +1,6 @@
 %PDF-1.4
 %«Ïè¢
+%%Invocation: path/gs -P- -dSAFER -dCompatibilityLevel=1.4 -dAutoRotatePages=/None -q -P- -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sstdout=? -sOutputFile=? -P- -dSAFER -dCompatibilityLevel=1.4 -dAutoRotatePages=/None ?
 5 0 obj
 <</Length 6 0 R/Filter /FlateDecode>>
 stream
@@ -42,12 +43,12 @@ endobj
 <?adobe-xap-filters esc="CRLF"?>
 <x:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='XMP toolkit 2.9.1-13, framework 1.6'>
 <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:iX='http://ns.adobe.com/iX/1.0/'>
-<rdf:Description rdf:about='uuid:7a93ce20-0380-11f6-0000-5798c61952b9' xmlns:pdf='http://ns.adobe.com/pdf/1.3/' pdf:Producer='GPL Ghostscript 9.26'/>
-<rdf:Description rdf:about='uuid:7a93ce20-0380-11f6-0000-5798c61952b9' xmlns:xmp='http://ns.adobe.com/xap/1.0/'><xmp:ModifyDate>2020-07-21T08:07:44-07:00</xmp:ModifyDate>
-<xmp:CreateDate>2020-07-21T08:07:44-07:00</xmp:CreateDate>
-<xmp:CreatorTool>dvips(k) 5.997 Copyright 2017 Radical Eye Software</xmp:CreatorTool></rdf:Description>
-<rdf:Description rdf:about='uuid:7a93ce20-0380-11f6-0000-5798c61952b9' xmlns:xapMM='http://ns.adobe.com/xap/1.0/mm/' xapMM:DocumentID='uuid:7a93ce20-0380-11f6-0000-5798c61952b9'/>
-<rdf:Description rdf:about='uuid:7a93ce20-0380-11f6-0000-5798c61952b9' xmlns:dc='http://purl.org/dc/elements/1.1/' dc:format='application/pdf'><dc:title><rdf:Alt><rdf:li xml:lang='x-default'>rational_experiment_2_BNr7_thumbs-tangle-autopp.dvi</rdf:li></rdf:Alt></dc:title></rdf:Description>
+<rdf:Description rdf:about='uuid:7b792fa4-0381-11f6-0000-9f294aae2a77' xmlns:pdf='http://ns.adobe.com/pdf/1.3/' pdf:Producer='GPL Ghostscript 9.50'/>
+<rdf:Description rdf:about='uuid:7b792fa4-0381-11f6-0000-9f294aae2a77' xmlns:xmp='http://ns.adobe.com/xap/1.0/'><xmp:ModifyDate>2020-07-21T08:14:55-07:00</xmp:ModifyDate>
+<xmp:CreateDate>2020-07-21T08:14:55-07:00</xmp:CreateDate>
+<xmp:CreatorTool>dvips(k) 5.999 Copyright 2019 Radical Eye Software</xmp:CreatorTool></rdf:Description>
+<rdf:Description rdf:about='uuid:7b792fa4-0381-11f6-0000-9f294aae2a77' xmlns:xapMM='http://ns.adobe.com/xap/1.0/mm/' xapMM:DocumentID='uuid:7b792fa4-0381-11f6-0000-9f294aae2a77'/>
+<rdf:Description rdf:about='uuid:7b792fa4-0381-11f6-0000-9f294aae2a77' xmlns:dc='http://purl.org/dc/elements/1.1/' dc:format='application/pdf'><dc:title><rdf:Alt><rdf:li xml:lang='x-default'>rational_experiment_2_BNr7_thumbs-tangle-autopp.dvi</rdf:li></rdf:Alt></dc:title></rdf:Description>
 </rdf:RDF>
 </x:xmpmeta>
                                                                         
@@ -56,27 +57,27 @@ endobj
 endstream
 endobj
 2 0 obj
-<</Producer(GPL Ghostscript 9.26)
-/CreationDate(D:20200721080744-07'00')
-/ModDate(D:20200721080744-07'00')
-/Creator(dvips\(k\) 5.997 Copyright 2017 Radical Eye Software)
+<</Producer(GPL Ghostscript 9.50)
+/CreationDate(D:20200721081455-07'00')
+/ModDate(D:20200721081455-07'00')
+/Creator(dvips\(k\) 5.999 Copyright 2019 Radical Eye Software)
 /Title(rational_experiment_2_BNr7_thumbs-tangle-autopp.dvi)>>endobj
 xref
 0 10
 0000000000 65535 f 
-0000000446 00000 n 
-0000002075 00000 n 
-0000000387 00000 n 
-0000000252 00000 n 
-0000000015 00000 n 
-0000000233 00000 n 
-0000000510 00000 n 
-0000000551 00000 n 
-0000000580 00000 n 
+0000000661 00000 n 
+0000002290 00000 n 
+0000000602 00000 n 
+0000000467 00000 n 
+0000000230 00000 n 
+0000000448 00000 n 
+0000000725 00000 n 
+0000000766 00000 n 
+0000000795 00000 n 
 trailer
 << /Size 10 /Root 1 0 R /Info 2 0 R
-/ID [<139A7893D1C9D22373E395029B044222><139A7893D1C9D22373E395029B044222>]
+/ID [<115CB7B6C32F76754082E7D7C1BF24F6><115CB7B6C32F76754082E7D7C1BF24F6>]
 >>
 startxref
-2321
+2536
 %%EOF
