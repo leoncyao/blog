@@ -1,0 +1,114 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+(./orwell_1_small_BNr7_thumbs-tangle.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/auto-pst-pdf/auto-pst-pdf.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex))))
+(/usr/share/texlive/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/catchfile.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty))
+(./orwell_1_small_BNr7_thumbs-tangle.w18)) 
+-------------------------------------------------
+auto-pst-pdf: Auxiliary LaTeX compilation
+-------------------------------------------------
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex)
+entering extended mode
+This is dvips(k) 5.997 Copyright 2017 Radical Eye Software (www.radicaleye.com)
+' TeX output 2020.07.21:0731' -> orwell_1_small_BNr7_thumbs-tangle-autopp.ps
+</usr/share/texlive/texmf-dist/dvips/base/tex.pro>
+</usr/share/texlive/texmf-dist/dvips/config/alt-rule.pro>
+</usr/share/texlive/texmf-dist/dvips/pstricks/pstricks.pro>
+</usr/share/texlive/texmf-dist/dvips/pstricks/pst-algparser.pro>
+</usr/share/texlive/texmf-dist/dvips/pst-tools/pst-tools.pro>
+</usr/share/texlive/texmf-dist/dvips/pstricks/pst-dots.pro>
+</usr/share/texlive/texmf-dist/dvips/pst-node/pst-node.pro>
+</usr/share/texlive/texmf-dist/dvips/base/special.pro>. [1] 
+-------------------------------------------------
+auto-pst-pdf: End auxiliary LaTeX compilation
+-------------------------------------------------
+
+(/usr/share/texlive/texmf-dist/tex/latex/pst-pdf/pst-pdf.sty
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/luatex85/luatex85.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)))
+`PSTricks' v2.82  <2018/01/06> (tvz,hv)
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con))
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex))
+(/usr/share/texmf/tex/latex/preview/preview.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def)
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty))))
+(/usr/share/texlive/texmf-dist/tex/latex/pst-node/pst-node.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex
+ v1.41, 2017/12/30))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty))
+No file orwell_1_small_BNr7_thumbs-tangle.aux.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+Preview: Fontsize 10pt
+Preview: PDFoutput 1
+[1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./
+orwell_1_small_BNr7_thumbs-tangle-pics.pdf>]
+(./orwell_1_small_BNr7_thumbs-tangle.aux) )</usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmss10.pfb>
+Output written on orwell_1_small_BNr7_thumbs-tangle.pdf (1 page, 9675 bytes).
+Transcript written on orwell_1_small_BNr7_thumbs-tangle.log.

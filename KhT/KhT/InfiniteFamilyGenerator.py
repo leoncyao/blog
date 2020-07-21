@@ -8,11 +8,11 @@ def main(starting_tangle_path, iterating_str, inserting_index, family_name, num_
 	starting_tangle_arr = starting_tangle_str.split('.')
 
 
-	for i in range(0,0 + num_iterations):
+	for i in range(1,1 + num_iterations):
 		new_tangle_arr = list(starting_tangle_arr)
-		filename = family_name + "_" + str(i+1)
+		filename = family_name + "_" + str(i)
 		filepath = "../examples/" + family_name + "/" + filename + ".txt"
-		for j in range(1, i+1):
+		for j in range(1, i):
 			new_tangle_arr[inserting_index:inserting_index] = iterating_str.split('.')
 		# new_tangle_str = new_tangle_arr.join('.')
 		new_tangle_str = ".".join(new_tangle_arr)
@@ -27,7 +27,9 @@ def main(starting_tangle_path, iterating_str, inserting_index, family_name, num_
 if __name__ == "__main__":
 	# main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
 	# main("asimov_1", "pos0", 5, "asimov")
-	main("cixin_liu_1", "pos3.pos2.pos2.pos3", 3, "cixin_liu",num_iterations=3)
+	# main("cixin_liu_1", "pos3.pos2.pos2.pos3", 3, "cixin_liu",num_iterations=5)
+	# main("orwell_1", "neg4", 7, "orwell",num_iterations=5)
+	main("copernicus_1", "pos0", 12, "copernicus",num_iterations=5)
 	# figure 8 family
 	# f = open("../examples/cixin_liu/cixin_liu.txt", "w")
 	# starting_tangle_str = f.read()

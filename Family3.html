@@ -1,0 +1,60 @@
+---
+layout: default
+title: Family3
+---
+
+<style>
+  #wrapper {
+    display: flex;
+  }
+
+  #left {
+    flex: 0 0 65%;
+  }
+
+  #right {
+    flex: 1;
+  }
+  #center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  /* .column {
+  float: left;
+  width: 100.0%;
+  padding: 5px;
+  
+  } */
+ /* Clear floats after image containers */
+  /* .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 200%; 
+   }  */
+</style> 
+
+<!-- <h2> Quotient Tangles of $(2, 2n + 1)$ Torus Knots</h2> -->
+<!-- where $n$ is the number of twists in the designated region -->
+<!-- <img src = "assets/img/7-15-2020-1.jpg"> -->
+{% include header.html %}
+{% for i in (1..5) %}
+    $n = {{i}}$
+    <p></p>
+    {% assign j = i | times: 2 | plus: 1 %}
+    <div id="center-image">
+    <!-- <img src = "assets/img/TorusKnots/T({{j}},2).jpg"> -->
+    </div>
+    <div id="wrapper">
+      <div id="left">
+      <h3>Original Tangle</h3>
+      {% include orwell_{{i}}.html %}
+      </div>
+      <div id="right">
+      <h3>'Small Arc' Tangle</h3>
+      {% include orwell_{{i}}_small.html %}
+      </div>
+    </div>
+{% endfor %}
