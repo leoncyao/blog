@@ -8,9 +8,9 @@ def main(starting_tangle_path, iterating_str, inserting_index, family_name, num_
 	starting_tangle_arr = starting_tangle_str.split('.')
 
 
-	for i in range(1,1 + num_iterations):
+	for i in range(0,0 + num_iterations):
 		new_tangle_arr = list(starting_tangle_arr)
-		filename = family_name + "_" + str(i)
+		filename = family_name + "_" + str(i+1)
 		filepath = "../examples/" + family_name + "/" + filename + ".txt"
 		for j in range(1, i+1):
 			new_tangle_arr[inserting_index:inserting_index] = iterating_str.split('.')
