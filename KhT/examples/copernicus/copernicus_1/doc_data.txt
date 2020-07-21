@@ -1,0 +1,30 @@
+InfoBegin
+InfoKey: ModDate
+InfoValue: D:20200721075316-07'00'
+InfoBegin
+InfoKey: CreationDate
+InfoValue: D:20200721075316-07'00'
+InfoBegin
+InfoKey: Creator
+InfoValue: pdftk 2.02 - www.pdftk.com
+InfoBegin
+InfoKey: Producer
+InfoValue: itext-paulo-155 (itextpdf.sf.net-lowagie.com)
+PdfID0: 31d947a9dd52f2c86caa5a53a7af6006
+PdfID1: 1bdedf50b83a701e7e5b3185ca2f9610
+NumberOfPages: 3
+PageMediaBegin
+PageMediaNumber: 1
+PageMediaRotation: 0
+PageMediaRect: 0 0 241.94 504.15
+PageMediaDimensions: 241.94 504.15
+PageMediaBegin
+PageMediaNumber: 2
+PageMediaRotation: 0
+PageMediaRect: 0 0 284.46 284.46
+PageMediaDimensions: 284.46 284.46
+PageMediaBegin
+PageMediaNumber: 3
+PageMediaRotation: 0
+PageMediaRect: 0 0 341.16 341.16
+PageMediaDimensions: 341.16 341.16
