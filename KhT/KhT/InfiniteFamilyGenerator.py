@@ -12,7 +12,7 @@ def main(starting_tangle_path, iterating_str, inserting_index, family_name, num_
 		new_tangle_arr = list(starting_tangle_arr)
 		filename = family_name + "_" + str(i)
 		filepath = "../examples/" + family_name + "/" + filename + ".txt"
-		for j in range(1, i):
+		for j in range(1, i+1):
 			new_tangle_arr[inserting_index:inserting_index] = iterating_str.split('.')
 		# new_tangle_str = new_tangle_arr.join('.')
 		new_tangle_str = ".".join(new_tangle_arr)
