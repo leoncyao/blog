@@ -27,11 +27,11 @@ def main(starting_tangle_path, iterating_str, inserting_index, family_name, num_
 
 if __name__ == "__main__":
 	# main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
-	# main("asimov_1", "pos0", 5, "asimov")
+	main("asimov_1", "pos0", 5, "asimov")
 	main("rational_experiment_1", "neg0", 5, "rational_experiment")
-	# main("cixin_liu_1", "pos3.pos2.pos2.pos3", 3, "cixin_liu",num_iterations=5)
-	# main("orwell_1", "neg4", 7, "orwell",num_iterations=5)
-	# main("copernicus_1", "pos0", 12, "copernicus",num_iterations=5)
+	main("cixin_liu_1", "pos3.pos2.pos2.pos3", 3, "cixin_liu",num_iterations=5)
+	main("orwell_1", "neg4", 7, "orwell",num_iterations=5)
+	main("copernicus_1", "pos0", 12, "copernicus",num_iterations=5)
 	# figure 8 family
 	# f = open("../examples/cixin_liu/cixin_liu.txt", "w")
 	# starting_tangle_str = f.read()
