@@ -29,7 +29,7 @@ auto-pst-pdf: Auxiliary LaTeX compilation
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex)
 entering extended mode
 This is dvips(k) 5.999 Copyright 2019 Radical Eye Software (www.radicaleye.com)
-' TeX output 2020.07.21:1005' -> asimov_4_BNr7_thumbs-autopp.ps
+' TeX output 2020.07.22:1027' -> asimov_4_BNr7_thumbs-autopp.ps
 </usr/share/texlive/texmf-dist/dvips/base/tex.pro>
 </usr/share/texlive/texmf-dist/dvips/config/alt-rule.pro>
 </usr/share/texlive/texmf-dist/dvips/pstricks/pstricks.pro>
