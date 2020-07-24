@@ -1,40 +1,30 @@
 InfoBegin
 InfoKey: ModDate
-InfoValue: D:20200722103722-07'00'
+InfoValue: D:20200724115430-07'00'
 InfoBegin
 InfoKey: CreationDate
-InfoValue: D:20200722103722-07'00'
+InfoValue: D:20200724115430-07'00'
 InfoBegin
 InfoKey: Creator
 InfoValue: pdftk 2.02 - www.pdftk.com
 InfoBegin
 InfoKey: Producer
 InfoValue: itext-paulo-155 (itextpdf.sf.net-lowagie.com)
-PdfID0: 73d0d1f7f30a7256c4f6b520ce2dbdba
-PdfID1: 12b1c2a1c920f5a2418a0c448db0f1f9
-NumberOfPages: 5
+PdfID0: 1b5311e7df2664f0fabf26acf92ae43b
+PdfID1: ead643b19c40dd673cf5a5cba2989202
+NumberOfPages: 3
 PageMediaBegin
 PageMediaNumber: 1
 PageMediaRotation: 0
-PageMediaRect: 0 0 241.94 532.5
-PageMediaDimensions: 241.94 532.5
+PageMediaRect: 0 0 241.94 475.8
+PageMediaDimensions: 241.94 475.8
 PageMediaBegin
 PageMediaNumber: 2
 PageMediaRotation: 0
-PageMediaRect: 0 0 171.08 171.08
-PageMediaDimensions: 171.08 171.08
+PageMediaRect: 0 0 246.67 246.67
+PageMediaDimensions: 246.67 246.67
 PageMediaBegin
 PageMediaNumber: 3
-PageMediaRotation: 0
-PageMediaRect: 0 0 341.16 341.16
-PageMediaDimensions: 341.16 341.16
-PageMediaBegin
-PageMediaNumber: 4
-PageMediaRotation: 0
-PageMediaRect: 0 0 341.16 341.16
-PageMediaDimensions: 341.16 341.16
-PageMediaBegin
-PageMediaNumber: 5
 PageMediaRotation: 0
 PageMediaRect: 0 0 341.16 341.16
 PageMediaDimensions: 341.16 341.16

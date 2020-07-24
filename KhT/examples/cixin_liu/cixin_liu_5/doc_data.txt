@@ -1,18 +1,18 @@
 InfoBegin
 InfoKey: ModDate
-InfoValue: D:20200722103635-07'00'
+InfoValue: D:20200724115412-07'00'
 InfoBegin
 InfoKey: CreationDate
-InfoValue: D:20200722103635-07'00'
+InfoValue: D:20200724115412-07'00'
 InfoBegin
 InfoKey: Creator
 InfoValue: pdftk 2.02 - www.pdftk.com
 InfoBegin
 InfoKey: Producer
 InfoValue: itext-paulo-155 (itextpdf.sf.net-lowagie.com)
-PdfID0: 4135b3938ee42a34189c6309b0c4d7d2
-PdfID1: bdf53f77bea97b9ae260acfb9a408c98
-NumberOfPages: 13
+PdfID0: 06ad14a7c9f929d75f7e12ab5a8d1cfe
+PdfID1: 3ac6c235e3c3498588e7832b24b845cf
+NumberOfPages: 2
 PageMediaBegin
 PageMediaNumber: 1
 PageMediaRotation: 0
@@ -21,60 +21,5 @@ PageMediaDimensions: 241.94 986.04
 PageMediaBegin
 PageMediaNumber: 2
 PageMediaRotation: 0
-PageMediaRect: 0 0 341.16 341.16
-PageMediaDimensions: 341.16 341.16
-PageMediaBegin
-PageMediaNumber: 3
-PageMediaRotation: 0
-PageMediaRect: 0 0 341.16 341.16
-PageMediaDimensions: 341.16 341.16
-PageMediaBegin
-PageMediaNumber: 4
-PageMediaRotation: 0
-PageMediaRect: 0 0 341.16 341.16
-PageMediaDimensions: 341.16 341.16
-PageMediaBegin
-PageMediaNumber: 5
-PageMediaRotation: 0
-PageMediaRect: 0 0 341.16 341.16
-PageMediaDimensions: 341.16 341.16
-PageMediaBegin
-PageMediaNumber: 6
-PageMediaRotation: 0
-PageMediaRect: 0 0 341.16 341.16
-PageMediaDimensions: 341.16 341.16
-PageMediaBegin
-PageMediaNumber: 7
-PageMediaRotation: 0
-PageMediaRect: 0 0 341.16 341.16
-PageMediaDimensions: 341.16 341.16
-PageMediaBegin
-PageMediaNumber: 8
-PageMediaRotation: 0
-PageMediaRect: 0 0 341.16 341.16
-PageMediaDimensions: 341.16 341.16
-PageMediaBegin
-PageMediaNumber: 9
-PageMediaRotation: 0
-PageMediaRect: 0 0 341.16 341.16
-PageMediaDimensions: 341.16 341.16
-PageMediaBegin
-PageMediaNumber: 10
-PageMediaRotation: 0
-PageMediaRect: 0 0 341.16 341.16
-PageMediaDimensions: 341.16 341.16
-PageMediaBegin
-PageMediaNumber: 11
-PageMediaRotation: 0
-PageMediaRect: 0 0 341.16 341.16
-PageMediaDimensions: 341.16 341.16
-PageMediaBegin
-PageMediaNumber: 12
-PageMediaRotation: 0
-PageMediaRect: 0 0 341.16 341.16
-PageMediaDimensions: 341.16 341.16
-PageMediaBegin
-PageMediaNumber: 13
-PageMediaRotation: 0
-PageMediaRect: 0 0 775.8 775.8
-PageMediaDimensions: 775.8 775.8
+PageMediaRect: 0 0 1002.57 1002.57
+PageMediaDimensions: 1002.57 1002.57
