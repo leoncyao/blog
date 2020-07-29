@@ -29,14 +29,15 @@ if __name__ == "__main__":
 	# main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
 	# main("rational_experiment_1", "neg0", 5, "rational_experiment")
 
-	main("asimov_1", "pos0", 5, "asimov")
+	# main("asimov_1", "pos0", 5, "asimov")
 
-	main("cixin_liu_1", "neg3.neg2.neg2.neg3", 3, "cixin_liu",num_iterations=5)
+	# main("cixin_liu_1", "neg3.neg2.neg2.neg3", 3, "cixin_liu",num_iterations=5)
 
-	main("orwell_1", "neg4", 7, "orwell",num_iterations=5)
+	# main("orwell_1", "neg4", 7, "orwell",num_iterations=5)
 	
-	main("copernicus_1", "pos0", 12, "copernicus",num_iterations=5)
+	# main("copernicus_1", "pos0", 12, "copernicus",num_iterations=5)
 
+	main("5_2-B_1", "pos1.pos0.pos0.pos1", 2, "5_2-B",num_iterations=5)
 
 	# main("galois_1", "pos0", 12, "galois",num_iterations=5)
 
