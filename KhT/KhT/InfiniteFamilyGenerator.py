@@ -22,7 +22,7 @@ def main(starting_tangle_path, iterating_str, inserting_index, family_name, num_
 		f = open(filepath, "w+")
 		f.write(new_tangle_str)
 		f.close()
-		# KhT.asdf(filename, tangle_path=family_name, resultingdirectory=filename)
+		KhT.asdf(filename, tangle_path=family_name, resultingdirectory=filename)
 		find_minimal_framing.main(filename, tangle_path=family_name, resultingdirectory=filename)
 
 if __name__ == "__main__":
