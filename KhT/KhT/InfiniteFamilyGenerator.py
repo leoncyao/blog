@@ -16,9 +16,9 @@ def main(starting_tangle_path, iterating_str, inserting_index, family_name, num_
 			new_tangle_arr[inserting_index:inserting_index] = iterating_str.split('.')
 		# new_tangle_str = new_tangle_arr.join('.')
 		new_tangle_str = ".".join(new_tangle_arr)
-		print(new_tangle_arr)
-		print(new_tangle_str)
-		print(filepath)
+		# print(new_tangle_arr)
+		# print(new_tangle_str)
+		# print(filepath)
 		f = open(filepath, "w+")
 		f.write(new_tangle_str)
 		f.close()
@@ -37,7 +37,9 @@ if __name__ == "__main__":
 	
 	# main("copernicus_1", "pos0", 12, "copernicus",num_iterations=5)
 
-	main("5_2-B_1", "pos1.pos0.pos0.pos1", 2, "5_2-B",num_iterations=5)
+	# main("5_2-B_1", "pos1.pos0.pos0.pos1", 2, "5_2-B",num_iterations=5)
+
+	main("4_1-B_1", "pos3.pos2.pos2.pos3", 2, "4_1-B",num_iterations=5)
 
 	# main("galois_1", "pos0", 12, "galois",num_iterations=5)
 
