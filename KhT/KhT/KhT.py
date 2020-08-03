@@ -81,6 +81,12 @@ def asdf(tangle_name,tangle_path="miscellaneous", resultingdirectory=None):
     print("name is " + name)
     html_content += multicurve.html(name,"_BNr7","hdelta",Tangle)
 
+
+
+        # for gen in comp.gens:
+        #     # print(gen)
+        #     # print(repr(gen))
+        #     print(gen.is_looptype())
     # print(BNr)
 
     # html_content += "<h4>Figure-8 invariant over \(\mathbb{F}_7\)</h4>"

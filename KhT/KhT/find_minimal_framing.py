@@ -16,7 +16,18 @@ def num_gens(tangle_str):
     multicurve = BNr.to_multicurve()
 
     # assuming chain complex is in first index
-    return len(multicurve.comps[0].gens)    
+
+    if len(multicurve.comps) == 1:
+        return len(multicurve.comps[0].gens)    
+    else:
+        for comp in multicurve.comps:
+        # print("new comp")
+        # print(comp.is_looptype())
+        # print(comp)
+        if not comp.diff[0][-1] == 0:
+            # should not be a cycle
+            return len (comp.gens)
+
 
 def main(name, tangle_path=None, resultingdirectory=None):
     print("------------------------------------------------------")
