@@ -32,11 +32,11 @@ if __name__ == "__main__":
 
 	main("4_1-A-family_1", "neg3.neg2.neg2.neg3", 3, "4_1-A-family",num_iterations=5)
 
-	main("4_1-B_1", "pos0", 13, "4_1-B",num_iterations=5)
+	main("4_1-B-family_1", "pos0", 13, "4_1-B-family",num_iterations=5)
 
-	main("5_2-A-family_1", "neg3.neg2.neg2.neg3", 3, "5_2-A-family",num_iterations=5)
+	# main("5_2-A-family_1", "neg3.neg2.neg2.neg3", 3, "5_2-A-family",num_iterations=5)
 
-	main("even_twist-family_1", "neg3.neg2.neg2.neg3.neg3.neg2.neg2.neg3", 3, "even_twist-family",num_iterations=3)
+	# main("even_twist-family_1", "neg3.neg2.neg2.neg3.neg3.neg2.neg2.neg3", 3, "even_twist-family",num_iterations=3)
 
 	# main("odd_twist-family_1", "neg3.neg2.neg2.neg3.neg3.neg2.neg2.neg3", 3, "even_twist-family",num_iterations=3)
 

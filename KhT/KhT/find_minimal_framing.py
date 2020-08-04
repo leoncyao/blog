@@ -24,9 +24,9 @@ def num_gens(tangle_str):
         # print("new comp")
         # print(comp.is_looptype())
         # print(comp)
-        if not comp.diff[0][-1] == 0:
-            # should not be a cycle
-            return len (comp.gens)
+            if not comp.diff[0][-1] == 0:
+                # should not be a cycle
+                return len (comp.gens)
 
 
 def main(name, tangle_path=None, resultingdirectory=None):
