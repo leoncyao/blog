@@ -475,7 +475,7 @@ class multicurve(object):
             print(content, file=text_file)
         
         run("cd '"+filepath+"PSTricks' && pdflatex -shell-escape '"+name+".tex' > '"+name+".out' 2>&1", shell=True)
-        # run("cd '"+filepath+"PSTricks' && rm "+(" ".join(["'"+name+string+"' " for string in [".log",".aux",".pdf",".out","-autopp.ps","-autopp.dvi","-autopp.log"]])), shell=True)
+        run("cd '"+filepath+"PSTricks' && rm "+(" ".join(["'"+name+string+"' " for string in [".log",".aux",".pdf",".out","-autopp.ps","-autopp.dvi","-autopp.log"]])), shell=True)
         
         if tangle==None:
             tanglestr=""
@@ -503,7 +503,7 @@ class multicurve(object):
         # split detailed pdf into single pages
         run("cd "+filepath+" && pdftk '"+longname+".pdf' burst output '"+longname+"'_%02d.pdf", shell=True) 
         # remove report from pdftk burst
-        # run("cd "+filepath+" && rm doc_data.txt", shell=True) 
+        run("cd "+filepath+" && rm doc_data.txt", shell=True) 
         
         html_row="\n<p>"
         
