@@ -80,8 +80,9 @@ def asdf(tangle_name,tangle_path="miscellaneous", resultingdirectory=None):
     multicurve.save(name)
     print("name is " + name)
     test = []
-    print(multicurve.comps)
+    
     for comp in multicurve.comps:
+        print(comp)
         # print("new comp")
         # print(comp.is_looptype())
         # print(comp)
@@ -89,6 +90,7 @@ def asdf(tangle_name,tangle_path="miscellaneous", resultingdirectory=None):
                 # should not be a cycle
                 test.append(comp)
     multicurve.comps = test
+    print("comps after should be ")
     print(multicurve.comps)
     html_content += multicurve.html(name,"_BNr7","hdelta",Tangle)
 
