@@ -26,9 +26,10 @@ title: 4_1-A-family
 
 <h2> Quotient Tangles of Even twists $m$ - Twist Knots</h2>
 where $m$ is the number of twists in the designated region
-<img src = "assets/img/Capped-Trivial-Tangles/4_1-family.jpg">
+<img src = "../assets/img/Capped-Trivial-Tangles/4_1-family.jpg">
 Knot and Strong involution pairs in family:
-4_1-A, 6_1-A
+4_1-A, 6_1-A, 8_1-A
+<p></p>
 {% include header.html %}
 {% for i in (1..5) %}
     $m = {{i}}$
@@ -40,11 +41,11 @@ Knot and Strong involution pairs in family:
     <div id="wrapper">
       <div id="left">
       <h3>Original Tangle</h3>
-      {% include cixin_liu_{{i}}.html %}
+      {% include 4_1-A-family_{{i}}.html %}
       </div>
       <div id="right">
       <h3>'Small Arc' Tangle</h3>
-      {% include cixin_liu_{{i}}_small.html %}
+      {% include 4_1-A-family_{{i}}_small.html %}
       </div>
     </div>
 {% endfor %}

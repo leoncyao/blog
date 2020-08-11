@@ -42,7 +42,7 @@ Knot and Strong involution pairs in family:
 3_1, 5_1, 7_1
 </p>
 
-<img src = "assets/img/Capped-Trivial-Tangles/3_1-family.jpg">
+<img src = "../assets/img/Capped-Trivial-Tangles/3_1-family.jpg">
 {% include header.html %}
 {% for i in (1..5) %}
     $n = {{i}}$
@@ -54,11 +54,11 @@ Knot and Strong involution pairs in family:
     <div id="wrapper">
       <div id="left">
       <h3>Original Tangle</h3>
-      {% include asimov_{{i}}.html %}
+      {% include 3_1-family_{{i}}.html %}
       </div>
       <div id="right">
       <h3>'Small Arc' Tangle</h3>
-      {% include asimov_{{i}}_small.html %}
+      {% include 3_1-family_{{i}}_small.html %}
       </div>
     </div>
 {% endfor %}
