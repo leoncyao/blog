@@ -4,7 +4,7 @@
 \renewcommand{\familydefault}{\sfdefault}
 \begin{document}
 \centering 
-\psset{yunit=-1}\begin{pspicture}(-0.5,-0.5)(6.5,28.5)
+\psset{yunit=-1}\begin{pspicture}(-0.5,-0.5)(6.5,30.5)
 \psset{linewidth=2.5pt}
 \rput[c](3.0,0){\textbf{}}
 \rput[c](3.0,0.75){}
@@ -296,5 +296,19 @@
 \psbezier(0,27)(0,27.5)(0,27.5)(0,28)
 \psbezier(3,27)(3,27.5)(1,27.5)(1,28)
 \psbezier(4,27)(4,27.5)(2,27.5)(2,28)
+
+%%%%%%%%%%%%%%%%%%%
+% [[['neg', 0]], [0, 1], [0, 1]]
+\psbezier(0,28)(0,28.5)(1,28.5)(1,29)
+\psbezier[linecolor=white,linewidth=10pt](1,28)(1,28.5)(0,28.5)(0,29)
+\psbezier(1,28)(1,28.5)(0,28.5)(0,29)
+\psbezier(2,28)(2,28.5)(2,28.5)(2,29)
+
+%%%%%%%%%%%%%%%%%%%
+% [[['neg', 0]], [0, 1], [0, 1]]
+\psbezier(0,29)(0,29.5)(1,29.5)(1,30)
+\psbezier[linecolor=white,linewidth=10pt](1,29)(1,29.5)(0,29.5)(0,30)
+\psbezier(1,29)(1,29.5)(0,29.5)(0,30)
+\psbezier(2,29)(2,29.5)(2,29.5)(2,30)
 \end{pspicture}
 \end{document}

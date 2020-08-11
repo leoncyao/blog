@@ -44,9 +44,9 @@ if __name__ == "__main__":
 	
 	# main("copernicus_1", "pos0", 12, "copernicus",num_iterations=5)
 
-	main("5_2-B_1", "pos1", 10, "5_2-B",num_iterations=5)
+	# main("5_2-B_1", "pos1", 10, "5_2-B",num_iterations=5)
 
-	# main("6_2-A-family_1", "neg3.neg2.neg2.neg3", 3, "6_2-A-family")
+	main("6_2-A-family_1", "neg3.neg2.neg2.neg3", 3, "6_2-A-family")
 
 	# main("6_3-A-family_1", "pos0.pos1.pos1.pos0", 5, "6_3-A-family")
 
