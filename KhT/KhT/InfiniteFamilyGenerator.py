@@ -28,9 +28,9 @@ if __name__ == "__main__":
 	# main(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
 	# main("rational_experiment_1", "neg0", 5, "rational_experiment")
 
-	main("3_1-family_1", "pos0", 5, "3_1-family")
-
-	main("4_1-A-family_1", "neg3.neg2.neg2.neg3", 3, "4_1-A-family",num_iterations=5)
+	# main("3_1-family_1", "pos0", 5, "3_1-family")
+ 
+	# main("4_1-A-family_1", "neg3.neg2.neg2.neg3", 3, "4_1-A-family",num_iterations=5)
 
 	main("4_1-B-family_1", "neg0", 13, "4_1-B-family",num_iterations=5)
 
