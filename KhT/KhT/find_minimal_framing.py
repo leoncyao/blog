@@ -21,12 +21,22 @@ def num_gens(tangle_str):
         return len(multicurve.comps[0].gens)    
     else:
         for comp in multicurve.comps:
+            incident_to_0 = 0
+            for i in range(len(comp.gens)):
+                if comp.diff[0][i] != 0:
+                    incident_to_0 += 1
+            for j in range(len(comp.gens)):
+                if comp.diff[j][0] != 0:
+                    incident_to_0 += 1
+            if incident_to_0 != 2:
+                return len(comp.gens)
+        # for comp in multicurve.comps:
         # print("new comp")
         # print(comp.is_looptype())
         # print(comp)
-            if not comp.diff[0][-1] == 0:
+            # if not comp.diff[0][-1] == 0:
                 # should not be a cycle
-                return len (comp.gens)
+                # return len (comp.gens)
 
 
 def main(name, tangle_path=None, resultingdirectory=None):
