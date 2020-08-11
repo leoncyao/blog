@@ -86,9 +86,9 @@ def asdf(tangle_name,tangle_path="miscellaneous", resultingdirectory=None):
         # print("new comp")
         # print(comp.is_looptype())
         # print(comp)
-            if not comp.diff[0][-1] == 0:
+        if not comp.diff[0][-1] == 0:
                 # should not be a cycle
-                test.append(comp)
+            test.append(comp)
     multicurve.comps = test
     print("comps after should be ")
     print(multicurve.comps)
