@@ -55,8 +55,11 @@ version: 3.0.0
 
 defaults:
   - scope:
-      path: "assets/img"
+      # path: "assets/img"
+      path: "tangle_families"
+
     values:
       images: true
+    
 
 # theme: jekyll-theme-hyde

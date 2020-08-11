@@ -528,7 +528,7 @@ class multicurve(object):
             # html_row+="<span onclick=on('"+filename+"/"+longname+pdf_suffix+"')><img class="+classname+" src='"+filename+"/"+longname+"_thumbs-"+png_suffix+".png'></span>\n"
             # html_row+="<span onclick=on('" + filepath[12:] + longname+pdf_suffix+"')><img class="+classname+" src='" + filepath[12:] + longname+"_thumbs-"+png_suffix+".png'></span>\n"    
             # html_row+="<span onclick=on('KhT/examples/" + filepath[12: ] + longname+pdf_suffix+"')><img class="+classname+" src='KhT/examples/" + filepath[12: ] + longname+"_thumbs-"+png_suffix+".png'></span>\n"
-            html_row+="<span onclick=on('KhT/examples/" + filepath[12: ] + longname+pdf_suffix+"')><img class="+classname+" src='KhT/examples/" + filepath[12: ] + longname+"_thumbs-"+png_suffix+".png'></span>\n"    
+            html_row+="<span onclick=on('KhT/examples/" + filepath[12: ] + longname+pdf_suffix+"')><img class="+classname+" src='../KhT/examples/" + filepath[12: ] + longname+"_thumbs-"+png_suffix+".png'></span>\n"    
         html_row+="\n</p>"
         return html_row
         

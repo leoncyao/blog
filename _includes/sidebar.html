@@ -13,13 +13,27 @@
       <a class="sidebar-nav-item" href="{{ site.baseurl }}">Home</a>
       <!-- <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a> -->
       {% assign cap = site.baseurl | append: "CappedTrivialTangles" %}
+
+      {% for file in site.pages %}
+        {% if file.path contains "tangle_families" %}
+          {% assign trimming_prefix = file.path | split: '/' %}
+          {% assign trimming_extension = trimming_prefix[1] | split: '.' %}
+          {% assign tangle_family_name = trimming_extension[0] %}
+          <a class="sidebar-nav-item" 
+          href="{{site.baseurl}}/{{file.path}}">
+          {{tangle_family_name}}
+          </a>    
+        {% endif %}
+      {% endfor %}  
+        
+
       <a class="sidebar-nav-item" href="{{cap}}">Capped Trivial Tangles</a>  
-      <a class="sidebar-nav-item" href="{{site.baseurl}}/Torus.html">Torus Quotient Tangles</a>  
-      <a class="sidebar-nav-item" href="{{site.baseurl}}/4_1-A-family.html">4_1-A family</a>
+      <!-- <a class="sidebar-nav-item" href="{{site.baseurl}}/Torus.html">Torus Quotient Tangles</a>   -->
+      <!-- <a class="sidebar-nav-item" href="{{site.baseurl}}/4_1-A-family.html">4_1-A family</a>
       <a class="sidebar-nav-item" href="{{site.baseurl}}/4_1-B-family.html">4_1-B family</a>
       <a class="sidebar-nav-item" href="{{site.baseurl}}/5_2-B-family.html">5_2-B family</a>
       <a class="sidebar-nav-item" href="{{site.baseurl}}/6_2-A-family.html">6_2-A family</a>  
-      <!-- <a class="sidebar-nav-item" href="https://sheltered-chamber-86969.herokuapp.com/">Capped Trivial Tangles</a>  -->
+      <a class="sidebar-nav-item" href="https://sheltered-chamber-86969.herokuapp.com/">Capped Trivial Tangles</a>  -->
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
