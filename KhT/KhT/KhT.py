@@ -79,19 +79,19 @@ def asdf(tangle_name,tangle_path="miscellaneous", resultingdirectory=None):
     multicurve = BNr.to_multicurve()
     multicurve.save(name)
     print("name is " + name)
-    test = []
+    # test = []
     
-    for comp in multicurve.comps:
-        print(comp)
-        # print("new comp")
-        # print(comp.is_looptype())
-        # print(comp)
-        if not comp.diff[0][-1] == 0:
-                # should not be a cycle
-            test.append(comp)
-    multicurve.comps = test
-    print("comps after should be ")
-    print(multicurve.comps)
+    # for comp in multicurve.comps:
+    #     print(comp)
+    #     # print("new comp")
+    #     # print(comp.is_looptype())
+    #     # print(comp)
+    #     if not comp.diff[0][-1] == 0:
+    #         # should not be a cycle
+    #         test.append(comp)
+    # multicurve.comps = test
+    # print("comps after should be ")
+    # print(multicurve.comps)
     html_content += multicurve.html(name,"_BNr7","hdelta",Tangle)
 
 
