@@ -94,7 +94,7 @@ def asdf(tangle_name,tangle_path="miscellaneous", resultingdirectory=None):
     #         test.append(comp)
     #     # print("new comp")
     #     # print(comp.is_looptype())
-    #     # print(comp)
+        # print(comp)
     #     if not comp.diff[0][-1] == 0:
     #         # should not be a cycle
     #         test.append(comp)
