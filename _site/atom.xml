@@ -13,6 +13,15 @@
 
  
  <entry>
+   <title>You should not be surprised at my saying, `You must be born again. '</title>
+   <link href="http://localhost:4000/Rebirth"/>
+   <updated>2020-05-04T00:00:00-07:00</updated>
+   <id>http://localhost:4000/Rebirth</id>
+   <content type="html">&lt;p&gt;Let’s see how long I can keep this updated for. This summer I didn’t do that much, but there’s some animations I will show off!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Week 13</title>
    <link href="http://localhost:4000/Week12"/>
    <updated>2019-07-21T00:00:00-07:00</updated>

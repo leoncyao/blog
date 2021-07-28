@@ -8,7 +8,7 @@
   <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">  -->
   <title>
     
-      Leon's Personal Blog &middot; v.6.0
+      Leon's Personal Blog &middot; v.1.9.8.4
     
   </title>
   <link rel="stylesheet" href="/blog/public/css/poole.css">
@@ -43,7 +43,7 @@
       <!-- <a class="sidebar-nav-item" href="/blog/">Home</a> -->
       
 
-      
+      <!-- 
         
       
         
@@ -51,7 +51,7 @@
           
           
           <a class="sidebar-nav-item" 
-          href="/blog//tangle_families/3_1-family.html">
+          href="/blog//unused_tangle_families/3_1-family.html">
           3_1-family
           </a>    
         
@@ -65,7 +65,7 @@
           
           
           <a class="sidebar-nav-item" 
-          href="/blog//tangle_families/4_1-A-family.html">
+          href="/blog//unused_tangle_families/4_1-A-family.html">
           4_1-A-family
           </a>    
         
@@ -75,7 +75,7 @@
           
           
           <a class="sidebar-nav-item" 
-          href="/blog//tangle_families/4_1-B-family.html">
+          href="/blog//unused_tangle_families/4_1-B-family.html">
           4_1-B-family
           </a>    
         
@@ -87,7 +87,7 @@
           
           
           <a class="sidebar-nav-item" 
-          href="/blog//tangle_families/5_2-B-family.html">
+          href="/blog//unused_tangle_families/5_2-B-family.html">
           5_2-B-family
           </a>    
         
@@ -97,7 +97,7 @@
           
           
           <a class="sidebar-nav-item" 
-          href="/blog//tangle_families/6_2-A-family.html">
+          href="/blog//unused_tangle_families/6_2-A-family.html">
           6_2-A-family
           </a>    
         
@@ -107,7 +107,7 @@
           
           
           <a class="sidebar-nav-item" 
-          href="/blog//tangle_families/6_2-B-family.html">
+          href="/blog//unused_tangle_families/6_2-B-family.html">
           6_2-B-family
           </a>    
         
@@ -147,10 +147,14 @@
         
       
         
+      
         
+      
+        
+         -->
         
 
-      <a class="sidebar-nav-item" href="/blog/CappedTrivialTangles">Capped Trivial Tangles</a>  
+      <a class="sidebar-nav-item" href="/blog/Animations">Animations</a>  
       <!-- <a class="sidebar-nav-item" href="/blog//Torus.html">Torus Quotient Tangles</a>   -->
       <!-- <a class="sidebar-nav-item" href="/blog//4_1-A-family.html">4_1-A family</a>
       <a class="sidebar-nav-item" href="/blog//4_1-B-family.html">4_1-B family</a>
@@ -185,6 +189,14 @@
           
         
       
+        
+      
+        
+          
+        
+      
+        
+          
         
       
         
@@ -269,12 +281,54 @@
       <header class="masthead">
         <h3 class="masthead-title">
           <a href="/blog/" title="Home">Leon's Personal Blog</a>
-          <small>v.6.0</small>
+          <small>v.1.9.8.4</small>
         </h3>
       </header>
       
       <main>
         <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/blog///ChainComplexes">
+        Chain Complexes
+      </a>
+    </h1>
+    
+    
+    <span class="post-date">27 May 2020</span>
+    
+    
+    
+    <style>
+div.a {
+  margin-left: 200px;
+  width: 5px;
+  height: 5px;
+  top: -45px;
+  transform: rotate(90deg);
+  position: relative;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+</style>
+
+<!-- If you look at the definition of <a href="https://en.wikipedia.org/wiki/Chain_complex#Definitions">Chain Complex </a> you will see a lot of scary words like "differential" and "cochain". 
+
+I want to try and motivate the usefulness of Chain Complexes without using any of those hard words.  -->
+
+<p>Let’s begin with some geometry. Take a piece of paper. Roll it up into a cylinder by gluing along an edge. Then fold the ends into a doughnut shape by gluing along a circle.</p>
+
+<p>Here is a hard question to answer. Is there a way to deform the doughnut back into the flat piece of paper with using scissors?</p>
+
+<p>If you try it yourself you would probably guess not. One of the things you might say is a problem is that the donut has this hole in the middle.</p>
+
+
+     
+  </div>
   
   <div class="post">
     <h1 class="post-title">
@@ -447,55 +501,6 @@ a:hover + b {
      
   </div>
   
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/blog///RationalTangles">
-        Rational Tangles
-      </a>
-    </h1>
-    
-    
-    <span class="post-date">13 May 2020</span>
-    
-    
-    
-    <style>
-    img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
-    details {
-        margin-left: 5%;
-    }
-    summary {
-        margin-left: -5%;
-        position : relat;
-    }
-    .tangle{
-
-    }
-</style>
-
-<p>I want to share a particular kind of tangle which I thought has a cool correspondence with rational numbers.</p>
-
-<p>This post will be regurgitating the video series given by <a href="https://www.youtube.com/playlist?list=PLL0ATV5XYF8BfT8CmmzKnfTlf3V9hQgj9">Matthew Salomone</a>. I highly recommend you check out this series if you have a background in topology or group theory, and you are interested in knot theory.</p>
-
-<div id="tangle">
-A tangle is a diagram of a small part of a knot. One way to construct tangles to draw a circle on the knot diagram such that the knot intersects the circle at exactly 4 places. Here is an example of a knot diagram. 
-</div>
-<p><br />
-<img src="/blog//assets/img/KnotDiagramExample.jpg" /></p>
-
-<p>Here is an example of a tangle.
-<br />  <br />
-<img src="/blog//assets/img/TangleExample.jpg" /></p>
-
-
-    <a href="/blog///RationalTangles"><h1>...</h1></a>
-     
-  </div>
-  
 </div>
 
 <div class="pagination">
@@ -512,7 +517,7 @@ A tangle is a diagram of a small part of a knot. One way to construct tangles to
       <div id="footer">
         <footer class="footer">
           <small>
-            &copy; <time datetime="2021-07-28T15:51:04-07:00">1984</time>. I have no rights reserved.
+            &copy; <time datetime="2021-07-28T16:44:52-07:00">1984</time>. I have no rights reserved.
           </small>
         </footer>
       </div>

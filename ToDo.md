@@ -3,7 +3,10 @@ layout: default
 title: ToDo
 ---
 
-Here are some things I want to add to my site:
+- Purge trash in repo
+- 
+
+<!-- Here are some things I want to add to my site:
 - organize capped trivial tangles into families
 
 - finish rational tangle post
@@ -19,4 +22,4 @@ Here are some things I want to add to my site:
 - organize images better
 
 done: 
-- organize images lmao -- done
+- organize images lmao -- done -->

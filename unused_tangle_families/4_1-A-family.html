@@ -1,0 +1,51 @@
+---
+layout: default
+title: 4_1-A-family
+---
+
+<style>
+  #wrapper {
+    display: flex;
+  }
+
+  #left {
+    flex: 0 0 65%;
+  }
+
+  #right {
+    flex: 1;
+  }
+  #center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+</style> 
+
+<h2> Quotient Tangles of Even twists $m$ - Twist Knots</h2>
+where $m$ is the number of twists in the designated region
+<img src = "../assets/img/Capped-Trivial-Tangles/4_1-family.jpg">
+Knot and Strong involution pairs in family:
+4_1-A, 6_1-A, 8_1-A
+<p></p>
+{% include header.html %}
+{% for i in (1..5) %}
+    $m = {{i}}$
+    <p></p>
+    {% assign j = i | times: 2 | plus: 1 %}
+    <div id="center-image">
+    <!-- <img src = "assets/img/TorusKnots/T({{j}},2).jpg"> -->
+    </div>
+    <div id="wrapper">
+      <div id="left">
+      <h3>Original Tangle</h3>
+      {% include 4_1-A-family_{{i}}.html %}
+      </div>
+      <div id="right">
+      <h3>'Small Arc' Tangle</h3>
+      {% include 4_1-A-family_{{i}}_small.html %}
+      </div>
+    </div>
+{% endfor %}
