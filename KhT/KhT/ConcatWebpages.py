@@ -1,14 +1,19 @@
 import sys
 import os
-def main(filename):
-    new_filename = filename + "_together"
-    path = "../examples/" + filename + "/"
-    with open(path + new_filename+".html", "w") as new_text_file:
 
-        with open("../examples/header.html", "r") as text_file1:
+def write():
+    with open("../examples/header.html", "r") as text_file1:
             print(text_file1.read(), file=new_text_file)
 
-        with open(path + filename + ".html", "r") as text_file2:
+def main(filename):
+    new_filename = filename + "_together"
+    source_path = "../examples/" + filename + "/"
+    target_path = "../../../final_project/public/Capped-Trivial-Tangles"
+    with open(source_path + new_filename+".html", "w") as new_text_file:
+
+
+
+        with open(source_path + filename + ".html", "r") as text_file2:
             print(text_file2.read(), file=new_text_file)
 
         # tries = [(-1)**(i) * int((i)/2) for i in range(2, 6)]
@@ -16,7 +21,7 @@ def main(filename):
         #     with open("../examples/html_files/"+filename + "_" + str(num_twists) + "_minimal.html", "r") as text_file_temp:
         #         print(text_file_temp.read(), file=new_text_file)
         #     text_file_temp.close()
-        # if os.path.is
+        # if os.source_path.is
         with open("../examples/" + filename + "/" + filename+"_minimal.html", "r") as text_file3:
             print(text_file3.read(), file=new_text_file)
 
