@@ -5,7 +5,7 @@ url: "/blog/"
 paginate: 5
 baseurl: "/blog/"
 permalink: :title
-description: "Just some math notes and animations"
+description: "Just some math notes, piano recordings, and animations"
 host: "localhost"
 port: 4000
 
