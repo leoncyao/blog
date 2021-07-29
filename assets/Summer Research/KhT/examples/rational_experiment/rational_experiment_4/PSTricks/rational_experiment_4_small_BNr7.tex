@@ -1,0 +1,14 @@
+\documentclass{article}
+\usepackage[crop=off]{auto-pst-pdf}
+\usepackage{pst-node,rotating}
+\begin{document}
+\centering 
+\begin{pspicture}(-2.6666666666666665,-2.6666666666666665)(2.6666666666666665,2.6666666666666665)
+\psset{nodesep=2pt,shortput=nab,linewidth=1.5pt}
+\cnode(0.6666666666666666;-90.0){3.5pt}{P0}
+\nput{-90.0}{P0}{$h^{3}\delta^{-1.5}$}
+\cnode*(0.6666666666666666;90.0){3.5pt}{P1}
+\nput{90.0}{P1}{$h^{2}\delta^{-1}$}
+\ncline[arrows=->,linestyle=dotted,dotsep=1pt]{P0}{P1}\ncput*{$S$}
+\end{pspicture}
+\end{document}
