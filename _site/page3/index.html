@@ -82,11 +82,19 @@
         
       
         
+      
+        
+      
+        
+      
+        
+      
+        
          -->
         
 
-      <a class="sidebar-nav-item" href="/blog/Animations">Animations</a>  
-      <a class="sidebar-nav-item" href="/blog/Piano">Piano</a>  
+      <!-- <a class="sidebar-nav-item" href="/blog/Animations">Animations</a>   -->
+      <!-- <a class="sidebar-nav-item" href="/blog/Piano">Piano</a>   -->
       <!-- <a class="sidebar-nav-item" href="/blog//Torus.html">Torus Quotient Tangles</a>   -->
       <!-- <a class="sidebar-nav-item" href="/blog//4_1-A-family.html">4_1-A family</a>
       <a class="sidebar-nav-item" href="/blog//4_1-B-family.html">4_1-B family</a>
@@ -103,9 +111,17 @@
       
         
           
+            <a class="sidebar-nav-item" href="/blog//public/pages/Animations">Animations</a>
+          
         
       
         
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/blog//public/pages/Fencing">Fencing!</a>
           
         
       
@@ -123,6 +139,18 @@
       
         
           
+            <a class="sidebar-nav-item" href="/blog//public/pages/Piano">Piano</a>
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/blog//public/pages/Projects">Projects</a>
+          
+        
+      
+        
+          
         
       
         
@@ -143,6 +171,10 @@
           
         
       
+        
+      
+        
+          
         
       
         
@@ -177,6 +209,57 @@
       
       <main>
         <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/blog///Week7">
+        Week 7
+      </a>
+    </h1>
+    
+    
+    <span class="post-date">15 Jun 2020</span>
+    
+    
+    
+    This week I redrew some capped trivial tangles. I tried to draw them as simplified as possible. 
+     
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/blog///Week6">
+        Week 6
+      </a>
+    </h1>
+    
+    
+    <span class="post-date">08 Jun 2020</span>
+    
+    
+    
+    I moved the Capped-Trivial-Tangles to a different site so I could add some buttons that show the construction of the tangle.
+
+     
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/blog///Week5">
+        Week 5
+      </a>
+    </h1>
+    
+    
+    <span class="post-date">01 Jun 2020</span>
+    
+    
+    
+    This week I drew some more Capped Trivial Tangles.
+I also learned about a bit about the refined khovanov homology. 
+I am excited to learn more about spectral sequences!
+     
+  </div>
   
   <div class="post">
     <h1 class="post-title">
@@ -237,154 +320,6 @@ I want to try and motivate the usefulness of Chain Complexes without using any o
      
   </div>
   
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/blog///Week4">
-        Week 4
-      </a>
-    </h1>
-    
-    
-    <span class="post-date">25 May 2020</span>
-    
-    
-    
-    <style>
-div.a {
-  margin-left: 200px;
-  width: 5px;
-  height: 5px;
-  top: -45px;
-  transform: rotate(90deg);
-  position: relative;
-}
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
-</style>
-
-<p>This week I reviewed the bracket polynomial on tangles. <a href="/blog//2019/05/25/BracketOnTangles.html"> The formula for the bracket of a sum of tangles is pretty nice!</a>
-I wonder if there is a corresponding formula for multiplication of tangles.</p>
-
-<p>I started drawing immersed curves as well. I am still a bit shaky on the construction, but it seems like a cool invariant for a tangle.</p>
-
-<iframe src="/blog//assets/CurveDrawing.pdf" style="width:600px; height:500px;" frameborder="0"></iframe>
-
-
-    <a href="/blog///Week4"><h1>...</h1></a>
-     
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/blog///BracketOnTangles">
-        Brackets Polynomial for Tangles
-      </a>
-    </h1>
-    
-    
-    <span class="post-date">25 May 2020</span>
-    
-    
-    
-    <style>
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-a {
-  color: #900;
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-  position: relative;
-}
-
-a[data]:hover:after {
-  content: attr(data);
-  padding: 4px 8px;
-  color: rgba(0,0,0,0.5);
-  position: absolute;
-  left: 0;
-  top: 100%;
-  white-space: nowrap;
-  z-index: 2;
-  border-radius: 5px ;
-  background: rgba(0,0,0,0.5);
-}
-
-b {
-    display: none;
-    height:30px;
-    top: -50px;
-    width:290px;
-    text-align: center;
-    position:relative;
-}
-
-a:hover + b {
-    display: block;
-}​
-
-
-
-</style>
-
-<!-- 
-<a href="http://127.0.0.1:4000/ResearchJournal//2019/05/13/RationalTangles.html#tangle">Tangle</a>  -->
-
-<p>The bracket polynomial of a <a href="/blog//2019/05/13/RationalTangles.html#tangle">Tangle</a> $T$ counts the ways to smooth a tangle into the infinity tangle $)($ and the zero tangle <font size="+2"> <span>
-    &#xFE35;.
-    <span style="position:relative; left:-37px; top:0.5px;">&#xFE36;</span>
-</span></font></p>
-
-<p>It is easiest to calculate the bracket polynomial with a <b>resolution tree</b>.</p>
-
-<p>Here are some examples of resolution trees.</p>
-
-<p>Example 1: $T_1$ - Tangle with 1 crossing 
-<img src="/blog//assets/img/1twist.jpg" /></p>
-
-<p>In the left child, we have performed $0$ smoothing on the crossing in the middle of the knot, while on the right child, we have performed an $\infty$ smoothing on the crossing instead.</p>
-
-<p>Example 2: $T_2$ - Tangle with 2 crossings</p>
-
-<p><img src="/blog//assets/img/2twists.jpg" /></p>
-
-
-    <a href="/blog///BracketOnTangles"><h1>...</h1></a>
-     
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/blog///Week3">
-        Week 3
-      </a>
-    </h1>
-    
-    
-    <span class="post-date">18 May 2020</span>
-    
-    
-    
-    Summary of Week 3:
-
-- Mainly read more of Dror's paper. Calculated some of Khovanov homology groups for simple knots. 
-
-- Met up with some other NSERC participants over Zoom. Was awkward but fun! Hopefully there will be more people interested in presenting their research halfway through the summer. 
-
-- I also drew some examples capped-trivial tangles. They are interesting to draw, though sometimes I find it difficult to see how to simplify them. 
-     
-  </div>
-  
 </div>
 
 <div class="pagination">
@@ -401,7 +336,7 @@ a:hover + b {
       <div id="footer">
         <footer class="footer">
           <small>
-            &copy; <time datetime="2021-07-29T10:46:30-07:00">1984</time>. I have no rights reserved.
+            &copy; <time datetime="2021-09-14T22:05:15-04:00">1984</time>. I have no rights reserved.
           </small>
         </footer>
       </div>

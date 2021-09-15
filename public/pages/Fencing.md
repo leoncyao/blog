@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Animations
+layout: page
+title: Fencing!
 time: 2020-05-15
 ---
 <script src="./jquery-3.4.1.min.js"></script>
@@ -21,7 +21,7 @@ time: 2020-05-15
 
 <div class="row">
 {% for item in site.static_files %}
-{% if item.path contains "Animations" and item.path contains "gif" %}
+{% if item.path contains "Fencing" and item.path contains "video" %}
   <div class="column">
     <img src ="{{site.baseurl}}/{{ item.path }}" style="width:100%">
   </div>

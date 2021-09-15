@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Piano
+layout: page
+title: Projects
 time: 2020-05-15
 ---
 <script src="./jquery-3.4.1.min.js"></script>
@@ -21,7 +21,7 @@ time: 2020-05-15
 <!-- h1 {text-align: left;}
 </style> --> 
 
-
+{% comment %}
 {% for item in site.static_files %}
 {% if item.path contains "Piano" and item.path contains "mp4" %}
   <div class="column">
@@ -31,5 +31,6 @@ time: 2020-05-15
   </div>
 {% endif %}
 {% endfor %}
+{% endcomment %}
 
 
