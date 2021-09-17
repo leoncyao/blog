@@ -13,13 +13,22 @@
 
  
  <entry>
+   <title>End of Second week of classes</title>
+   <link href="http://localhost:4000/Finishing_up_second_week"/>
+   <updated>2020-09-17T00:00:00-04:00</updated>
+   <id>http://localhost:4000/Finishing_up_second_week</id>
+   <content type="html">&lt;p&gt;This week is coming to a close. Worked on my Numerical algs assignment and made a little animation for the &lt;a class=&quot;sidebar-nav-item&quot; href=&quot;/blog//public/pages/Animations#Finite_Difference_Example.avi&quot; style=&quot;display:inline&quot;&gt;first question&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Second week of classes</title>
    <link href="http://localhost:4000/Second_week_of_grad_school"/>
    <updated>2020-09-14T00:00:00-04:00</updated>
    <id>http://localhost:4000/Second_week_of_grad_school</id>
-   <content type="html">&lt;p&gt;It’s the second week of classes! Still mainly syllabus stuff.&lt;/p&gt;
+   <content type="html">&lt;p&gt;It’s the second week of classes! Still mainly syllabus stuff.
+Messed around with the starter code of the Computational PDEs course to make  &lt;a class=&quot;sidebar-nav-item&quot; href=&quot;/blog//public/pages/Animations#Heartbeat_final.mp4&quot; style=&quot;display:inline&quot;&gt;this&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Messed around with the starter code of the Computational PDEs course to make  &lt;a class=&quot;sidebar-nav-item&quot; href=&quot;/blog//Animations#&quot; style=&quot;display:inline&quot;&gt;this&lt;/a&gt;.&lt;/p&gt;
 </content>
  </entry>
  
