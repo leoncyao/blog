@@ -22,15 +22,16 @@ time: 2020-05-15
 <div class="row">
 {% for item in site.static_files %}
 {% if item.path contains "Animations" %}
+  <div class="column" id="{{item.name}}">
   {% if item.path contains "mp4" %}
-      <video width="320" height="240" controls loop>
+      <video width="100%" height="500" controls loop autoplay muted>
       <source src="{{site.baseurl}}/{{item.path}}" type="video/mp4">
     </video>
   {% elsif item.path contains "gif" %}
-  <div class="column">
+  
     <img src ="{{site.baseurl}}/{{ item.path }}" style="width:100%">
-  </div>
   {% endif %}  
+  </div>
 {% endif %}
 {% endfor %}
 </div>
