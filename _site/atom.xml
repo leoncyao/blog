@@ -31,20 +31,23 @@
 &lt;script type=&quot;math/tex&quot;&gt;1.0, 0.11, 0.1011&lt;/script&gt;.&lt;/p&gt;
 
 &lt;p&gt;Some trickier expansion are $0.110110110110 … $ and $0.10101011010$. These can be shown by starting with some algebra&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+&lt;details&gt; &lt;summary&gt; Messy Algebra showing the above &lt;/summary&gt;
+$$
 \begin{align}
-\phi^2 - \phi - 1 &amp;= 0 \text{ start with quadratic equation} \\
-1 - \frac{1}{\phi} - \frac{1}{\phi^2} &amp;= 0 \text{ divide both sides by } \phi \\
-1 &amp;= \frac{1}{\phi} + \frac{1}{\phi^2} \text{ rearrange } \\
-  &amp;= \frac{1}{\phi} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2}}{\phi^2} \text{ sub in previous line for the 1 in the numerator of }\frac{1}{\phi^4} \\
-  &amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^4} \text{ simplify } \\
-  &amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2} }{\phi^4} \text{ repeat substitution process always on the greatest power term}
+\phi^2 - \phi - 1 &amp;amp;= 0 \text{ start with quadratic equation} \\
+1 - \frac{1}{\phi} - \frac{1}{\phi^2} &amp;amp;= 0 \text{ divide both sides by } \phi \\
+1 &amp;amp;= \frac{1}{\phi} + \frac{1}{\phi^2} \text{ rearrange } \\
+  &amp;amp;= \frac{1}{\phi} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2}}{\phi^2} \text{ sub in previous line for the 1 in the numerator of }\frac{1}{\phi^4} \\
+  &amp;amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^4} \text{ simplify } \\
+  &amp;amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2} }{\phi^4} \text{ repeat substitution process always on the greatest power term}
  \\
-  &amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^5} + \frac{1}{\phi^6} \\
-  &amp; \vdots 
-\end{align} %]]&gt;&lt;/script&gt;
-which then becomes &lt;script type=&quot;math/tex&quot;&gt;0.10101010...&lt;/script&gt; in base $$\phi$.&lt;/p&gt;
+  &amp;amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^5} + \frac{1}{\phi^6} \\
+  &amp;amp; \vdots 
+\end{align} 
+$$
+which then becomes $$0.10101010...$$ in base $\phi$.
+Other expansions such as $$0.110110110...$$ can be shown with a similar method, though you would replace the $1$ with $\frac{1}{\phi^2} - \frac{1}{\phi}$ in a different term (not always the great power one).  
+&lt;/details&gt;
 
 </content>
  </entry>

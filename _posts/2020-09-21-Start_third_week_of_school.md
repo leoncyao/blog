@@ -18,9 +18,7 @@ In base $$\phi$$, , you can write the number $$1$$ as
 $$1.0, 0.11, 0.1011$$. 
 
 Some trickier expansion are $0.110110110110 ... $ and $0.10101011010$. These can be shown by starting with some algebra
-
-
-
+<details> <summary> Messy Algebra showing the above </summary>
 $$
 \begin{align}
 \phi^2 - \phi - 1 &= 0 \text{ start with quadratic equation} \\
@@ -32,9 +30,9 @@ $$
  \\
   &= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^5} + \frac{1}{\phi^6} \\
   & \vdots 
-\end{align}
+\end{align} 
 $$
-which then becomes $$0.10101010...$$ in base $$\phi$. 
-
-
+which then becomes $$0.10101010...$$ in base $\phi$.
+Other expansions such as $$0.110110110...$$ can be shown with a similar method, though you would replace the $1$ with $\frac{1}{\phi^2} - \frac{1}{\phi}$ in a different term (not always the great power one).  
+</details>
 
