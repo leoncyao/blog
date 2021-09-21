@@ -14,11 +14,52 @@
  
  <entry>
    <title>End of Second week of classes</title>
+   <link href="http://localhost:4000/Start_third_week_of_school"/>
+   <updated>2020-09-21T00:00:00-04:00</updated>
+   <id>http://localhost:4000/Start_third_week_of_school</id>
+   <content type="html">&lt;p&gt;Have some new ideas for projects, god knows if I ever finish any of them xD.&lt;/p&gt;
+
+&lt;p&gt;Pdes heat game (ice age end of the world apocalypse where you assign heat sources in an apartment to keep people alive)&lt;/p&gt;
+
+&lt;p&gt;text based job assignment fantasy game&lt;/p&gt;
+
+&lt;p&gt;I’m also looking at one of my supervisor’s papers. Yo, base golden ratio &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; number systems are cool.&lt;/p&gt;
+
+&lt;p&gt;In base &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; is the larger root of &lt;script type=&quot;math/tex&quot;&gt;\phi^2 - \phi - 1 = 0&lt;/script&gt; i.e &lt;script type=&quot;math/tex&quot;&gt;\phi \approx 1.618&lt;/script&gt; numbers are written &lt;script type=&quot;math/tex&quot;&gt;\sum_{i=0}^{\infty}{a_n\phi^{-n}}&lt;/script&gt;, so the normal decimal system except we have &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; instead of $10$.&lt;/p&gt;
+
+&lt;p&gt;In base &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt;, , you can write the number &lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt; as 
+&lt;script type=&quot;math/tex&quot;&gt;1.0, 0.11, 0.1011&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some trickier expansion are $0.110110110110 … $ and $0.10101011010$. These can be shown by starting with some algebra&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\begin{align}
+\phi^2 - \phi - 1 &amp;= 0 \text{ start with quadratic equation} \\
+1 - \frac{1}{\phi} - \frac{1}{\phi^2} &amp;= 0 \text{ divide both sides by } \phi \\
+1 &amp;= \frac{1}{\phi} + \frac{1}{\phi^2} \text{ rearrange } \\
+  &amp;= \frac{1}{\phi} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2}}{\phi^2} \text{ sub in previous line for the 1 in the numerator of }\frac{1}{\phi^4} \\
+  &amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^4} \text{ simplify } \\
+  &amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2} }{\phi^4} \text{ repeat substitution process always on the greatest power term}
+ \\
+  &amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^5} + \frac{1}{\phi^6} \\
+  &amp; \vdots 
+\end{align} %]]&gt;&lt;/script&gt;
+which then becomes &lt;script type=&quot;math/tex&quot;&gt;0.10101010...&lt;/script&gt; in base $$\phi$.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>End of Second week of classes</title>
    <link href="http://localhost:4000/Finishing_up_second_week"/>
    <updated>2020-09-17T00:00:00-04:00</updated>
    <id>http://localhost:4000/Finishing_up_second_week</id>
    <content type="html">&lt;p&gt;This week is coming to a close. Worked on my Numerical algs assignment and made a little animation for the &lt;a class=&quot;sidebar-nav-item&quot; href=&quot;/blog//public/pages/Animations#Finite_Difference_Example.mp4&quot; style=&quot;display:inline&quot;&gt;first question&lt;/a&gt;
 and the 2D version for the &lt;a class=&quot;sidebar-nav-item&quot; href=&quot;/blog//public/pages/Animations#Finite_Difference_Example_2D.mp4&quot; style=&quot;display:inline&quot;&gt;next question&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The former is the Finite Difference solution to &lt;script type=&quot;math/tex&quot;&gt;u''(x) = -(3 \cdot x + x^2) \cdot e^x&lt;/script&gt; on the domain &lt;script type=&quot;math/tex&quot;&gt;[0, 1]&lt;/script&gt; with &lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt; boundary conditions.&lt;/p&gt;
+
+&lt;p&gt;The latter is the Finite Difference solution to &lt;script type=&quot;math/tex&quot;&gt;\delta u = -2 \cdot (x + y - x^2 - y^2)&lt;/script&gt; on the domain &lt;script type=&quot;math/tex&quot;&gt;[0, 1]^2&lt;/script&gt; with &lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt; boundary conditions.&lt;/p&gt;
 </content>
  </entry>
  
