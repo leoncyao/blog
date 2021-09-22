@@ -21,5 +21,20 @@ time: 2020-05-15
 <!-- h1 {text-align: left;}
 </style> --> 
 
-<iframe src="{{site.baseurl}}public/pages/Builds" style="border:0px #000000 none;" name="Game name" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="90%" width="90%"></iframe>
+<h1><a href="https://neonleon123.itch.io/viewshift">ViewShift</a></h1>
+<p>3D perspective puzzle game for the Video Game Design course I took. </p>
+<p>Note you can mute the audio from the options menu.</p>
 
+<iframe src="{{site.baseurl}}public/Builds/index.html" id="ViewShift" title="ViewShift" width="1920px" height="1080px" volume="0"></iframe>
+<script>
+$( document ).ready(function() {
+    var iframe = document.querySelector('ViewShift');
+    console.log(iframe)
+    // This code could probably be tidied up, depending on how familiar you are with the game code
+    iframe.contentDocument.getElementById("muted").checked = true;
+    iframe.contentWindow.speaker[0].muted = true
+    iframe.contentWindow.speaker[1].muted = true
+});
+
+</script>
+<!-- <script src="blob:{{site.baseurl}}public/Builds/index.html"></script> -->

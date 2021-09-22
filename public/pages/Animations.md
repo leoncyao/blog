@@ -5,17 +5,22 @@ time: 2020-05-15
 ---
 <script src="./jquery-3.4.1.min.js"></script>
 <style>
-.column {
-  float: left;
-  width: 100%;
-  padding: 5px;
+.page{
+    width:130%
 }
 
-.row::after {
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
   content: "";
-  clear: both;
   display: table;
-  width: 200%;
+  clear: both;
 }
 </style>
 
