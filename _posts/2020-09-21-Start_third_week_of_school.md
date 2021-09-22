@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Start_of_third_week_of_school
+title: It's the start of the third week of school
 time: 2021/09/21
 ---
 <a href="{{ site.baseurl }}/public/pages/Animations#中秋节.mp4" style="display:inline">Happy Mid Autumn Festival!</a>

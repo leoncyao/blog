@@ -21,9 +21,10 @@ time: 2020-05-15
 
 <div class="row">
 {% for item in site.static_files %}
-{% if item.path contains "Fencing" and item.path contains "video" %}
+{% if item.path contains "Fencing" and item.path contains "mp4" %}
   <div class="column">
-    <img src ="{{site.baseurl}}/{{ item.path }}" style="width:100%">
+      <video width="100%" height="500" controls loop autoplay muted>
+      <source src="{{site.baseurl}}/{{item.path}}" type="video/mp4">
   </div>
 
 {% endif %}

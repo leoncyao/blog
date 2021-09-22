@@ -21,16 +21,5 @@ time: 2020-05-15
 <!-- h1 {text-align: left;}
 </style> --> 
 
-{% comment %}
-{% for item in site.static_files %}
-{% if item.path contains "Piano" and item.path contains "mp4" %}
-  <div class="column">
-      <video width="320" height="240" controls>
-      <source src="{{site.baseurl}}/{{item.path}}" type="video/mp4">
-    </video>
-  </div>
-{% endif %}
-{% endfor %}
-{% endcomment %}
-
+<iframe src="{{site.baseurl}}public/pages/Builds" style="border:0px #000000 none;" name="Game name" scrolling="yes" frameborder="1" marginheight="5px" marginwidth="5px" height="90%" width="90%"></iframe>
 
