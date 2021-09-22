@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Leon's Personal Blog</title>
+ <title>Leon's Blog</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
  <updated></updated>
@@ -13,32 +13,34 @@
 
  
  <entry>
-   <title>End of Second week of classes</title>
+   <title>Start_of_third_week_of_school</title>
    <link href="http://localhost:4000/Start_third_week_of_school"/>
    <updated>2020-09-21T00:00:00-04:00</updated>
    <id>http://localhost:4000/Start_third_week_of_school</id>
-   <content type="html">&lt;p&gt;Have some new ideas for projects, god knows if I ever finish any of them xD.&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/blog//public/pages/Animations#中秋节.mp4&quot; style=&quot;display:inline&quot;&gt;Happy Mid Autumn Festival!&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Pdes heat game (ice age end of the world apocalypse where you assign heat sources in an apartment to keep people alive)&lt;/p&gt;
+&lt;p&gt;I have some new ideas for projects, god knows if I ever finish any of them xD.&lt;/p&gt;
 
-&lt;p&gt;text based job assignment fantasy game&lt;/p&gt;
+&lt;p&gt;-Pdes heat/fluids game (ice age end of the world apocalypse where you assign heat sources in an apartment to keep people alive), planning to use ngsolve library.&lt;/p&gt;
+
+&lt;p&gt;-Text based job assignment fantasy game, planning to use gurobi to solve job assignment ip.&lt;/p&gt;
 
 &lt;p&gt;I’m also looking at one of my supervisor’s papers. Yo, base golden ratio &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; number systems are cool.&lt;/p&gt;
 
-&lt;p&gt;In base &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; is the larger root of &lt;script type=&quot;math/tex&quot;&gt;\phi^2 - \phi - 1 = 0&lt;/script&gt; i.e &lt;script type=&quot;math/tex&quot;&gt;\phi \approx 1.618&lt;/script&gt; numbers are written &lt;script type=&quot;math/tex&quot;&gt;\sum_{i=0}^{\infty}{a_n\phi^{-n}}&lt;/script&gt;, so the normal decimal system except we have &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; instead of $10$.&lt;/p&gt;
+&lt;p&gt;In base &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; is the larger root of &lt;script type=&quot;math/tex&quot;&gt;\phi^2 - \phi - 1 = 0&lt;/script&gt; i.e &lt;script type=&quot;math/tex&quot;&gt;\phi \approx 1.618&lt;/script&gt; numbers are written &lt;script type=&quot;math/tex&quot;&gt;\sum_{i=0}^{\infty}{a_n\phi^{-n}}&lt;/script&gt;, so it’s the normal decimal system except we have &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; instead of $10$. 
+It is also similar to binary, as &lt;script type=&quot;math/tex&quot;&gt;a_n&lt;/script&gt; are only allowed to be &lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt; or &lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;.&lt;/p&gt;
 
-&lt;p&gt;In base &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt;, , you can write the number &lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt; as 
-&lt;script type=&quot;math/tex&quot;&gt;1.0, 0.11, 0.1011&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;Unlike the base 10 system, there are many different ways to write the same number (Infinite ways according to Erdős).&lt;/p&gt;
 
-&lt;p&gt;Some trickier expansion are $0.110110110110 … $ and $0.10101011010$. These can be shown by starting with some algebra&lt;/p&gt;
-&lt;details&gt; &lt;summary&gt; Messy Algebra showing the above &lt;/summary&gt;
+&lt;p&gt;For example, the number &lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt; in base &lt;script type=&quot;math/tex&quot;&gt;10&lt;/script&gt; can be written as &lt;script type=&quot;math/tex&quot;&gt;1.0, 0.11, 0.1011&lt;/script&gt; in base &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt;, and there are trickier expansions such as $0.110110110110 … $ and $0.10101011010$. These can be shown with a little algebra.&lt;/p&gt;
+&lt;details&gt; &lt;summary&gt; A little algebra showing the above &lt;/summary&gt;
 $$
 \begin{align}
 \phi^2 - \phi - 1 &amp;amp;= 0 \text{ start with quadratic equation} \\
 1 - \frac{1}{\phi} - \frac{1}{\phi^2} &amp;amp;= 0 \text{ divide both sides by } \phi \\
-1 &amp;amp;= \frac{1}{\phi} + \frac{1}{\phi^2} \text{ rearrange } \\
+1 &amp;amp;= \frac{1}{\phi} + \frac{1}{\phi^2} \text{ rearrange, note that this would be } 0.11 \text{ in base } \phi  \\
   &amp;amp;= \frac{1}{\phi} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2}}{\phi^2} \text{ sub in previous line for the 1 in the numerator of }\frac{1}{\phi^4} \\
-  &amp;amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^4} \text{ simplify } \\
+  &amp;amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^4} \text{simplify, note that this would be } 0.1011 \text{ in base } \phi \\
   &amp;amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2} }{\phi^4} \text{ repeat substitution process always on the greatest power term}
  \\
   &amp;amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^5} + \frac{1}{\phi^6} \\
@@ -46,7 +48,7 @@ $$
 \end{align} 
 $$
 which then becomes $$0.10101010...$$ in base $\phi$.
-Other expansions such as $$0.110110110...$$ can be shown with a similar method, though you would replace the $1$ with $\frac{1}{\phi^2} - \frac{1}{\phi}$ in a different term (not always the great power one).  
+Other expansions such as $$0.110110110...$$ can be shown with a similar method, though you would replace the $1$ with $\frac{1}{\phi^2} - \frac{1}{\phi}$ in a different term (not always the greatest power one).  
 &lt;/details&gt;
 
 </content>
