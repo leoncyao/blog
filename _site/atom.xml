@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Leon's Blog</title>
+ <title>Leon's Blog(n)</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
  <updated></updated>
@@ -24,6 +24,8 @@
 &lt;p&gt;-Pdes heat/fluids game (ice age end of the world apocalypse where you assign heat sources in an apartment to keep people alive), planning to use ngsolve library.&lt;/p&gt;
 
 &lt;p&gt;-Text based job assignment fantasy game, planning to use gurobi to solve job assignment ip.&lt;/p&gt;
+
+&lt;p&gt;-Apply finite element method to black scholes&lt;/p&gt;
 
 &lt;p&gt;I’m also looking at one of my supervisor’s papers. Yo, base golden ratio &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; number systems are cool.&lt;/p&gt;
 

@@ -3,7 +3,7 @@ layout: page
 title: Fencing!
 time: 2020-05-15
 ---
-<script src="./jquery-3.4.1.min.js"></script>
+
 <style>
 .column {
   float: left;

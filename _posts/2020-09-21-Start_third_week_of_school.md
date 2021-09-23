@@ -11,6 +11,8 @@ I have some new ideas for projects, god knows if I ever finish any of them xD.
 
 -Text based job assignment fantasy game, planning to use gurobi to solve job assignment ip.
 
+-Apply finite element method to black scholes
+
 I'm also looking at one of my supervisor's papers. Yo, base golden ratio $$\phi$$ number systems are cool. 
 
 In base $$\phi$$, where $$\phi$$ is the larger root of $$\phi^2 - \phi - 1 = 0$$ i.e $$\phi \approx 1.618$$ numbers are written $$\sum_{i=0}^{\infty}{a_n\phi^{-n}}$$, so it's the normal decimal system except we have $$\phi$$ instead of $10$. 
@@ -36,4 +38,6 @@ $$
 which then becomes $$0.10101010...$$ in base $\phi$.
 Other expansions such as $$0.110110110...$$ can be shown with a similar method, though you would replace the $1$ with $\frac{1}{\phi^2} - \frac{1}{\phi}$ in a different term (not always the greatest power one).  
 </details>
+
+
 
