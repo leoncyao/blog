@@ -55,7 +55,7 @@ $( document ).ready(function() {
             }
             
         }
-}, 1)
+}, 1000)
  
     // 
     // var check = document.getElementById("test").contentWindow.document.getElementbyId("blog_title");
