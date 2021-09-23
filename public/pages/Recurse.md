@@ -23,7 +23,17 @@ time: 2020-05-15
 <div id="iframe_holder"></div>
 <!-- <iframe src="{{site.baseurl}}//public/pages/Recurse" id="test" style="border:0px #000000 none;" name="Game name" scrolling="yes" frameborder="10" marginheight="5px" marginwidth="5px" height="1080px" width="1920px"></iframe> -->
 
-<!-- Lol how do you do this, want to change the n in Leon's Blog(n) to be n - 1 -->
+<style>
+    
+.blog_title
+{
+    opacity: 0;
+    transition: all 600ms ease-out;
+}
+
+    </style>
+
+
 <script>
 $( document ).ready(function() {
     var iframe = document.createElement('iframe');
