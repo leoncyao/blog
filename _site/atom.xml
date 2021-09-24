@@ -13,6 +13,17 @@
 
  
  <entry>
+   <title>PDES are cool!</title>
+   <link href="http://localhost:4000/Convection_Diffusion_Reaction_Equation"/>
+   <updated>2020-09-24T00:00:00-04:00</updated>
+   <id>http://localhost:4000/Convection_Diffusion_Reaction_Equation</id>
+   <content type="html">&lt;p&gt;Learning about the &lt;a href=&quot;https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation#:~:text=The%20convection%E2%80%93diffusion%20equation%20is,two%20processes%3A%20diffusion%20and%20convection&quot;&gt; convection-diffusion-reaction system&lt;/a&gt;, modelled by&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\partial{c}}{\partial{t}} = \nabla \cdot (D\nabla c ) - \lambda \cdot (\textbf{v} c) + R&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>It's the start of the third week of school</title>
    <link href="http://localhost:4000/Start_third_week_of_school"/>
    <updated>2020-09-21T00:00:00-04:00</updated>

@@ -37,4 +37,3 @@ $( document ).ready(function() {
 });
 
 </script>
-<!-- <script src="blob:{{site.baseurl}}public/Builds/index.html"></script> -->
