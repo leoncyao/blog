@@ -22,7 +22,7 @@ time: 2020-05-15
 <div class="row">
 {% for item in site.static_files %}
 {% if item.path contains "Sports" and item.path contains "mp4" %}
-  <div class="column">
+  <div class="column" id="{{item.name}}">
       <video width="100%" height="500" controls loop autoplay muted>
       <source src="{{site.baseurl}}/{{item.path}}" type="video/mp4">
       </video>
@@ -30,4 +30,3 @@ time: 2020-05-15
 {% endif %}
 {% endfor %}
 </div>
-

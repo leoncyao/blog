@@ -24,6 +24,7 @@ time: 2020-05-15
 {% for item in site.static_files %}
 {% if item.path contains "Cooking"%}
   <div class="column">
+    {{item.name}}
     <img src ="{{site.baseurl}}/{{ item.path }}" style="width:100%">
   </div>
 {% endif %}
