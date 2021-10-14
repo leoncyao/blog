@@ -28,12 +28,29 @@ time: 2020-05-15
 <iframe src="{{site.baseurl}}public/Builds/index.html" id="ViewShift" title="ViewShift" width="1920px" height="1080px" volume="0"></iframe>
 <script>
 $( document ).ready(function() {
-    var iframe = document.querySelector('ViewShift');
-    console.log(iframe)
-    // This code could probably be tidied up, depending on how familiar you are with the game code
-    iframe.contentDocument.getElementById("muted").checked = true;
-    iframe.contentWindow.speaker[0].muted = true
-    iframe.contentWindow.speaker[1].muted = true
+    // Couldn't mute ViewShift element by itself
+    // var iframe = document.querySelector('ViewShift');
+    // console.log(iframe)
+    // // This code could probably be tidied up, depending on how familiar you are with the game code
+    // iframe.contentDocument.getElementById("muted").checked = true;
+    // iframe.contentWindow.speaker[0].muted = true
+    // iframe.contentWindow.speaker[1].muted = true
+
+    // this doesnt work either, maybe cause the embeded game is inside an iframe ...
+    // Mute a singular HTML5 element
+    function muteMe(elem) {
+        elem.muted = true;
+        elem.pause();
+    }
+
+    // Try to mute all video and audio elements on the page
+    function mutePage() {
+        var elems = document.querySelectorAll("iframe");
+        alert(elems)
+        [].forEach.call(elems, function(elem) { muteMe(elem); });
+    }
+    mutePage()
 });
 
 </script>
+
