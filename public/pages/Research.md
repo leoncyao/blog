@@ -48,12 +48,34 @@ Specifically, you can run <br><br>
 
 to calculate the optimum value for $n = 2$ <br><br>
 
-TODO: 
-<ul>
-<li>Add cases n > 2 </li>
-<li>Add option to increase n until value converges within given range</li>
-</ul>
+The script doesn't actually calcluate the above equation, as taking the min of function which itself is a max of a polynomial is quite tricky to optimize. Instead, becomes of how nice polynomials are, we can directly calculate the minimum and maximum values of the polynomial. <br><br>
+For the case of $n=2$, we know that the maximum and minimum values of the quadratic $p(x) = ax^2 + bx + c$ must either be at the endpoints $p(0), p(1)$, or at the center, which has $x = -\frac{b}{2a}$. Note that center point can be calculated with calculus, i.e take the derivative $p'(x) = 2ax - b$ and set it to $0$. <br><br>
+It then follows that 
+$$||p(x)||_I = \sup_{x \in I}{|p(x)|} = \max{\{p(0), p(1), p(-\frac{b}{2a}})\}$$ 
+(assuming the center point is within the domain, otherwise we only consider the endpoints) <br>
+Next, I found that it was difficult to minimize 3 values at once in gurobi, so instead I minimized the squared sum of them. 
+$$
+\min_{p \in \mathbb{Z}, p \neq 0}p(0)^2 + p(1)^2 + p(-\frac{b}{2a})^2
+$$
+The gurobi library can only minimize quadratic functions, which is unfortunate as the $p(-\frac{b}{2a})^2 = \frac{1}{16}b^4 / $ contains a $b^4$ term. Fortunately, we can convert this problem into an equivalent one that uses more variables and has lower powers. Namely, the above problem is equivalent to
+$$
+\begin{align}
+\min_{p \in \mathbb{Z}, p \neq 0}&(a + b + c)^2  + c^2 + \frac{b^4}{16a^2} - \frac{b^2c}{a} + c^2\\
+a^2 &= a \cdot a \\
+a^4 &= a^2 \cdot a^2 \\
+b^2 &= b \cdot b \\
+c^2 &= c \cdot c \\
+1 &= a \cdot a^{-1} \\ 
+1 &= c \cdot c^{-1} \\
+\end{align}
+$$
+where any term that doesn't have $1$ as an exponent is its own variable. <br><br>
 
+<h4>TODO:</h4> 
+<ul>
+<li>Add cases $n > 2$ </li>
+<li>Add option to increase $n$ until value converges within given range</li>
+</ul>
 
 <h3>References:</h3>
 <ul>
