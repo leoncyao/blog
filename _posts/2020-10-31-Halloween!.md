@@ -4,7 +4,10 @@ title: Halloween
 time: 2021/10/31
 ---
 
-Made an <a href="{{ site.baseurl }}/public/pages/Animations#Finite_Elements_Example.mp4" style="display:inline">animation</a> for the finite element method with time dependence!
+Made an animation for the finite element method with time dependence!
+<video width="100%" height="500" controls loop autoplay muted>
+<source src="{{site.baseurl}}//assets/Animations/Finite_Elements_Heat_Sim_Example.mp4" type="video/mp4">
+</video>
 
 Auto covid form completer seems to work with schtasks, though it seems my computer needs to be on for it to run. Hopefully, I can run it in the background with some permissions, so I can leave my computer asleep
 
