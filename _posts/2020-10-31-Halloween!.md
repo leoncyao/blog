@@ -9,6 +9,10 @@ Made an animation for the finite element method with time dependence!
 <source src="{{site.baseurl}}//assets/Animations/Finite_Elements_Heat_Sim_Example.mp4" type="video/mp4">
 </video>
 
+It also looks cool when you plot it out with time as the third dimension (Thanks leonidas for the suggestion).
+
+<img src="{{site.baseurl}}//assets/Images/Finite_Elements_Heat_Sim_Contour.jpg">
+
 Auto covid form completer seems to work with schtasks, though it seems my computer needs to be on for it to run. Hopefully, I can run it in the background with some permissions, so I can leave my computer asleep
 
 Helped my friend with a halloween murder mystery party script.
