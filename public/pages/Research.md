@@ -33,13 +33,13 @@ We want to find the polynomial the minimizes this norm.
 Formally, this means we want to solve the problem
 
 $$
-t_{\mathbb{Z}, n} = \min_{p \in \mathbb{Z}, p \neq 0\}}||p(x)||_I^{1/n}
+t_{\mathbb{Z}(n), n} = \min_{p \in \mathbb{Z}(n), p \neq 0\}}||p(x)||_I^{1/n}
 $$
 
-where the optimal value for a given $n$ is denoted $t_{\mathbb{Z}, n}(I)$. <br>
+where the optimal value for a given $n$ is denoted $t_{\mathbb{Z}(n), n}(I)$. <br>
 We can then take the limit as $n \rightarrow \infty$ and we will call this limit the <b>Integer Chebyshev Constant</b> denoted,
 
-$$t_{\mathbb{Z}(I)} = \lim_{n \rightarrow \infty}{t_{\mathbb{Z}, n}(I)}$$
+$$t_{\mathbb{Z}(n)(I)} = \lim_{n \rightarrow \infty}{t_{\mathbb{Z}(n), n}(I)}$$
 
 Inside this <a href="https://github.com/leoncyao/chebyshev_optimization">repo</a>, you can find a python script called <b>chebyshev.py</b> which uses the gurobi library to solve this problem. <br><br>
 Specifically, you can run <br><br>
@@ -55,12 +55,12 @@ $$||p(x)||_I = \sup_{x \in I}{|p(x)|} = \max{\{p(0), p(1), p(-\frac{b}{2a}})\}$$
 (assuming the center point is within the domain, otherwise we only consider the endpoints) <br>
 Next, I found that it was difficult to minimize 3 values at once in gurobi, so instead I minimized the squared sum of them. 
 $$
-\min_{p \in \mathbb{Z}, p \neq 0}p(0)^2 + p(1)^2 + p(-\frac{b}{2a})^2
+\min_{p \in \mathbb{Z}(n), p \neq 0}p(0)^2 + p(1)^2 + p(-\frac{b}{2a})^2
 $$
-The gurobi library can only minimize quadratic functions, which is unfortunate as the $p(-\frac{b}{2a})^2 = \frac{1}{16}b^4 / $ contains a $b^4$ term. Fortunately, we can convert this problem into an equivalent one that uses more variables and has lower powers. Namely, the above problem is equivalent to
+The gurobi library can only minimize quadratic functions, which is unfortunate as the $p(-\frac{b}{2a})^2 = \frac{1}{16}b^4 / $ contains a $b^4$ term. Fortunately, we can convert this problem into an equivalent one that uses more variables and has lower powers. Specifically, the above problem is equivalent to
 $$
 \begin{align}
-\min_{p \in \mathbb{Z}, p \neq 0}&(a + b + c)^2  + c^2 + \frac{b^4}{16a^2} - \frac{b^2c}{a} + c^2\\
+\min_{p \in \mathbb{Z}(n), p \neq 0}&(a + b + c)^2  + c^2 + \frac{b^4}{16a^2} - \frac{b^2c}{a} + c^2\\
 a^2 &= a \cdot a \\
 a^4 &= a^2 \cdot a^2 \\
 b^2 &= b \cdot b \\

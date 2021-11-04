@@ -22,9 +22,14 @@
 &lt;source src=&quot;/blog///assets/Animations/Finite_Elements_Heat_Sim_Example.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 
-&lt;p&gt;It also looks cool when you plot it out with time as the third dimension (Thanks leonidas for the suggestion).&lt;/p&gt;
+&lt;p&gt;It also looks cool when you plot it out with time as the third dimension (Thanks Leonidas for the suggestion).&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog///assets/Images/Finite_Elements_Heat_Sim_Contour.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I then varied the initial condition. &lt;br /&gt;It starts at $u(x, t) = \sin(0x)$ and ends up at $\sin(5\pi x)$ over the duration of the video.&lt;/p&gt;
+&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog///assets/Animations/contour_animation.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
 
 &lt;p&gt;Auto covid form completer seems to work with schtasks, though it seems my computer needs to be on for it to run. Hopefully, I can run it in the background with some permissions, so I can leave my computer asleep&lt;/p&gt;
 
