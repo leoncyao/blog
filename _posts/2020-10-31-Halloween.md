@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Halloween
+title: Halloween and Harrowing Heat equation
 time: 2021/10/31
 ---
 
