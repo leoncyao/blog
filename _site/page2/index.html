@@ -170,6 +170,58 @@
   
   <div class="post">
     <h1 class="post-title">
+      <a href="/blog///Start_third_week_of_school">
+        It's the start of the third week of school
+      </a>
+    </h1>
+    
+    
+    <span class="post-date">21 Sep 2021</span>
+    
+    
+    
+    <p><a href="/blog//public/pages/Animations#中秋节.mp4" style="display:inline">Happy Mid Autumn Festival!</a></p>
+
+<p>I have some new ideas for projects, god knows if I ever finish any of them xD.</p>
+
+<p>-Pdes heat/fluids game (ice age end of the world apocalypse where you assign heat sources in an apartment to keep people alive), planning to use ngsolve library.</p>
+
+<p>-Text based job assignment fantasy game, planning to use gurobi to solve job assignment ip.</p>
+
+<p>-Apply finite element method to black scholes</p>
+
+<p>I’m also looking at one of my supervisor’s papers. Yo, base golden ratio <script type="math/tex">\phi</script> number systems are cool.</p>
+
+<p>In base <script type="math/tex">\phi</script>, where <script type="math/tex">\phi</script> is the larger root of <script type="math/tex">\phi^2 - \phi - 1 = 0</script> i.e <script type="math/tex">\phi \approx 1.618</script> numbers are written <script type="math/tex">\sum_{i=0}^{\infty}{a_n\phi^{-n}}</script>, so it’s the normal decimal system except we have <script type="math/tex">\phi</script> instead of $10$. 
+It is also similar to binary, as <script type="math/tex">a_n</script> are only allowed to be <script type="math/tex">0</script> or <script type="math/tex">1</script>.</p>
+
+<p>Unlike the base 10 system, there are many different ways to write the same number (Infinite ways according to Erdős).</p>
+
+<p>For example, the number <script type="math/tex">1</script> in base <script type="math/tex">10</script> can be written as <script type="math/tex">1.0, 0.11, 0.1011</script> in base <script type="math/tex">\phi</script>, and there are trickier expansions such as $0.110110110110 … $ and $0.10101011010$. These can be shown with a little algebra.</p>
+<details> <summary> A little algebra showing the above </summary>
+$$
+\begin{align}
+\phi^2 - \phi - 1 &amp;= 0 \text{ start with quadratic equation} \\
+1 - \frac{1}{\phi} - \frac{1}{\phi^2} &amp;= 0 \text{ divide both sides by } \phi \\
+1 &amp;= \frac{1}{\phi} + \frac{1}{\phi^2} \text{ rearrange, note that this would be } 0.11 \text{ in base } \phi  \\
+  &amp;= \frac{1}{\phi} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2}}{\phi^2} \text{ sub in previous line for the 1 in the numerator of }\frac{1}{\phi^4} \\
+  &amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^4} \text{simplify, note that this would be } 0.1011 \text{ in base } \phi \\
+  &amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2} }{\phi^4} \text{ repeat substitution process always on the greatest power term}
+ \\
+  &amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^5} + \frac{1}{\phi^6} \\
+  &amp; \vdots 
+\end{align} 
+$$
+which then becomes $$0.10101010...$$ in base $\phi$.
+Other expansions such as $$0.110110110...$$ can be shown with a similar method, though you would replace the $1$ with $\frac{1}{\phi^2} - \frac{1}{\phi}$ in a different term (not always the greatest power one).  
+</details>
+
+
+     
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="/blog///Finishing_up_second_week">
         End of Second week of classes
       </a>
@@ -251,23 +303,6 @@ Messed around with the starter code of the Computational PDEs course to make  <a
      
   </div>
   
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/blog///Rebirth">
-        John 3-7. You should not be surprised at my saying, You must be born again.
-      </a>
-    </h1>
-    
-    
-    <span class="post-date">28 Jul 2021</span>
-    
-    
-    
-    <p>Restarting blog. Let’s see how long I can keep this updated for. This summer I didn’t do that much, but there’s some <a href="/blog//Animations">animations</a> I will show off! I also played a lot of <a href="/blog//piano">piano</a> as well!</p>
-
-     
-  </div>
-  
 </div>
 
 <div class="pagination">
@@ -284,7 +319,7 @@ Messed around with the starter code of the Computational PDEs course to make  <a
       <div id="footer">
         <footer class="footer">
           <small>
-            &copy; <time datetime="2021-11-03T21:34:36-04:00">1984</time>. I have no rights reserved.
+            &copy; <time datetime="2021-11-07T00:32:40-04:00">1984</time>. I have no rights reserved.
           </small>
         </footer>
       </div>

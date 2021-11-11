@@ -13,10 +13,22 @@
 
  
  <entry>
-   <title>Halloween</title>
-   <link href="http://localhost:4000/Halloween!"/>
+   <title>Saw Buskers!</title>
+   <link href="http://localhost:4000/SawBuskers"/>
+   <updated>2020-11-06T00:00:00-05:00</updated>
+   <id>http://localhost:4000/SawBuskers</id>
+   <content type="html">&lt;p&gt;Wanted to go see a jazz show tonight but unfortunately the tickets were sold out. Luckily, there were some buskers on the street. The band was called “Just Fine”, and they were a really R&amp;amp;B band.&lt;/p&gt;
+&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog///assets/Videos/JustFine.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Halloween and Harrowing Heat equation</title>
+   <link href="http://localhost:4000/Halloween-copy"/>
    <updated>2020-10-31T00:00:00-04:00</updated>
-   <id>http://localhost:4000/Halloween!</id>
+   <id>http://localhost:4000/Halloween copy</id>
    <content type="html">&lt;p&gt;Made an animation for the finite element method with time dependence!&lt;/p&gt;
 &lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog///assets/Animations/Finite_Elements_Heat_Sim_Example.mp4&quot; type=&quot;video/mp4&quot; /&gt;
@@ -26,7 +38,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/blog///assets/Images/Finite_Elements_Heat_Sim_Contour.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I then varied the initial condition. &lt;br /&gt;It starts at $u(x, t) = \sin(0x)$ and ends up at $\sin(5\pi x)$ over the duration of the video.&lt;/p&gt;
+&lt;p&gt;I then varied the initial condition. &lt;br /&gt;It starts at $u(x, 0) = \sin(0x)$ and ends up at $\sin(5\pi x)$ over the duration of the video.&lt;/p&gt;
 &lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog///assets/Animations/contour_animation.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
