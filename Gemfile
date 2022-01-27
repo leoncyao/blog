@@ -11,3 +11,6 @@ gem "jekyll-feed"
 gem 'jekyll-theme-hyde', '~> 2.0'
 gem 'jekyll-mentions'
 gem 'jekyll-redirect-from'
+gem "webrick"
+gem "jekyll-coffeescript"
+gem "kramdown-parser-gfm"

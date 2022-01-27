@@ -148,6 +148,10 @@
         
       
         
+          
+        
+      
+        
       
         
       
@@ -167,6 +171,75 @@
       
       <main>
         <div class="posts">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/blog///Reading-week-is-halfway-done">
+        Reading Week, Part 2!
+      </a>
+    </h1>
+    
+    
+    <span class="post-date">14 Oct 2021</span>
+    
+    
+    
+    <p>Halfway through reading week.</p>
+
+<p>Today I worked on a possible research project, specifically the <a href="/blog//public/pages/Research#chebyshev_optimization">Integer Chebyshev Problem</a>, which I think is a cool optimzation problem. It’ll be interesting to see if they are any real world applications.</p>
+
+<p>I’m trying to get the <a href="https://github.com/leoncyao/autofill_covid_self_assesment">js script</a> I wrote last week to automatically run once every day, but I don’t like using Windows Automatic Scheduler. Hopefully I can find a better script automater.</p>
+
+
+     
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/blog///Reading-week">
+        Reading Week
+      </a>
+    </h1>
+    
+    
+    <span class="post-date">08 Oct 2021</span>
+    
+    
+    
+    <p>It’s finally reading week.</p>
+
+<p>Didn’t do much today, but made a <a href="https://github.com/leoncyao/autofill_covid_self_assesment">js script</a> to autofill the self assessment form we have to do.</p>
+
+<p>Also started kpop dancing!</p>
+<video width="100%" height="500" controls="" loop="" autoplay="" muted="">
+<source src="/blog///assets/Sports/growl_practice_1.mp4" type="video/mp4" />
+</video>
+
+     
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/blog///Convection_Diffusion_Reaction_Equation-copy">
+        PDES are cool!
+      </a>
+    </h1>
+    
+    
+    <span class="post-date">24 Sep 2021</span>
+    
+    
+    
+    <p>Learning about the <a href="https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation#:~:text=The%20convection%E2%80%93diffusion%20equation%20is,two%20processes%3A%20diffusion%20and%20convection"> convection-diffusion-reaction system</a>, modelled by</p>
+
+\[\frac{\partial{c}}{\partial{t}} = \nabla \cdot (D\nabla c ) - \lambda \cdot (\textbf{v} c) + R\]
+
+<p>This can be used to model the heat in a room, as shown here.</p>
+
+<p>I am also reading up on the <a href="https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model">Black-Scholes model</a> which is used in finance. More specifically,</p>
+
+     
+  </div>
   
   <div class="post">
     <h1 class="post-title">
@@ -190,14 +263,14 @@
 
 <p>-Apply finite element method to black scholes</p>
 
-<p>I’m also looking at one of my supervisor’s papers. Yo, base golden ratio <script type="math/tex">\phi</script> number systems are cool.</p>
+<p>I’m also looking at one of my supervisor’s papers. Yo, base golden ratio \(\phi\) number systems are cool.</p>
 
-<p>In base <script type="math/tex">\phi</script>, where <script type="math/tex">\phi</script> is the larger root of <script type="math/tex">\phi^2 - \phi - 1 = 0</script> i.e <script type="math/tex">\phi \approx 1.618</script> numbers are written <script type="math/tex">\sum_{i=0}^{\infty}{a_n\phi^{-n}}</script>, so it’s the normal decimal system except we have <script type="math/tex">\phi</script> instead of $10$. 
-It is also similar to binary, as <script type="math/tex">a_n</script> are only allowed to be <script type="math/tex">0</script> or <script type="math/tex">1</script>.</p>
+<p>In base \(\phi\), where \(\phi\) is the larger root of \(\phi^2 - \phi - 1 = 0\) i.e \(\phi \approx 1.618\) numbers are written \(\sum_{i=0}^{\infty}{a_n\phi^{-n}}\), so it’s the normal decimal system except we have \(\phi\) instead of $10$. 
+It is also similar to binary, as \(a_n\) are only allowed to be \(0\) or \(1\).</p>
 
 <p>Unlike the base 10 system, there are many different ways to write the same number (Infinite ways according to Erdős).</p>
 
-<p>For example, the number <script type="math/tex">1</script> in base <script type="math/tex">10</script> can be written as <script type="math/tex">1.0, 0.11, 0.1011</script> in base <script type="math/tex">\phi</script>, and there are trickier expansions such as $0.110110110110 … $ and $0.10101011010$. These can be shown with a little algebra.</p>
+<p>For example, the number \(1\) in base \(10\) can be written as \(1.0, 0.11, 0.1011\) in base \(\phi\), and there are trickier expansions such as $0.110110110110 … $ and $0.10101011010$. These can be shown with a little algebra.</p>
 <details> <summary> A little algebra showing the above </summary>
 $$
 \begin{align}
@@ -237,68 +310,9 @@ and the 2D version for the <a class="sidebar-nav-item" href="/blog//public/pages
 
 <!-- <iframe src="/blog//public/pages/Animations#Finite_Difference_Example.mp4" title="test" width="500px" height="500px"></iframe> -->
 
-<p>The former is the Finite Difference solution to <script type="math/tex">u''(x) = -(3 \cdot x + x^2) \cdot e^x</script> on the domain <script type="math/tex">[0, 1]</script> with <script type="math/tex">0</script> boundary conditions.</p>
+<p>The former is the Finite Difference solution to \(u''(x) = -(3 \cdot x + x^2) \cdot e^x\) on the domain \([0, 1]\) with \(0\) boundary conditions.</p>
 
-<p>The latter is the Finite Difference solution to <script type="math/tex">\delta u = -2 \cdot (x + y - x^2 - y^2)</script> on the domain <script type="math/tex">[0, 1]^2</script> with <script type="math/tex">0</script> boundary conditions.</p>
-
-     
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/blog///Second_week_of_grad_school">
-        Second week of classes
-      </a>
-    </h1>
-    
-    
-    <span class="post-date">14 Sep 2021</span>
-    
-    
-    
-    <p>It’s the second week of classes! Still mainly syllabus stuff.
-Messed around with the starter code of the Computational PDEs course to make  <a class="sidebar-nav-item" href="/blog//public/pages/Animations#Heartbeat_final.mp4" style="display:inline">this</a>.</p>
-
-
-     
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/blog///School_starts_in_two_weeks">
-        School starts in 2 Weeks!
-      </a>
-    </h1>
-    
-    
-    <span class="post-date">23 Aug 2021</span>
-    
-    
-    
-    <p>Read the Leviathan series! Excited for Leviathan falls this fall.</p>
-
-<p>I also read Ao Ashi, cool soccer manga like Blue Lock.</p>
-
-<p>Been learning “Autumn Leaves in 10 styles” on the piano. Learned the first 3 styles so far, 7 left. The funky latin looks fun.</p>
-
-     
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/blog///School_starts_in_three_weeks">
-        School starts in 3 weeks!
-      </a>
-    </h1>
-    
-    
-    <span class="post-date">08 Aug 2021</span>
-    
-    
-    
-    <p>I’ve learned a new song called <a class="sidebar-nav-item" href="/blog//Piano#" style="display:inline"> Tea for Two </a> which was arranged by Pierre-Yves Plat and composed by Vincent Youmans.</p>
-
-<p>Also been trying to get my old physics assignment up on the blog. It’s written in C++, so I’m trying to get Google NACL to work but its making be me pretty salty so far …</p>
+<p>The latter is the Finite Difference solution to \(\delta u = -2 \cdot (x + y - x^2 - y^2)\) on the domain \([0, 1]^2\) with \(0\) boundary conditions.</p>
 
      
   </div>
@@ -319,7 +333,7 @@ Messed around with the starter code of the Computational PDEs course to make  <a
       <div id="footer">
         <footer class="footer">
           <small>
-            &copy; <time datetime="2021-11-07T00:32:40-04:00">1984</time>. I have no rights reserved.
+            &copy; <time datetime="2022-01-25T22:14:59-05:00">1984</time>. I have no rights reserved.
           </small>
         </footer>
       </div>

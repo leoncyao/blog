@@ -13,6 +13,58 @@
 
  
  <entry>
+   <title>First Month of the new semester!</title>
+   <link href="http://localhost:4000/FirstMonthOfNewTerm"/>
+   <updated>2021-01-25T00:00:00-05:00</updated>
+   <id>http://localhost:4000/FirstMonthOfNewTerm</id>
+   <content type="html">&lt;p&gt;Some cool applications of partial derivatives.
+&lt;img src=&quot;/blog//assets/Images/partial_derivatives.png&quot; /&gt;&amp;lt;/img&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Trying to learn another dance!&lt;/p&gt;
+&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Sports/monster_practice_1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;p&gt;Also currently applying for jobs.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Math Contest!</title>
+   <link href="http://localhost:4000/MathContest-copy"/>
+   <updated>2020-12-07T00:00:00-05:00</updated>
+   <id>http://localhost:4000/MathContest copy</id>
+   <content type="html">&lt;p&gt;I competed in a math contest today called “Over 9000” with a friend. The contest consisted of a bunch of questions of the form “is N over 9000”, where $n$ was given by some complicated expression. We didn’t do too well xD.&lt;/p&gt;
+
+&lt;p&gt;I thought some of the rules and questions were interesting.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog///assets/Images/Over9000rules.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My friend and I were initially aiming to get every question wrong, as the hosts had the rule that since every question boiled down to true or false, they would take the top 4 teams with highest absolute value score. Unofrtunately we consistently alternate between getting questions correct and getting questions wrong.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog///assets/Images/Over9000question.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The last question was game theory related, as the value of N would be 9001 if there were an odd number of people who voted it was such, and 1 otherwise.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, we were not allowed to collude between teams. There were an odd number of teams for this competition, so we would have all gotten the question right if we all voted that N was over 9000. Sadly it would later turn out of that some of voted under 9000, as N turned out to be 1, meaning that there were an even number of people who voted under 9000. Perhaps because they wanted to score higher than the other teams.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Made Tofu!</title>
+   <link href="http://localhost:4000/MadeTofu-copy"/>
+   <updated>2020-11-11T00:00:00-05:00</updated>
+   <id>http://localhost:4000/MadeTofu copy</id>
+   <content type="html">&lt;p&gt;Made Tofu!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog///assets/Cooking/Tofu.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Also learned how to sauder my body cords clip back on the chord. Was fun, it’s similar to making crafts with a hot glue gun, except with melted tin and lead instead of glue&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Saw Buskers!</title>
    <link href="http://localhost:4000/SawBuskers"/>
    <updated>2020-11-06T00:00:00-05:00</updated>
@@ -26,9 +78,9 @@
  
  <entry>
    <title>Halloween and Harrowing Heat equation</title>
-   <link href="http://localhost:4000/Halloween-copy"/>
+   <link href="http://localhost:4000/Halloween"/>
    <updated>2020-10-31T00:00:00-04:00</updated>
-   <id>http://localhost:4000/Halloween copy</id>
+   <id>http://localhost:4000/Halloween</id>
    <content type="html">&lt;p&gt;Made an animation for the finite element method with time dependence!&lt;/p&gt;
 &lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog///assets/Animations/Finite_Elements_Heat_Sim_Example.mp4&quot; type=&quot;video/mp4&quot; /&gt;
@@ -87,7 +139,7 @@ I helped with some of the ideas. Was fun and tiring, as the players went in dire
    <id>http://localhost:4000/Convection_Diffusion_Reaction_Equation copy</id>
    <content type="html">&lt;p&gt;Learning about the &lt;a href=&quot;https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation#:~:text=The%20convection%E2%80%93diffusion%20equation%20is,two%20processes%3A%20diffusion%20and%20convection&quot;&gt; convection-diffusion-reaction system&lt;/a&gt;, modelled by&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\partial{c}}{\partial{t}} = \nabla \cdot (D\nabla c ) - \lambda \cdot (\textbf{v} c) + R&lt;/script&gt;
+\[\frac{\partial{c}}{\partial{t}} = \nabla \cdot (D\nabla c ) - \lambda \cdot (\textbf{v} c) + R\]
 
 &lt;p&gt;This can be used to model the heat in a room, as shown here.&lt;/p&gt;
 
@@ -110,14 +162,14 @@ I helped with some of the ideas. Was fun and tiring, as the players went in dire
 
 &lt;p&gt;-Apply finite element method to black scholes&lt;/p&gt;
 
-&lt;p&gt;I’m also looking at one of my supervisor’s papers. Yo, base golden ratio &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; number systems are cool.&lt;/p&gt;
+&lt;p&gt;I’m also looking at one of my supervisor’s papers. Yo, base golden ratio \(\phi\) number systems are cool.&lt;/p&gt;
 
-&lt;p&gt;In base &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt;, where &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; is the larger root of &lt;script type=&quot;math/tex&quot;&gt;\phi^2 - \phi - 1 = 0&lt;/script&gt; i.e &lt;script type=&quot;math/tex&quot;&gt;\phi \approx 1.618&lt;/script&gt; numbers are written &lt;script type=&quot;math/tex&quot;&gt;\sum_{i=0}^{\infty}{a_n\phi^{-n}}&lt;/script&gt;, so it’s the normal decimal system except we have &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt; instead of $10$. 
-It is also similar to binary, as &lt;script type=&quot;math/tex&quot;&gt;a_n&lt;/script&gt; are only allowed to be &lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt; or &lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;.&lt;/p&gt;
+&lt;p&gt;In base \(\phi\), where \(\phi\) is the larger root of \(\phi^2 - \phi - 1 = 0\) i.e \(\phi \approx 1.618\) numbers are written \(\sum_{i=0}^{\infty}{a_n\phi^{-n}}\), so it’s the normal decimal system except we have \(\phi\) instead of $10$. 
+It is also similar to binary, as \(a_n\) are only allowed to be \(0\) or \(1\).&lt;/p&gt;
 
 &lt;p&gt;Unlike the base 10 system, there are many different ways to write the same number (Infinite ways according to Erdős).&lt;/p&gt;
 
-&lt;p&gt;For example, the number &lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt; in base &lt;script type=&quot;math/tex&quot;&gt;10&lt;/script&gt; can be written as &lt;script type=&quot;math/tex&quot;&gt;1.0, 0.11, 0.1011&lt;/script&gt; in base &lt;script type=&quot;math/tex&quot;&gt;\phi&lt;/script&gt;, and there are trickier expansions such as $0.110110110110 … $ and $0.10101011010$. These can be shown with a little algebra.&lt;/p&gt;
+&lt;p&gt;For example, the number \(1\) in base \(10\) can be written as \(1.0, 0.11, 0.1011\) in base \(\phi\), and there are trickier expansions such as $0.110110110110 … $ and $0.10101011010$. These can be shown with a little algebra.&lt;/p&gt;
 &lt;details&gt; &lt;summary&gt; A little algebra showing the above &lt;/summary&gt;
 $$
 \begin{align}
@@ -149,9 +201,9 @@ and the 2D version for the &lt;a class=&quot;sidebar-nav-item&quot; href=&quot;/
 
 &lt;!-- &lt;iframe src=&quot;/blog//public/pages/Animations#Finite_Difference_Example.mp4&quot; title=&quot;test&quot; width=&quot;500px&quot; height=&quot;500px&quot;&gt;&lt;/iframe&gt; --&gt;
 
-&lt;p&gt;The former is the Finite Difference solution to &lt;script type=&quot;math/tex&quot;&gt;u''(x) = -(3 \cdot x + x^2) \cdot e^x&lt;/script&gt; on the domain &lt;script type=&quot;math/tex&quot;&gt;[0, 1]&lt;/script&gt; with &lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt; boundary conditions.&lt;/p&gt;
+&lt;p&gt;The former is the Finite Difference solution to \(u''(x) = -(3 \cdot x + x^2) \cdot e^x\) on the domain \([0, 1]\) with \(0\) boundary conditions.&lt;/p&gt;
 
-&lt;p&gt;The latter is the Finite Difference solution to &lt;script type=&quot;math/tex&quot;&gt;\delta u = -2 \cdot (x + y - x^2 - y^2)&lt;/script&gt; on the domain &lt;script type=&quot;math/tex&quot;&gt;[0, 1]^2&lt;/script&gt; with &lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt; boundary conditions.&lt;/p&gt;
+&lt;p&gt;The latter is the Finite Difference solution to \(\delta u = -2 \cdot (x + y - x^2 - y^2)\) on the domain \([0, 1]^2\) with \(0\) boundary conditions.&lt;/p&gt;
 </content>
  </entry>
  
@@ -656,11 +708,11 @@ The purple arrows point to crossings inherent to the knot diagram, while the blu
 
 &lt;p&gt;This means that taking any knot and performing $TRTRTR$ can be deformed back into the original knot. We can also write this as meaning&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;T(R(T(R(T(R(G)))))) = [1] + \frac{[-1]}{[1] + \frac{[-1]}{[1] + \frac{[-1]}{G}}} = G&lt;/script&gt;
+\[T(R(T(R(T(R(G)))))) = [1] + \frac{[-1]}{[1] + \frac{[-1]}{[1] + \frac{[-1]}{G}}} = G\]
 
 &lt;p&gt;Notice that if take any number $x$, the algebraic statement also holds for normal numbers. Is this a coincidence?&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;1 + \frac{-1}{1 + \frac{-1}{1 + \frac{-1}{x}}}    = x&lt;/script&gt;
+\[1 + \frac{-1}{1 + \frac{-1}{1 + \frac{-1}{x}}}    = x\]
 
 &lt;details&gt; &lt;summary&gt; Messy Algebra showing the above &lt;/summary&gt;
 $$ \begin{equation*}
@@ -701,7 +753,7 @@ The main is reason I feel this is a cool construction is because of the way we c
 
 &lt;p&gt;For example:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;RRRR^{-1}TRTT^{-1}TTTRRR^{-1} = RRTRTTTR = R^2TRT^3R&lt;/script&gt;
+\[RRRR^{-1}TRTT^{-1}TTTRRR^{-1} = RRTRTTTR = R^2TRT^3R\]
 
 &lt;p&gt;Note we also shorten consecutive strings of the same letter using exponents.&lt;/p&gt;
 
@@ -751,7 +803,7 @@ Using these operations, we can turn the sequence of integers into a rational num
 
 &lt;p&gt;For $3, -4, -10, 2$, this would look like:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;(((3 \cdot \frac{-1}{4}) + (-10)) \cdot \frac{1}{2}&lt;/script&gt;
+\[(((3 \cdot \frac{-1}{4}) + (-10)) \cdot \frac{1}{2}\]
 
 &lt;p&gt;It turns out these operations encapsulate the twist and rotation operations on tangle. If you take two tangles G and H, and convert them to their continued fraction representation, and then&lt;/p&gt;
 
