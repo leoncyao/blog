@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Terms almost over
-time: 2021/02/24
+time: 2021/03/03
 ---
 
 Animated a bit today.

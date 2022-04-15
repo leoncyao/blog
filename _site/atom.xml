@@ -13,10 +13,30 @@
 
  
  <entry>
+   <title>Going home in a week!</title>
+   <link href="http://localhost:4000/Going-home-in-a-week"/>
+   <updated>2021-04-10T00:00:00-04:00</updated>
+   <id>http://localhost:4000/Going home in a week</id>
+   <content type="html">&lt;p&gt;Competed at the Ontario University Atheltic’s Fencing competition last weekend!&lt;/p&gt;
+
+&lt;p&gt;Did okish. First time competing in Sabre! Was pretty interesting to learn on the fly.&lt;/p&gt;
+
+&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Sports/sabre_fencing_OUA.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog//assets/Sports/uwaterloo_team_ouas.jpg&quot; style=&quot;width:100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Had my PDES final today (was very hard). Have a couple projects and another final left!
+&lt;img src=&quot;/blog//assets/Animations/加油.gif&quot; style=&quot;width:100%&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Terms almost over</title>
-   <link href="http://localhost:4000/AlmostDoneTerm"/>
+   <link href="http://localhost:4000/AlmostDoneTerm-copy"/>
    <updated>2021-03-03T00:00:00-05:00</updated>
-   <id>http://localhost:4000/AlmostDoneTerm</id>
+   <id>http://localhost:4000/AlmostDoneTerm copy</id>
    <content type="html">&lt;p&gt;Animated a bit today.&lt;/p&gt;
 
 &lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
@@ -161,6 +181,51 @@ I helped with some of the ideas. Was fun and tiring, as the players went in dire
 &lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog///assets/Sports/growl_practice_1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Cooking</title>
+   <link href="http://localhost:4000/Cooking"/>
+   <updated>2020-09-24T00:00:00-04:00</updated>
+   <id>http://localhost:4000/Cooking</id>
+   <content type="html">&lt;!-- &lt;style&gt;
+    .column {
+  float: left;
+  width: 100.0%;
+  padding: 5px;d
+}
+
+&lt;!-- /* Clear floats after image containers */
+.row::after {
+  content: &quot;&quot;;
+  clear: both;
+  display: table;
+  width: 200%;
+} --&gt;
+&lt;!-- h1 {text-align: left;}
+&lt;/style&gt; --&gt;
+
+&lt;div class=&quot;column&quot;&gt;
+    Steak and Smoothie.jpg
+    &lt;img src=&quot;/blog///assets/Cooking/Steak and Smoothie.jpg&quot; style=&quot;width:100%&quot; /&gt;
+  &lt;/div&gt;
+
+&lt;div class=&quot;column&quot;&gt;
+    Tofu.jpg
+    &lt;img src=&quot;/blog///assets/Cooking/Tofu.jpg&quot; style=&quot;width:100%&quot; /&gt;
+  &lt;/div&gt;
+
+&lt;div class=&quot;column&quot;&gt;
+    curry.jpg
+    &lt;img src=&quot;/blog///assets/Cooking/curry.jpg&quot; style=&quot;width:100%&quot; /&gt;
+  &lt;/div&gt;
+
+&lt;div class=&quot;column&quot;&gt;
+    shrimp_fried_rice.jpg
+    &lt;img src=&quot;/blog///assets/Cooking/shrimp_fried_rice.jpg&quot; style=&quot;width:100%&quot; /&gt;
+  &lt;/div&gt;
+
 </content>
  </entry>
  
