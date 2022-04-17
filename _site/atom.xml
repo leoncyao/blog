@@ -14,6 +14,22 @@
  
  <entry>
    <title>Going home in a week!</title>
+   <link href="http://localhost:4000/Going-home-tomorrow"/>
+   <updated>2021-04-16T00:00:00-04:00</updated>
+   <id>http://localhost:4000/Going home tomorrow</id>
+   <content type="html">&lt;p&gt;I should add a script to unmute on fullscreen in the animations section! Also need a script to kill local runs of this blog. Also should sort videos by date in sports section&lt;/p&gt;
+
+&lt;p&gt;Trying to learn the rainbow flick, but it’s hard to keep it in the air after it goes over my head.&lt;/p&gt;
+&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Sports/rainbow_flick.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;p&gt;Also learned some swing dancing yesterday! I am very not used to dancing 6/8 moves in 4/4 time. 
+&lt;img src=&quot;/blog//assets/Sports/swing_dance.jpg&quot; style=&quot;width:100%&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Going home in a week!</title>
    <link href="http://localhost:4000/Going-home-in-a-week"/>
    <updated>2021-04-10T00:00:00-04:00</updated>
    <id>http://localhost:4000/Going home in a week</id>

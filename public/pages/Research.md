@@ -57,20 +57,26 @@ Next, I found that it was difficult to minimize 3 values at once in gurobi, so i
 $$
 \min_{p \in \mathbb{Z}(n), p \neq 0}p(0)^2 + p(1)^2 + p(-\frac{b}{2a})^2
 $$
-The gurobi library can only minimize quadratic functions, which is unfortunate as the $p(-\frac{b}{2a})^2 = \frac{1}{16}b^4 / $ contains a $b^4$ term. Fortunately, we can convert this problem into an equivalent one that uses more variables and has lower powers. Specifically, the above problem is equivalent to
+The gurobi library can only minimize quadratic functions, which is unfortunate as the $p(-\frac{b}{2a})^2 = \frac{1}{16}b^4$ contains a $b^4$ term. Fortunately, we can convert this problem into an equivalent one that uses more variables and has lower powers. Specifically, the above problem is equivalent to
 $$
 \begin{align}
 \min_{p \in \mathbb{Z}(n), p \neq 0}&(a + b + c)^2  + c^2 + \frac{b^4}{16a^2} - \frac{b^2c}{a} + c^2\\
 a^2 &= a \cdot a \\
-a^4 &= a^2 \cdot a^2 \\
 b^2 &= b \cdot b \\
 c^2 &= c \cdot c \\
+a^4 &= a^2 \cdot a^2 \\
+b^4 &= b^2\cdot b^2 \\
+\end{align}
+$$
+where the terms on the left are their own variable. <br><br>
+We also need the constraints 
+$$
+\begin{align}
 1 &= a \cdot a^{-1} \\ 
 1 &= c \cdot c^{-1} \\
 \end{align}
 $$
-where any term that doesn't have $1$ as an exponent is its own variable. <br><br>
-
+and variables $a^{-1}, c^{-1}$ for the denominators.
 <h4>TODO:</h4> 
 <ul>
 <li>Add cases $n > 2$ </li>
