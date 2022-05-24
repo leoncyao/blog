@@ -13,10 +13,25 @@
 
  
  <entry>
+   <title>3 Weeks in!</title>
+   <link href="http://localhost:4000/ThreeWeeksIn"/>
+   <updated>2021-05-24T00:00:00-04:00</updated>
+   <id>http://localhost:4000/ThreeWeeksIn</id>
+   <content type="html">&lt;p&gt;Work is cool! Been learning a lot about poisson blending for images.&lt;/p&gt;
+
+&lt;p&gt;Went to the National Fencing Tournament last weekend. Didn’t do so well, but had a lot of fun!&lt;/p&gt;
+
+&lt;video width=&quot;50%&quot; height=&quot;50%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Sports/nationals.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Started Internship!</title>
-   <link href="http://localhost:4000/StartedInternship"/>
+   <link href="http://localhost:4000/StartedInternship-copy"/>
    <updated>2021-05-04T00:00:00-04:00</updated>
-   <id>http://localhost:4000/StartedInternship</id>
+   <id>http://localhost:4000/StartedInternship copy</id>
    <content type="html">&lt;p&gt;Started my internship at Ecopia! Everybody is super nice and the work is super interesting.&lt;/p&gt;
 
 &lt;p&gt;Tried the beginning of the trumpet part of gordon goodwin’s Backrow Politics on alto, very fun!&lt;br /&gt;&lt;/p&gt;
@@ -36,14 +51,14 @@
    <link href="http://localhost:4000/Going-home-tomorrow"/>
    <updated>2021-04-16T00:00:00-04:00</updated>
    <id>http://localhost:4000/Going home tomorrow</id>
-   <content type="html">&lt;p&gt;Trying to learn the rainbow flick, but it’s hard to keep it in the air after it goes over my head.&lt;/p&gt;
-&lt;video controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+   <content type="html">&lt;p&gt;I should add a script to unmute on fullscreen in the animations section! Also need a script to kill local runs of this blog. Also should sort videos by date in sports section&lt;/p&gt;
+
+&lt;p&gt;Trying to learn the rainbow flick, but it’s hard to keep it in the air after it goes over my head.&lt;/p&gt;
+&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Sports/rainbow_flick.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
-&lt;p&gt;Trying to learn &lt;a href=&quot;https://www.youtube.com/clip/UgkxFQy1khJXtTGgB2Ew9BlMjyQNDhLNltZ9&quot;&gt;&quot;Love me right&quot; &lt;/a&gt; by Exo, but it’s extremely fast.&lt;/p&gt;
-&lt;video controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
-&lt;source src=&quot;/blog//assets/Sports/love_me_right.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-&lt;/video&gt;
+&lt;p&gt;Also learned some swing dancing yesterday! I am very not used to dancing 6/8 moves in 4/4 time. 
+&lt;img src=&quot;/blog//assets/Sports/swing_dance.jpg&quot; style=&quot;width:100%&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
