@@ -10,3 +10,9 @@ Went to the National Fencing Tournament last weekend. Didn't do so well, but had
 <video width="50%" height="50%" controls loop autoplay muted>
 <source src="{{site.baseurl}}/assets/Sports/nationals.mp4" type="video/mp4">
 </video>
+
+Also trying to learn the slim shady solo by <a href="https://www.youtube.com/watch?v=ALPgvs5CT60">Oli Parker</a>, whose name really should be Oil Parker because he's so slick. 
+
+<video width="50%" height="50%" controls loop autoplay muted>
+<source src="{{site.baseurl}}/assets/Music/slim_shady.mp4" type="video/mp4">
+</video>
