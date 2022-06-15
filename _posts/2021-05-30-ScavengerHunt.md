@@ -11,3 +11,4 @@ We came up with fun random tasks for each team to do, such as climbing a tree or
 
 The funniest one was asking a stranger where the CN Tower while it was in view xD.
 
+Also biked 4 hours to mississauga to see someone's piano, might buy it for my apartment.
