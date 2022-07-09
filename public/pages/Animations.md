@@ -34,7 +34,7 @@ YOU CANT PLAY AVI MOVIES FROM SITE, can only download
 {% if item.path contains "Animations" %}
   <div class="column" id="{{item.name}}">
   {% if item.path contains "mp4"%}
-      <video width="500" height="100%" controls loop autoplay muted>
+      <video width="100%" height="500" controls loop autoplay muted>
       <source src="{{site.baseurl}}/{{item.path}}" type="video/mp4">
     </video>
   {% elsif item.path contains "gif" %}
