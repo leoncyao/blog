@@ -1,21 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2022-07-01T21:58:58-04:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Leon’s Blog(n)</title><subtitle>Just some math notes, piano recordings, and animations</subtitle><author><name>Leon Yao</name></author><entry><title type="html">Two Months Into Work</title><link href="http://localhost:4000/blog/TwoMonthsIn" rel="alternate" type="text/html" title="Two Months Into Work" /><published>2021-07-01T00:00:00-04:00</published><updated>2021-07-01T00:00:00-04:00</updated><id>http://localhost:4000/blog/TwoMonthsIn</id><content type="html" xml:base="http://localhost:4000/blog/TwoMonthsIn">&lt;p&gt;Learning the basics of manim for 3B1B contest video I am making.&lt;/p&gt;
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2022-07-09T02:05:31-04:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Leon’s Blog(n)</title><subtitle>Just some math notes, piano recordings, and animations</subtitle><author><name>Leon Yao</name></author><entry><title type="html">FixedRollerBlades!</title><link href="http://localhost:4000/blog/FixedRollerBlades" rel="alternate" type="text/html" title="FixedRollerBlades!" /><published>2021-07-09T00:00:00-04:00</published><updated>2021-07-09T00:00:00-04:00</updated><id>http://localhost:4000/blog/FixedRollerBlades</id><content type="html" xml:base="http://localhost:4000/blog/FixedRollerBlades">&lt;p&gt;Fixed Rollerblades! It’s nice that there is a rollerblading rink just outside my apartment.&lt;/p&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Sports/rollerblades.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;p&gt;Learning more of the manim library, it’s getting more and more inutitive!&lt;/p&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Animations/finite_difference_math_animation.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;</content><author><name>Leon Yao</name></author><summary type="html">Fixed Rollerblades! It’s nice that there is a rollerblading rink just outside my apartment. Learning more of the manim library, it’s getting more and more inutitive!</summary></entry><entry><title type="html">Two Months Into Work</title><link href="http://localhost:4000/blog/TwoMonthsIn" rel="alternate" type="text/html" title="Two Months Into Work" /><published>2021-07-01T00:00:00-04:00</published><updated>2021-07-01T00:00:00-04:00</updated><id>http://localhost:4000/blog/TwoMonthsIn</id><content type="html" xml:base="http://localhost:4000/blog/TwoMonthsIn">&lt;p&gt;Learning the basics of manim for 3B1B contest video I am making.&lt;/p&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Images/MatrixExamples.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 
-&lt;p&gt;Last weekend I went to see Joe Hisashi perform with the Toronto Symphony Orchestra, super hype!
+&lt;p&gt;Last weekend I went to see Joe Hisashi perform with the Toronto Symphony Orchestra, super hype! Also went mountain biking, learned kpop, and jammed with friends
 &lt;img src=&quot;/blog//assets/Images/concert_1.jpg&quot; /&gt;
 &lt;img src=&quot;/blog//assets/Images/concert_2.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Also went to a kpop class and learn a bit of EXO Love Shot.&lt;/p&gt;
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Sports/love_shot.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-&lt;/video&gt;</content><author><name>Leon Yao</name></author><summary type="html">Learning the basics of manim for 3B1B contest video I am making. Last weekend I went to see Joe Hisashi perform with the Toronto Symphony Orchestra, super hype! Also went to a kpop class and learn a bit of EXO Love Shot.</summary></entry><entry><title type="html">Starting Contest Entry</title><link href="http://localhost:4000/blog/StartingContestEntry" rel="alternate" type="text/html" title="Starting Contest Entry" /><published>2021-06-15T00:00:00-04:00</published><updated>2021-06-15T00:00:00-04:00</updated><id>http://localhost:4000/blog/StartingContestEntry</id><content type="html" xml:base="http://localhost:4000/blog/StartingContestEntry">&lt;p&gt;Planning to enter the 3Blue1Brown summer of math contest.
+&lt;/video&gt;
+
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Sports/mountain_biking.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Music/jam.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;</content><author><name>Leon Yao</name></author><summary type="html">Learning the basics of manim for 3B1B contest video I am making. Last weekend I went to see Joe Hisashi perform with the Toronto Symphony Orchestra, super hype! Also went mountain biking, learned kpop, and jammed with friends</summary></entry><entry><title type="html">Starting Contest Entry</title><link href="http://localhost:4000/blog/StartingContestEntry" rel="alternate" type="text/html" title="Starting Contest Entry" /><published>2021-06-15T00:00:00-04:00</published><updated>2021-06-15T00:00:00-04:00</updated><id>http://localhost:4000/blog/StartingContestEntry</id><content type="html" xml:base="http://localhost:4000/blog/StartingContestEntry">&lt;p&gt;Planning to enter the 3Blue1Brown summer of math contest.
 I plan to work with &lt;a href=&quot;https://igmanthony.com/fields-ions-optics/&quot;&gt; Professor Ian Anthony &lt;/a&gt; to make a video explaining finite difference methods for eletric fields. He researches really cool stuff!&lt;/p&gt;
 
 &lt;p&gt;Trying to learn the charmer dance, but it’s super fast.&lt;/p&gt;
 
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Sports/charmer.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;</content><author><name>Leon Yao</name></author><summary type="html">Planning to enter the 3Blue1Brown summer of math contest. I plan to work with Professor Ian Anthony to make a video explaining finite difference methods for eletric fields. He researches really cool stuff! Trying to learn the charmer dance, but it’s super fast.</summary></entry><entry><title type="html">Scavenger Hunt!</title><link href="http://localhost:4000/blog/ScavengerHunt" rel="alternate" type="text/html" title="Scavenger Hunt!" /><published>2021-05-30T00:00:00-04:00</published><updated>2021-05-30T00:00:00-04:00</updated><id>http://localhost:4000/blog/ScavengerHunt</id><content type="html" xml:base="http://localhost:4000/blog/ScavengerHunt">&lt;p&gt;Went on a scavenger hunt with friends last weekend.&lt;/p&gt;
 
@@ -50,7 +64,7 @@ I plan to work with &lt;a href=&quot;https://igmanthony.com/fields-ions-optics/&
 &lt;/video&gt;</content><author><name>Leon Yao</name></author><summary type="html">Started my internship at Ecopia! Everybody is super nice and the work is super interesting. Tried the beginning of the trumpet part of gordon goodwin’s Backrow Politics on alto, very fun! Trying to learn &quot;Love me right&quot; by Exo, but it’s extremely fast.</summary></entry><entry><title type="html">Going home tomorrow!</title><link href="http://localhost:4000/blog/Going-home-tomorrow" rel="alternate" type="text/html" title="Going home tomorrow!" /><published>2021-04-16T00:00:00-04:00</published><updated>2021-04-16T00:00:00-04:00</updated><id>http://localhost:4000/blog/Going%20home%20tomorrow</id><content type="html" xml:base="http://localhost:4000/blog/Going-home-tomorrow">&lt;p&gt;I should add a script to unmute on fullscreen in the animations section! Also need a script to kill local runs of this blog. Also should sort videos by date in sports section&lt;/p&gt;
 
 &lt;p&gt;Trying to learn the rainbow flick, but it’s hard to keep it in the air after it goes over my head.&lt;/p&gt;
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Sports/rainbow_flick.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;p&gt;Also learned some swing dancing yesterday! I am very not used to dancing 6/8 moves in 4/4 time. 
@@ -58,7 +72,7 @@ I plan to work with &lt;a href=&quot;https://igmanthony.com/fields-ions-optics/&
 
 &lt;p&gt;Did okish. First time competing in Sabre! Was pretty interesting to learn on the fly.&lt;/p&gt;
 
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Sports/sabre_fencing_OUA.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 
@@ -67,7 +81,7 @@ I plan to work with &lt;a href=&quot;https://igmanthony.com/fields-ions-optics/&
 &lt;p&gt;Had my PDES final today (was very hard). Have a couple projects and another final left!
 &lt;img src=&quot;/blog//assets/Animations/加油.gif&quot; style=&quot;width:100%&quot; /&gt;&lt;/p&gt;</content><author><name>Leon Yao</name></author><summary type="html">Competed at the Ontario University Atheltic’s Fencing competition last weekend! Did okish. First time competing in Sabre! Was pretty interesting to learn on the fly. Had my PDES final today (was very hard). Have a couple projects and another final left!</summary></entry><entry><title type="html">Terms almost over</title><link href="http://localhost:4000/blog/AlmostDoneTerm-copy" rel="alternate" type="text/html" title="Terms almost over" /><published>2021-03-03T00:00:00-05:00</published><updated>2021-03-03T00:00:00-05:00</updated><id>http://localhost:4000/blog/AlmostDoneTerm%20copy</id><content type="html" xml:base="http://localhost:4000/blog/AlmostDoneTerm-copy">&lt;p&gt;Animated a bit today.&lt;/p&gt;
 
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Animations/practice_43.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 
@@ -77,14 +91,4 @@ I plan to work with &lt;a href=&quot;https://igmanthony.com/fields-ions-optics/&
 
 &lt;p&gt;Excited to go Toronto this weekend. Also excited for the fencing competition happening in a month.&lt;/p&gt;
 
-&lt;p&gt;Lost wallet recently, I appreciate the convenience of credits card a lot more now.&lt;/p&gt;</content><author><name>Leon Yao</name></author><summary type="html">Learned how a pair of human eyes can calculate depth of objects. Excited to go Toronto this weekend. Also excited for the fencing competition happening in a month. Lost wallet recently, I appreciate the convenience of credits card a lot more now.</summary></entry><entry><title type="html">First Month of the new semester!</title><link href="http://localhost:4000/blog/FirstMonthOfNewTerm-copy" rel="alternate" type="text/html" title="First Month of the new semester!" /><published>2021-01-25T00:00:00-05:00</published><updated>2021-01-25T00:00:00-05:00</updated><id>http://localhost:4000/blog/FirstMonthOfNewTerm%20copy</id><content type="html" xml:base="http://localhost:4000/blog/FirstMonthOfNewTerm-copy">&lt;p&gt;Some cool applications of partial derivatives.
-&lt;img src=&quot;/blog//assets/Images/partial_derivatives.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Trying to learn another dance!&lt;/p&gt;
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
-&lt;source src=&quot;/blog//assets/Sports/monster_practice_1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-&lt;/video&gt;
-
-&lt;p&gt;Also found out the math talk I gave 2 months ago was filmed!&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/iDMZyFQLz6g?start=1826&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Leon Yao</name></author><summary type="html">Some cool applications of partial derivatives. Trying to learn another dance! Also found out the math talk I gave 2 months ago was filmed!</summary></entry></feed>
+&lt;p&gt;Lost wallet recently, I appreciate the convenience of credits card a lot more now.&lt;/p&gt;</content><author><name>Leon Yao</name></author><summary type="html">Learned how a pair of human eyes can calculate depth of objects. Excited to go Toronto this weekend. Also excited for the fencing competition happening in a month. Lost wallet recently, I appreciate the convenience of credits card a lot more now.</summary></entry></feed>

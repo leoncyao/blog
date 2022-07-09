@@ -9,6 +9,6 @@ I plan to work with <a href="https://igmanthony.com/fields-ions-optics/"> Profes
 
 Trying to learn the charmer dance, but it's super fast. 
 
-<video width="100%" height="500" controls loop autoplay muted>
+<video width="500" height="100%" controls loop autoplay muted>
 <source src="{{site.baseurl}}/assets/Sports/charmer.mp4" type="video/mp4">
 </video>

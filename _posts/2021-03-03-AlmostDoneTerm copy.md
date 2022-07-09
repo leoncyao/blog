@@ -6,7 +6,7 @@ time: 2021/03/03
 
 Animated a bit today.
 
-<video width="100%" height="500" controls loop autoplay muted>
+<video width="500" height="100%" controls loop autoplay muted>
 <source src="{{site.baseurl}}/assets/Animations/practice_43.mp4" type="video/mp4">
 </video>
 

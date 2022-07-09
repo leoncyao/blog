@@ -5,7 +5,7 @@ time: 2021/10/31
 ---
 
 Made an animation for the finite element method with time dependence!
-<video width="100%" height="500" controls loop autoplay muted>
+<video width="500" height="100%" controls loop autoplay muted>
 <source src="{{site.baseurl}}//assets/Animations/Finite_Elements_Heat_Sim_Example.mp4" type="video/mp4">
 </video>
 
@@ -14,7 +14,7 @@ It also looks cool when you plot it out with time as the third dimension (Thanks
 <img src="{{site.baseurl}}//assets/Images/Finite_Elements_Heat_Sim_Contour.jpg">
 
 I then varied the initial condition. <br>It starts at $u(x, 0) = \sin(0x)$ and ends up at $\sin(5\pi x)$ over the duration of the video. 
-<video width="100%" height="500" controls loop autoplay muted>
+<video width="500" height="100%" controls loop autoplay muted>
 <source src="{{site.baseurl}}//assets/Animations/contour_animation.mp4" type="video/mp4">
 </video>
 

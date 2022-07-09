@@ -13,22 +13,45 @@
 
  
  <entry>
+   <title>FixedRollerBlades!</title>
+   <link href="http://localhost:4000/FixedRollerBlades"/>
+   <updated>2021-07-09T00:00:00-04:00</updated>
+   <id>http://localhost:4000/FixedRollerBlades</id>
+   <content type="html">&lt;p&gt;Fixed Rollerblades! It’s nice that there is a rollerblading rink just outside my apartment.&lt;/p&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Sports/rollerblades.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;p&gt;Learning more of the manim library, it’s getting more and more inutitive!&lt;/p&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Animations/finite_difference_math_animation.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Two Months Into Work</title>
    <link href="http://localhost:4000/TwoMonthsIn"/>
    <updated>2021-07-01T00:00:00-04:00</updated>
    <id>http://localhost:4000/TwoMonthsIn</id>
    <content type="html">&lt;p&gt;Learning the basics of manim for 3B1B contest video I am making.&lt;/p&gt;
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Images/MatrixExamples.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 
-&lt;p&gt;Last weekend I went to see Joe Hisashi perform with the Toronto Symphony Orchestra, super hype!
+&lt;p&gt;Last weekend I went to see Joe Hisashi perform with the Toronto Symphony Orchestra, super hype! Also went mountain biking, learned kpop, and jammed with friends
 &lt;img src=&quot;/blog//assets/Images/concert_1.jpg&quot; /&gt;
 &lt;img src=&quot;/blog//assets/Images/concert_2.jpg&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Also went to a kpop class and learn a bit of EXO Love Shot.&lt;/p&gt;
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Sports/love_shot.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Sports/mountain_biking.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Music/jam.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 
 </content>
@@ -44,7 +67,7 @@ I plan to work with &lt;a href=&quot;https://igmanthony.com/fields-ions-optics/&
 
 &lt;p&gt;Trying to learn the charmer dance, but it’s super fast.&lt;/p&gt;
 
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Sports/charmer.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 </content>
@@ -115,7 +138,7 @@ I plan to work with &lt;a href=&quot;https://igmanthony.com/fields-ions-optics/&
    <content type="html">&lt;p&gt;I should add a script to unmute on fullscreen in the animations section! Also need a script to kill local runs of this blog. Also should sort videos by date in sports section&lt;/p&gt;
 
 &lt;p&gt;Trying to learn the rainbow flick, but it’s hard to keep it in the air after it goes over my head.&lt;/p&gt;
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Sports/rainbow_flick.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 &lt;p&gt;Also learned some swing dancing yesterday! I am very not used to dancing 6/8 moves in 4/4 time. 
@@ -132,7 +155,7 @@ I plan to work with &lt;a href=&quot;https://igmanthony.com/fields-ions-optics/&
 
 &lt;p&gt;Did okish. First time competing in Sabre! Was pretty interesting to learn on the fly.&lt;/p&gt;
 
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Sports/sabre_fencing_OUA.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 
@@ -150,7 +173,7 @@ I plan to work with &lt;a href=&quot;https://igmanthony.com/fields-ions-optics/&
    <id>http://localhost:4000/AlmostDoneTerm copy</id>
    <content type="html">&lt;p&gt;Animated a bit today.&lt;/p&gt;
 
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Animations/practice_43.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 
@@ -182,7 +205,7 @@ I plan to work with &lt;a href=&quot;https://igmanthony.com/fields-ions-optics/&
 &lt;img src=&quot;/blog//assets/Images/partial_derivatives.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Trying to learn another dance!&lt;/p&gt;
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Sports/monster_practice_1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 
@@ -233,7 +256,7 @@ I plan to work with &lt;a href=&quot;https://igmanthony.com/fields-ions-optics/&
    <updated>2020-11-06T00:00:00-05:00</updated>
    <id>http://localhost:4000/SawBuskers</id>
    <content type="html">&lt;p&gt;Wanted to go see a jazz show tonight but unfortunately the tickets were sold out. Luckily, there were some buskers on the street. The band was called “Just Fine”, and they were a really R&amp;amp;B band.&lt;/p&gt;
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog///assets/Videos/JustFine.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 </content>
@@ -245,7 +268,7 @@ I plan to work with &lt;a href=&quot;https://igmanthony.com/fields-ions-optics/&
    <updated>2020-10-31T00:00:00-04:00</updated>
    <id>http://localhost:4000/Halloween</id>
    <content type="html">&lt;p&gt;Made an animation for the finite element method with time dependence!&lt;/p&gt;
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog///assets/Animations/Finite_Elements_Heat_Sim_Example.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 
@@ -254,7 +277,7 @@ I plan to work with &lt;a href=&quot;https://igmanthony.com/fields-ions-optics/&
 &lt;p&gt;&lt;img src=&quot;/blog///assets/Images/Finite_Elements_Heat_Sim_Contour.jpg&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I then varied the initial condition. &lt;br /&gt;It starts at $u(x, 0) = \sin(0x)$ and ends up at $\sin(5\pi x)$ over the duration of the video.&lt;/p&gt;
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog///assets/Animations/contour_animation.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 
@@ -289,7 +312,7 @@ I helped with some of the ideas. Was fun and tiring, as the players went in dire
 &lt;p&gt;Didn’t do much today, but made a &lt;a href=&quot;https://github.com/leoncyao/autofill_covid_self_assesment&quot;&gt;js script&lt;/a&gt; to autofill the self assessment form we have to do.&lt;/p&gt;
 
 &lt;p&gt;Also started kpop dancing!&lt;/p&gt;
-&lt;video width=&quot;100%&quot; height=&quot;500&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog///assets/Sports/growl_practice_1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 </content>

@@ -8,7 +8,7 @@ Some cool applications of partial derivatives.
 <img src="{{site.baseurl}}/assets/Images/partial_derivatives.png">
 
 Trying to learn another dance! 
-<video width="100%" height="500" controls loop autoplay muted>
+<video width="500" height="100%" controls loop autoplay muted>
 <source src="{{site.baseurl}}/assets/Sports/monster_practice_1.mp4" type="video/mp4">
 </video>
 
