@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sports!
+title: Sports! (Athletics)
 time: 2020-05-15
 ---
 

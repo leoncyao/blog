@@ -13,6 +13,26 @@
 
  
  <entry>
+   <title>Went Buskin!</title>
+   <link href="http://localhost:4000/WentBusking!"/>
+   <updated>2021-07-12T00:00:00-04:00</updated>
+   <id>http://localhost:4000/WentBusking!</id>
+   <content type="html">&lt;p&gt;Went busking! I tried to play as loud as possible, it’d be funny if I got fined.&lt;/p&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Music/busking.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;p&gt;Learning more jazz as well&lt;/p&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Music/isnt_she_lovely.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;p&gt;Rotoscoping a new fencing video (world class fencers, not me)&lt;/p&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Animations/world_class_fencing.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>FixedRollerBlades!</title>
    <link href="http://localhost:4000/FixedRollerBlades"/>
    <updated>2021-07-09T00:00:00-04:00</updated>
