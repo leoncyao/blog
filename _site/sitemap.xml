@@ -177,6 +177,14 @@
 <lastmod>2021-07-12T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/blog/GoingHomeInaWeek</loc>
+<lastmod>2021-07-22T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/WentToSeattle</loc>
+<lastmod>2021-08-11T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/blog/public/pages/Animations</loc>
 </url>
 <url>
@@ -241,6 +249,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/blog/page9/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/page10/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/blog/public/Builds/</loc>
