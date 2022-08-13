@@ -13,17 +13,33 @@
 
  
  <entry>
+   <title>Lavish Sushi</title>
+   <link href="http://localhost:4000/HadSushi"/>
+   <updated>2021-08-12T00:00:00-04:00</updated>
+   <id>http://localhost:4000/HadSushi</id>
+   <content type="html">&lt;p&gt;Went to Minami in Vancouver and ate one of their set menus, Shokai i think it was called?
+&lt;img src=&quot;/blog//assets/Images/sushi/sushi_1.jpg&quot; /&gt;
+&lt;img src=&quot;/blog//assets/Images/sushi/sushi_2.jpg&quot; /&gt;
+&lt;img src=&quot;/blog//assets/Images/sushi/sushi_3.jpg&quot; /&gt;
+&lt;img src=&quot;/blog//assets/Images/sushi/sushi_4.jpg&quot; /&gt;
+&lt;img src=&quot;/blog//assets/Images/sushi/sushi_5.jpg&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Went To Seattle!</title>
    <link href="http://localhost:4000/WentToSeattle"/>
    <updated>2021-08-11T00:00:00-04:00</updated>
    <id>http://localhost:4000/WentToSeattle</id>
    <content type="html">&lt;p&gt;3Blue1Brown entry is due in 4 days lmao&lt;/p&gt;
 
-&lt;p&gt;Also went to seattle!&lt;/p&gt;
+&lt;p&gt;Also went to Seattle!&lt;/p&gt;
 
 &lt;video controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Videos/seattle_busker.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
+
+&lt;p&gt;I want to go to Seattle again for the busking scene&lt;/p&gt;
 
 &lt;p&gt;Was reading &lt;a href=&quot;https://en.wikipedia.org/wiki/Beggars_in_Spain&quot;&gt;Beggars in Spain&lt;/a&gt;, which is about Science developing eugenics to the point where they create humans that do not need to sleep, very fitting as I write this post while pulling an all nighter xD.&lt;/p&gt;
 
@@ -34,69 +50,6 @@
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xEifHCxChyE&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;一石二鸟，边听音乐边学中文 xD&lt;/p&gt;
 
-&lt;p&gt;你的光芒閃耀像是gold
-逐漸入侵了我眼眸
-到底要怎麼樣的口吻
-才能讓你內心點頭
-是我猜不透你的味覺
-是我察覺不到的危險
-別把離開掛在嘴邊
-當你慢慢靠近我&lt;/p&gt;
-
-&lt;p&gt;是我沒把握你心跳的節奏
-換來一堆輕佻的藉口
-別成為我心碎的理由
-Don’t hurt me baby
-Don’t hurt me
-告訴我你現在的感覺
-你的眼神都那麼明顯
-別把結果拖延到明天&lt;/p&gt;
-
-&lt;p&gt;Maybe we just slow down
-Anyone but you’s so wrong
-當音樂再次奏響
-連呼吸都在碰撞
-把心放你手掌
-淪陷在你目光
-享受著步調搖晃
-舞會開場&lt;/p&gt;
-
-&lt;p&gt;左手保護你的腰
-不會碰到你的背
-右手托住你的心跳
-不論向前或後退
-如果你很信任我
-手抬高原地轉個圈
-煩惱都丟掉像幻燈片
-當我們站在舞台的正中間
-如果我們的熱情依然在增加
-自然跳起象徵著愛情的倫巴
-一起跳到下一個晚宴
-到星星布滿天
-把飛逝的時間給扔下
-已然忘記美好的今天要拍照片
-不知不覺就已送你到樓下
-目前這些美好的幻想還沒套現
-希望你的回答可以讓我留下&lt;/p&gt;
-
-&lt;p&gt;Maybe we just slow down
-Anyone but you’s so wrong
-當音樂再次奏響
-連呼吸都在碰撞
-把心放你手掌
-淪陷在你目光
-享受著步調搖晃
-我不危險&lt;/p&gt;
-
-&lt;p&gt;Maybe we just slow down
-Anyone but you’s so wrong
-當音樂再次奏響
-連呼吸都在碰撞
-把心放你手掌
-淪陷在你目光
-享受著步調搖晃
-我不危險&lt;/p&gt;
-
 &lt;p&gt;I also like&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/W7de3OERc_o&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -104,6 +57,102 @@ Anyone but you’s so wrong
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/eNJ8t-ZpqF4&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/dvSZQ4oMHGM&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Lyrics for 危险派对 taken from https://www.iludou.com/geci/60141&lt;/p&gt;
+
+&lt;p&gt;你的光芒闪耀像是gold&lt;/p&gt;
+
+&lt;p&gt;逐渐入侵了我眼眸&lt;/p&gt;
+
+&lt;p&gt;到底要怎么样的口吻&lt;/p&gt;
+
+&lt;p&gt;才能让你内心点头&lt;/p&gt;
+
+&lt;p&gt;是我猜不透你的味觉&lt;/p&gt;
+
+&lt;p&gt;是我察觉不到的危险&lt;/p&gt;
+
+&lt;p&gt;别把离开挂在嘴边&lt;/p&gt;
+
+&lt;p&gt;当你慢慢靠近我&lt;/p&gt;
+
+&lt;p&gt;是我没把握你心跳的节奏&lt;/p&gt;
+
+&lt;p&gt;换来一堆轻佻的借口&lt;/p&gt;
+
+&lt;p&gt;别成为我心碎的理由&lt;/p&gt;
+
+&lt;p&gt;Don’t hurt me baby Don’t hurt me&lt;/p&gt;
+
+&lt;p&gt;告诉我你现在的感觉&lt;/p&gt;
+
+&lt;p&gt;你的眼神都那么明显&lt;/p&gt;
+
+&lt;p&gt;别把结果拖延到明天&lt;/p&gt;
+
+&lt;p&gt;Maybe we just slow down Anyone but you’s so wrong&lt;/p&gt;
+
+&lt;p&gt;当音乐再次奏响&lt;/p&gt;
+
+&lt;p&gt;连呼吸都在碰撞&lt;/p&gt;
+
+&lt;p&gt;把心放你手掌&lt;/p&gt;
+
+&lt;p&gt;沦陷在你目光&lt;/p&gt;
+
+&lt;p&gt;享受着步调摇晃&lt;/p&gt;
+
+&lt;p&gt;舞会开场&lt;/p&gt;
+
+&lt;p&gt;左手保护你的腰&lt;/p&gt;
+
+&lt;p&gt;不会碰到你的背&lt;/p&gt;
+
+&lt;p&gt;右手托住你的心跳&lt;/p&gt;
+
+&lt;p&gt;不论向前或后退&lt;/p&gt;
+
+&lt;p&gt;如果你很信任我&lt;/p&gt;
+
+&lt;p&gt;手抬高原地转个圈&lt;/p&gt;
+
+&lt;p&gt;烦恼都丢掉像幻灯片&lt;/p&gt;
+
+&lt;p&gt;当我们站在舞台的正中间&lt;/p&gt;
+
+&lt;p&gt;如果我们的热情依然在增加&lt;/p&gt;
+
+&lt;p&gt;自然跳起象征着爱情的伦巴&lt;/p&gt;
+
+&lt;p&gt;一起跳到下一个晚宴&lt;/p&gt;
+
+&lt;p&gt;到星星布满天&lt;/p&gt;
+
+&lt;p&gt;把飞逝的时间给扔下&lt;/p&gt;
+
+&lt;p&gt;已然忘记美好的今天要拍照片&lt;/p&gt;
+
+&lt;p&gt;不知不觉就已送你到楼下&lt;/p&gt;
+
+&lt;p&gt;目前这些美好的幻想还没套现&lt;/p&gt;
+
+&lt;p&gt;希望你的回答可以让我留下&lt;/p&gt;
+
+&lt;p&gt;Maybe we just slow down Anyone but you’s so wrong&lt;/p&gt;
+
+&lt;p&gt;当音乐再次奏响&lt;/p&gt;
+
+&lt;p&gt;连呼吸都在碰撞&lt;/p&gt;
+
+&lt;p&gt;把心放你手掌&lt;/p&gt;
+
+&lt;p&gt;沦陷在你目光&lt;/p&gt;
+
+&lt;p&gt;享受着步调摇晃&lt;/p&gt;
+
+&lt;p&gt;我不危险&lt;/p&gt;
+
+&lt;p&gt;(repeat)&lt;/p&gt;
 
 &lt;p&gt;Not quite my taste, but I could see myself listening to these driving down the highway, blasting the speakers, performing terribly with friends on a long road trip.&lt;/p&gt;
 </content>
@@ -116,11 +165,9 @@ Anyone but you’s so wrong
    <id>http://localhost:4000/GoingHomeInaWeek</id>
    <content type="html">&lt;p&gt;Learning more jazz&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/FdtNJJGf0fE&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KRZg-bppfTc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zLxNZEufmGc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KRZg-bppfTc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Also been doing a lot of dance with my roommate lately (she’s a really good teacher)&lt;/p&gt;
 
@@ -150,9 +197,9 @@ BANG！！！开枪的声音。我听到脚步声，有人要开车后面。。�
  
  <entry>
    <title>Went Buskin!</title>
-   <link href="http://localhost:4000/WentBusking!"/>
+   <link href="http://localhost:4000/WentBusking"/>
    <updated>2021-07-12T00:00:00-04:00</updated>
-   <id>http://localhost:4000/WentBusking!</id>
+   <id>http://localhost:4000/WentBusking</id>
    <content type="html">&lt;p&gt;Went busking! I tried to play as loud as possible, it’d be funny if I got fined.&lt;/p&gt;
 &lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Music/busking.mp4&quot; type=&quot;video/mp4&quot; /&gt;

@@ -2,7 +2,7 @@
 title: "Leon's Blog(n)"
 tagline: "v.1.9.8.4"
 url: "/blog/" 
-paginate: 5
+paginate: 10
 baseurl: "/blog/"
 permalink: :title
 description: "Just some math notes, piano recordings, and animations"

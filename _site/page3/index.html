@@ -138,26 +138,6 @@
         
       
         
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
       
         
       
@@ -180,132 +160,286 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/blog///Going-home-in-a-week">
-        Going home in a week!
+      <a href="/blog///Reading-week">
+        Reading Week
       </a>
     </h1>
     
     
-    <span class="post-date">10 Apr 2022</span>
+    <span class="post-date">08 Oct 2021</span>
     
     
     
-    <p>Competed at the Ontario University Atheltic’s Fencing competition last weekend!</p>
+    It's finally reading week.
 
-<p>Did okish. First time competing in Sabre! Was pretty interesting to learn on the fly.</p>
+Didn't do much today, but made a <a href="https://github.com/leoncyao/autofill_covid_self_assesment">js script</a> to autofill the self assessment form we have to do. 
 
-<video width="500" height="100%" controls="" loop="" autoplay="" muted="">
-<source src="/blog//assets/Sports/sabre_fencing_OUA.mp4" type="video/mp4" />
+Also started kpop dancing!
+<video width="500" height="100%" controls loop autoplay muted>
+<source src="{{site.baseurl}}//assets/Sports/growl_practice_1.mp4" type="video/mp4">
 </video>
+     
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/blog///Cooking">
+        Cooking
+      </a>
+    </h1>
+    
+    
+    <span class="post-date">24 Sep 2021</span>
+    
+    
+    
+    <!-- <style>
+    .column {
+  float: left;
+  width: 100.0%;
+  padding: 5px;d
+}
 
-<p><img src="/blog//assets/Sports/uwaterloo_team_ouas.jpg" style="width:100%" /></p>
+<!-- /* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 200%;
+} -->
+<!-- h1 {text-align: left;}
+</style> --> 
 
-<p>Had my PDES final today (was very hard). Have a couple projects and another final left!
-<img src="/blog//assets/Animations/加油.gif" style="width:100%" /></p>
+
+{% for item in site.static_files %}
+{% if item.path contains "Cooking"%}
+  <div class="column">
+    {{item.name}}
+    <img src ="{{site.baseurl}}/{{ item.path }}" style="width:100%">
+  </div>
+{% endif %}
+{% endfor %}
+
+
 
      
   </div>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/blog///AlmostDoneTerm-copy">
-        Terms almost over
+      <a href="/blog///Convection_Diffusion_Reaction_Equation-copy">
+        PDES are cool!
       </a>
     </h1>
     
     
-    <span class="post-date">03 Mar 2022</span>
+    <span class="post-date">24 Sep 2021</span>
     
     
     
-    <p>Animated a bit today.</p>
+    Learning about the <a href="https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation#:~:text=The%20convection%E2%80%93diffusion%20equation%20is,two%20processes%3A%20diffusion%20and%20convection"> convection-diffusion-reaction system</a>, modelled by
 
-<video width="500" height="100%" controls="" loop="" autoplay="" muted="">
-<source src="/blog//assets/Animations/practice_43.mp4" type="video/mp4" />
-</video>
+$$ \frac{\partial{c}}{\partial{t}} = \nabla \cdot (D\nabla c ) - \lambda \cdot (\textbf{v} c) + R$$
 
-<p>Also trying to get jupyter notebook to work on heroku.</p>
+This can be used to model the heat in a room, as shown here.
+
+I am also reading up on the <a href="https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model">Black-Scholes model</a> which is used in finance. More specifically, 
+     
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/blog///Start_third_week_of_school">
+        It's the start of the third week of school
+      </a>
+    </h1>
+    
+    
+    <span class="post-date">21 Sep 2021</span>
+    
+    
+    
+    <a href="{{ site.baseurl }}/public/pages/Animations#中秋节.mp4" style="display:inline">Happy Mid Autumn Festival!</a>
+
+I have some new ideas for projects, god knows if I ever finish any of them xD.
+
+-Pdes heat/fluids game (ice age end of the world apocalypse where you assign heat sources in an apartment to keep people alive), planning to use ngsolve library.
+
+-Text based job assignment fantasy game, planning to use gurobi to solve job assignment ip.
+
+-Apply finite element method to black scholes
+
+I'm also looking at one of my supervisor's papers. Yo, base golden ratio $$\phi$$ number systems are cool. 
+
+In base $$\phi$$, where $$\phi$$ is the larger root of $$\phi^2 - \phi - 1 = 0$$ i.e $$\phi \approx 1.618$$ numbers are written $$\sum_{i=0}^{\infty}{a_n\phi^{-n}}$$, so it's the normal decimal system except we have $$\phi$$ instead of $10$. 
+It is also similar to binary, as $$a_n$$ are only allowed to be $$0$$ or $$1$$.
+
+Unlike the base 10 system, there are many different ways to write the same number (Infinite ways according to Erdős). 
+
+For example, the number $$1$$ in base $$10$$ can be written as $$1.0, 0.11, 0.1011$$ in base $$\phi$$, and there are trickier expansions such as $0.110110110110 ... $ and $0.10101011010$. These can be shown with a little algebra.
+<details> <summary> A little algebra showing the above </summary>
+$$
+\begin{align}
+\phi^2 - \phi - 1 &= 0 \text{ start with quadratic equation} \\
+1 - \frac{1}{\phi} - \frac{1}{\phi^2} &= 0 \text{ divide both sides by } \phi \\
+1 &= \frac{1}{\phi} + \frac{1}{\phi^2} \text{ rearrange, note that this would be } 0.11 \text{ in base } \phi  \\
+  &= \frac{1}{\phi} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2}}{\phi^2} \text{ sub in previous line for the 1 in the numerator of }\frac{1}{\phi^4} \\
+  &= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^4} \text{simplify, note that this would be } 0.1011 \text{ in base } \phi \\
+  &= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2} }{\phi^4} \text{ repeat substitution process always on the greatest power term}
+ \\
+  &= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^5} + \frac{1}{\phi^6} \\
+  & \vdots 
+\end{align} 
+$$
+which then becomes $$0.10101010...$$ in base $\phi$.
+Other expansions such as $$0.110110110...$$ can be shown with a similar method, though you would replace the $1$ with $\frac{1}{\phi^2} - \frac{1}{\phi}$ in a different term (not always the greatest power one).  
+</details>
+
+
+
 
      
   </div>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/blog///ReadingWeeksAlmostOver-copy">
-        Reading weeks almost over
+      <a href="/blog///Finishing_up_second_week">
+        End of Second week of classes
       </a>
     </h1>
     
     
-    <span class="post-date">24 Feb 2022</span>
+    <span class="post-date">17 Sep 2021</span>
     
     
     
-    <p>Learned how a pair of human eyes can calculate depth of objects.
-<img src="/blog//assets/Images/pair_eyes_views_depth.png" />
-<img src="/blog//assets/Images/disparity_maps.png" /></p>
+    <p>This week is coming to a close. Worked on my Numerical algs assignment and made a little animation for the <a class="sidebar-nav-item" href="/blog//public/pages/Animations#Finite_Difference_Example.mp4" style="display:inline">first question</a>
+and the 2D version for the <a class="sidebar-nav-item" href="/blog//public/pages/Animations#Finite_Difference_Example_2D.mp4" style="display:inline">next question</a>.</p>
 
-<p>Excited to go Toronto this weekend. Also excited for the fencing competition happening in a month.</p>
+<!-- <iframe src="/blog//public/pages/Animations#Finite_Difference_Example.mp4" title="test" width="500px" height="500px"></iframe> -->
 
-<p>Lost wallet recently, I appreciate the convenience of credits card a lot more now.</p>
+<p>The former is the Finite Difference solution to \(u''(x) = -(3 \cdot x + x^2) \cdot e^x\) on the domain \([0, 1]\) with \(0\) boundary conditions.</p>
 
+<p>The latter is the Finite Difference solution to \(\delta u = -2 \cdot (x + y - x^2 - y^2)\) on the domain \([0, 1]^2\) with \(0\) boundary conditions.</p>
+
+    <a href="/blog///Finishing_up_second_week"><h1>...</h1></a>
      
   </div>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/blog///FirstMonthOfNewTerm-copy">
-        First Month of the new semester!
+      <a href="/blog///Second_week_of_grad_school">
+        Second week of classes
       </a>
     </h1>
     
     
-    <span class="post-date">25 Jan 2022</span>
+    <span class="post-date">14 Sep 2021</span>
     
     
     
-    <p>Some cool applications of partial derivatives.
-<img src="/blog//assets/Images/partial_derivatives.png" /></p>
+    <p>It’s the second week of classes! Still mainly syllabus stuff.
+Messed around with the starter code of the Computational PDEs course to make  <a class="sidebar-nav-item" href="/blog//public/pages/Animations#Heartbeat_final.mp4" style="display:inline">this</a>.</p>
 
-<p>Trying to learn another dance!</p>
-<video width="500" height="100%" controls="" loop="" autoplay="" muted="">
-<source src="/blog//assets/Sports/monster_practice_1.mp4" type="video/mp4" />
-</video>
 
-<p>Also found out the math talk I gave 2 months ago was filmed!</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iDMZyFQLz6g?start=1826" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-
+    <a href="/blog///Second_week_of_grad_school"><h1>...</h1></a>
      
   </div>
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/blog///MathContest">
-        Math Contest!
+      <a href="/blog///School_starts_in_two_weeks">
+        School starts in 2 Weeks!
       </a>
     </h1>
     
     
-    <span class="post-date">07 Dec 2021</span>
+    <span class="post-date">23 Aug 2021</span>
     
     
     
-    <p>I competed in a math contest today called “Over 9000” with a friend. The contest consisted of a bunch of questions of the form “is N over 9000”, where $n$ was given by some complicated expression. We didn’t do too well xD.</p>
+    Read the Leviathan series! Excited for Leviathan falls this fall. 
 
-<p>I thought some of the rules and questions were interesting.</p>
+I also read Ao Ashi, cool soccer manga like Blue Lock.
 
-<p><img src="/blog///assets/Images/Over9000rules.jpg" /></p>
+Been learning "Autumn Leaves in 10 styles" on the piano. Learned the first 3 styles so far, 7 left. The funky latin looks fun. 
+     
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/blog///School_starts_in_three_weeks">
+        School starts in 3 weeks!
+      </a>
+    </h1>
+    
+    
+    <span class="post-date">08 Aug 2021</span>
+    
+    
+    
+    <p>I’ve learned a new song called <a class="sidebar-nav-item" href="/blog//Piano#" style="display:inline"> Tea for Two </a> which was arranged by Pierre-Yves Plat and composed by Vincent Youmans.</p>
 
-<p>My friend and I were initially aiming to get every question wrong, as the hosts had the rule that since every question boiled down to true or false, they would take the top 4 teams with highest absolute value score. Unofrtunately we consistently alternate between getting questions correct and getting questions wrong.</p>
+<p>Also been trying to get my old physics assignment up on the blog. It’s written in C++, so I’m trying to get Google NACL to work but its making be me pretty salty so far …</p>
 
-<p><img src="/blog///assets/Images/Over9000question.jpg" /></p>
+    <a href="/blog///School_starts_in_three_weeks"><h1>...</h1></a>
+     
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/blog///Rebirth">
+        John 3-7. You should not be surprised at my saying, You must be born again.
+      </a>
+    </h1>
+    
+    
+    <span class="post-date">28 Jul 2021</span>
+    
+    
+    
+    <p>Restarting blog. Let’s see how long I can keep this updated for. This summer I didn’t do that much, but there’s some <a href="/blog//Animations">animations</a> I will show off! I also played a lot of <a href="/blog//piano">piano</a> as well!</p>
 
-<p>The last question was game theory related, as the value of N would be 9001 if there were an odd number of people who voted it was such, and 1 otherwise.</p>
+    <a href="/blog///Rebirth"><h1>...</h1></a>
+     
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/blog///Week12">
+        Week 13
+      </a>
+    </h1>
+    
+    
+    <span class="post-date">21 Jul 2020</span>
+    
+    
+    
+    <p>This week I am still trying to categorize capped trivial tangles into families.</p>
 
-<p>Unfortunately, we were not allowed to collude between teams. There were an odd number of teams for this competition, so we would have all gotten the question right if we all voted that N was over 9000. Sadly it would later turn out of that some of voted under 9000, as N turned out to be 1, meaning that there were an even number of people who voted under 9000. Perhaps because they wanted to score higher than the other teams.</p>
+<!-- 
 
+Last week I tried to calculate the 'small arc' invariant for some capped trivial tangles, but i misunderstand what makes the invariant small. I thought small meant that the last part of the chain dissapears, but I only need to count the number of vertices. 
 
+So far I know that the immersed curve invariant corresponds some set of curves on the $4$ punctured disk.  
+It turns out that adding positive or negative twists to the ends of the tangle corresponds to switching the punctures on the $4$ punctured disk, which in turns simplifies the tangle. I am tasked with calculating the small arc for different rational tangles, and experimenting to see how different twists affect the invariant. (The invariant is unique up to these kinds of twists). 
+
+I am also tasked with categorizing the capped trivial tangles into families. So far I know of 3 families. 
+
+The first family comes from the quotient of the trefoil knot. 
+<img src = "/blog//assets/img/7-15-2020-1.jpg"> 
+For each $n > 0$, we can twists the designated strands to get a different tangle, and each of these tangles correspond to the quotient tangle of a torus knot. So far it seems that the nth tangle corresponds to the nth torus knot, though I still need to verify some more examples for higher $n$. I wonder how I would prove this? I would need to show the twists on the torus correspond to the n twists on the designated strands. 
+
+The second family from surgery on the first family. I am not sure how exactly it is done, but we can take the designated strand and "wrap" it around the the top band. The case $m = 1$ is shown on the right.
+<img src = "/blog//assets/img/7-15-2020-2.jpg"> 
+
+The third family comes surgery on the second family. For fixed $n, m$, we can let $k$ be some intger, and add $k$ twists inside the rectange (positive means positively sloped twists, negative is negatively sloped twists). 
+<img src = "/blog//assets/img/7-15-2020-3.jpg"> 
+
+I should be able to categorize all of the quotient tangles I have found so far with 5 crossings or less in these 3 families. From 5 crossings onward, I will hopefully find some more interesting families.   -->
+
+    <a href="/blog///Week12"><h1>...</h1></a>
      
   </div>
   
@@ -313,19 +447,19 @@
 
 <div class="pagination">
   
-    <a class="pagination-item older" href="/blog/page4">Older</a>
-  
-  
     
       <a class="pagination-item newer" href="/blog/page2">Newer</a>
     
+  
+  
+  <a class="pagination-item older" href="/blog/page4">Older</a>
   
 </div>
       </main>
       <div id="footer">
         <footer class="footer">
           <small>
-            &copy; <time datetime="2022-08-11T08:32:24-04:00">1984</time>. I have no rights reserved.
+            &copy; <time datetime="2022-08-12T14:30:27-04:00">1984</time>. I have no rights reserved.
           </small>
         </footer>
       </div>
