@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2022-08-12T14:30:27-04:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Leon’s Blog(n)</title><subtitle>Just some math notes, piano recordings, and animations</subtitle><author><name>Leon Yao</name></author><entry><title type="html">Lavish Sushi</title><link href="http://localhost:4000/blog/HadSushi" rel="alternate" type="text/html" title="Lavish Sushi" /><published>2021-08-12T00:00:00-04:00</published><updated>2021-08-12T00:00:00-04:00</updated><id>http://localhost:4000/blog/HadSushi</id><content type="html" xml:base="http://localhost:4000/blog/HadSushi">Went to Minami in Vancouver and ate one of their set menus, Shokai i think it was called?
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2022-08-16T20:32:19-04:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Leon’s Blog(n)</title><subtitle>Just some math notes, piano recordings, and animations</subtitle><author><name>Leon Yao</name></author><entry><title type="html">Lavish Sushi</title><link href="http://localhost:4000/blog/HadSushi" rel="alternate" type="text/html" title="Lavish Sushi" /><published>2021-08-12T00:00:00-04:00</published><updated>2021-08-12T00:00:00-04:00</updated><id>http://localhost:4000/blog/HadSushi</id><content type="html" xml:base="http://localhost:4000/blog/HadSushi">Went to Minami in Vancouver and ate one of their set menus, Shokai i think it was called?
 &lt;img src=&quot;{{site.baseurl}}/assets/Images/sushi/sushi_1.jpg&quot;&gt;
 &lt;!--more--&gt;
 &lt;img src=&quot;{{site.baseurl}}/assets/Images/sushi/sushi_2.jpg&quot;&gt;
@@ -17,6 +17,7 @@
 &lt;p&gt;Was reading &lt;a href=&quot;https://en.wikipedia.org/wiki/Beggars_in_Spain&quot;&gt;Beggars in Spain&lt;/a&gt;, which is about Science developing eugenics to the point where they create humans that do not need to sleep, very fitting as I write this post while pulling an all nighter xD.&lt;/p&gt;
 
 &lt;!--more--&gt;
+
 &lt;p&gt;Been listening to some chinese pop recently.&lt;/p&gt;
 
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xEifHCxChyE&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -126,75 +127,70 @@
 
 &lt;p&gt;我不危险&lt;/p&gt;
 
-&lt;p&gt;(repeat)&lt;/p&gt;</content><author><name>Leon Yao</name></author><summary type="html">3Blue1Brown entry is due in 4 days lmao Also went to Seattle! I want to go to Seattle again for the busking scene Was reading Beggars in Spain, which is about Science developing eugenics to the point where they create humans that do not need to sleep, very fitting as I write this post while pulling an all nighter xD.</summary></entry><entry><title type="html">Going Home In a Week!</title><link href="http://localhost:4000/blog/GoingHomeInaWeek" rel="alternate" type="text/html" title="Going Home In a Week!" /><published>2021-07-22T00:00:00-04:00</published><updated>2021-07-22T00:00:00-04:00</updated><id>http://localhost:4000/blog/GoingHomeInaWeek</id><content type="html" xml:base="http://localhost:4000/blog/GoingHomeInaWeek">Learning more jazz
+&lt;p&gt;(repeat)&lt;/p&gt;</content><author><name>Leon Yao</name></author><summary type="html">3Blue1Brown entry is due in 4 days lmao Also went to Seattle! I want to go to Seattle again for the busking scene Was reading Beggars in Spain, which is about Science developing eugenics to the point where they create humans that do not need to sleep, very fitting as I write this post while pulling an all nighter xD.</summary></entry><entry><title type="html">Going Home In a Week!</title><link href="http://localhost:4000/blog/GoingHomeInaWeek" rel="alternate" type="text/html" title="Going Home In a Week!" /><published>2021-07-22T00:00:00-04:00</published><updated>2021-07-22T00:00:00-04:00</updated><id>http://localhost:4000/blog/GoingHomeInaWeek</id><content type="html" xml:base="http://localhost:4000/blog/GoingHomeInaWeek">&lt;p&gt;Learning more jazz&lt;/p&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KRZg-bppfTc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/KRZg-bppfTc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zLxNZEufmGc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zLxNZEufmGc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
+&lt;p&gt;Also been doing a lot of dance with my roommate lately (she’s a really good teacher)&lt;/p&gt;
 
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VJHVJTlaIZc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-Also been doing a lot of dance with my roommate lately (she's a really good teacher)
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qao9QBnS8WE&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VJHVJTlaIZc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/qao9QBnS8WE&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8CXlPQWssAY&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/8CXlPQWssAY&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 &lt;!--more--&gt;
 
-For last year I've been trying to practice my Chinese every day. Usually I would write a journal entry, but recently I've started to write random stories. 
+&lt;p&gt;For last year I’ve been trying to practice my Chinese every day. Usually I would write a journal entry, but recently I’ve started to write random stories.&lt;/p&gt;
 
-有一天，我朋友来我家吃饭。
+&lt;p&gt;有一天，我朋友来我家吃饭。&lt;/p&gt;
 
+&lt;p&gt;叮叮，门铃响了。&lt;/p&gt;
 
-叮叮，门铃响了。
+&lt;p&gt;我打开了门，可是没看见他。我以为我听错了，回了房间。五分钟之后，又听到门铃的声音，又打开了门，又没看见他。我给我朋友打了电话，&lt;/p&gt;
 
+&lt;p&gt;听到手机的震动声好像是从楼梯口传来的。我去看了一下，然后就没有记忆了。&lt;/p&gt;
 
-我打开了门，可是没看见他。我以为我听错了，回了房间。五分钟之后，又听到门铃的声音，又打开了门，又没看见他。我给我朋友打了电话，
+&lt;p&gt;醒来了。我在哪里啊？？？好像在陌生人的车后，可是很难知道啊，因为被蒙上了眼睛，还被堵住了嘴。所幸他们并没有盖住我物品耳朵，&lt;/p&gt;
 
-听到手机的震动声好像是从楼梯口传来的。我去看了一下，然后就没有记忆了。
+&lt;p&gt;我甚至还能听到外面赛车声，&lt;/p&gt;
 
-醒来了。我在哪里啊？？？好像在陌生人的车后，可是很难知道啊，因为被蒙上了眼睛，还被堵住了嘴。所幸他们并没有盖住我物品耳朵，
+&lt;p&gt;也能听到我朋友痛苦地尖叫声。&lt;/p&gt;
 
-我甚至还能听到外面赛车声，
+&lt;p&gt;我想知道他们在车前干啥？&lt;/p&gt;
 
-也能听到我朋友痛苦地尖叫声。
+&lt;p&gt;Hm，闻到血的味道了，&lt;/p&gt;
 
+&lt;p&gt;是我的吗？好像不是，&lt;/p&gt;
 
-我想知道他们在车前干啥？
+&lt;p&gt;可是也是很难知道啊，&lt;/p&gt;
 
-Hm，闻到血的味道了，
+&lt;p&gt;因为手和腿都动不了，真麻木的，&lt;/p&gt;
 
-是我的吗？好像不是，
+&lt;p&gt;有点想被切掉了。&lt;/p&gt;
 
-可是也是很难知道啊，
+&lt;p&gt;啊，车开始开慢了一点。&lt;/p&gt;
 
-因为手和腿都动不了，真麻木的，
+&lt;p&gt;我听到他们在吵架，可是内容不太清楚啊。&lt;/p&gt;
 
-有点想被切掉了。
+&lt;p&gt;“一万太少钱啊！在尔罗斯我能转了三倍多啊”。
+BANG！！！&lt;/p&gt;
 
-啊，车开始开慢了一点。
+&lt;p&gt;开枪的声音。我听到脚步声，有人要开车后面。。。&lt;/p&gt;
 
-我听到他们在吵架，可是内容不太清楚啊。
-
-“一万太少钱啊！在尔罗斯我能转了三倍多啊”。
-BANG！！！
-
-开枪的声音。我听到脚步声，有人要开车后面。。。
-
-Still working on the 3Blue1Brown entry, but haven't made much progress. I need to schedule more time for it (due in 3 weeks)</content><author><name>Leon Yao</name></author><summary type="html">Learning more jazz Also been doing a lot of dance with my roommate lately (she’s a really good teacher)</summary></entry><entry><title type="html">Went Buskin!</title><link href="http://localhost:4000/blog/WentBusking" rel="alternate" type="text/html" title="Went Buskin!" /><published>2021-07-12T00:00:00-04:00</published><updated>2021-07-12T00:00:00-04:00</updated><id>http://localhost:4000/blog/WentBusking</id><content type="html" xml:base="http://localhost:4000/blog/WentBusking">Went busking! I tried to play as loud as possible, it'd be funny if I got fined.
-&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls loop autoplay muted&gt;
-&lt;source src=&quot;{{site.baseurl}}/assets/Music/busking.mp4&quot; type=&quot;video/mp4&quot;&gt;
+&lt;p&gt;Still working on the 3Blue1Brown entry, but haven’t made much progress. I need to schedule more time for it (due in 3 weeks)&lt;/p&gt;</content><author><name>Leon Yao</name></author><summary type="html">Learning more jazz Also been doing a lot of dance with my roommate lately (she’s a really good teacher)</summary></entry><entry><title type="html">Went Buskin!</title><link href="http://localhost:4000/blog/WentBusking" rel="alternate" type="text/html" title="Went Buskin!" /><published>2021-07-12T00:00:00-04:00</published><updated>2021-07-12T00:00:00-04:00</updated><id>http://localhost:4000/blog/WentBusking</id><content type="html" xml:base="http://localhost:4000/blog/WentBusking">&lt;p&gt;Went busking! I tried to play as loud as possible, it’d be funny if I got fined.&lt;/p&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Music/busking.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
-Learning more jazz as well 
-&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls loop autoplay muted&gt;
-&lt;source src=&quot;{{site.baseurl}}/assets/Music/isnt_she_lovely.mp4&quot; type=&quot;video/mp4&quot;&gt;
+&lt;p&gt;Learning more jazz as well&lt;/p&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Music/isnt_she_lovely.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
-Rotoscoping a new fencing video (world class fencers, not me)
-&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls loop autoplay muted&gt;
-&lt;source src=&quot;{{site.baseurl}}/assets/Animations/world_class_fencing.mp4&quot; type=&quot;video/mp4&quot;&gt;
+&lt;p&gt;Rotoscoping a new fencing video (world class fencers, not me)&lt;/p&gt;
+&lt;video width=&quot;500&quot; height=&quot;100%&quot; controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Animations/world_class_fencing.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;</content><author><name>Leon Yao</name></author><summary type="html">Went busking! I tried to play as loud as possible, it’d be funny if I got fined. Learning more jazz as well Rotoscoping a new fencing video (world class fencers, not me)</summary></entry><entry><title type="html">FixedRollerBlades!</title><link href="http://localhost:4000/blog/FixedRollerBlades" rel="alternate" type="text/html" title="FixedRollerBlades!" /><published>2021-07-09T00:00:00-04:00</published><updated>2021-07-09T00:00:00-04:00</updated><id>http://localhost:4000/blog/FixedRollerBlades</id><content type="html" xml:base="http://localhost:4000/blog/FixedRollerBlades">Fixed Rollerblades! It's nice that there is a rollerblading rink just outside my apartment.
 &lt;video width=&quot;500&quot; height=&quot;100%&quot; controls loop autoplay muted&gt;
 &lt;source src=&quot;{{site.baseurl}}/assets/Sports/rollerblades.mp4&quot; type=&quot;video/mp4&quot;&gt;

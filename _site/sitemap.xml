@@ -216,6 +216,9 @@
 <loc>http://localhost:4000/blog/public/pages/Sports</loc>
 </url>
 <url>
+<loc>http://localhost:4000/blog/public/pages/Stories</loc>
+</url>
+<url>
 <loc>http://localhost:4000/blog/public/pages/ToDo</loc>
 </url>
 <url>
