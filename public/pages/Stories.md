@@ -4,11 +4,11 @@ title: Stories
 time: 2021-08-16
 ---
 
-有一次我跟我朋友（我叫她Sally）在餐厅喝酒。我们在聊天，然后旁边桌子的女人（叫Swalla吧）问了我如果我想跟她喝酒。我觉得有点奇怪，她是不是在泡妞吗？我在她旁边，喝了一杯日本酒（sake？），然后回了我朋友Sally。可是Swalla好想很喜欢个人喝酒，请了Sally去喝。Sally回来了告诉我Swalla有老公。。。
+有一次我跟我朋友（我叫她Sally）在餐厅喝酒。我们在聊天，然后旁边桌子的女人（叫Swalla吧）问了我如果我想跟她喝酒。我觉得有点奇怪，她是不是在泡我吗？我在她旁边，喝了一杯日本酒（sake？），然后回了我朋友Sally。可是Swalla好想很喜欢个人喝酒，请了Sally去喝。Sally回来了告诉我Swalla有老公。。。
 
 
 我那时候已经一点不知道Swalla的在干什么。。。
-Swalla又请了我来喝，我坐在她边上，用英文说“I don't want to drink", to which she replied "I don't speak fucking english",然后接着给我泡酒。
+Swalla又请了我来喝，我坐在她边上，用英文说“I don't want to drink", to which she replied "I don't speak fucking english",然后接着给我倒酒。
 突然，有个男人在我左边，看着我，没说一点话。一分钟过去，他指着我原来的桌子，我终于了解我坐在他座位，飞快了回了我座位（我以为他会打我啊）。
 
 

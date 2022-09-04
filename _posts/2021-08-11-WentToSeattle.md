@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Went To Seattle!
-time: 2021/07/21
+time: 2021/08/11
 excerpt_separator: <!--more-->
 ---
 
