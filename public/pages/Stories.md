@@ -22,3 +22,17 @@ Sally和那个女生回来了，我发现是跟你Swalla坐的女人。。。Sal
 
 
 我永远在不喝酒了。
+
+
+i was walking down the street saw a band busking
+asked them if i could join them
+which was great cause they said yes
+but as i was asking
+some random guy started trying to intimidate me
+i had to back up because he got so close
+and i was going to get my sax from my friends house
+he started following me
+and he was holding a huge rock
+i was a bit scared
+thankfully my friends met up with me and he stopped following me
+but i had to stop myself from sprinting away

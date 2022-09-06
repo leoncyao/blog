@@ -1,14 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2022-09-04T04:26:43-04:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Leon’s Blog(n)</title><subtitle>Just some math notes, piano recordings, and animations</subtitle><author><name>Leon Yao</name></author><entry><title type="html">Second Coop Term starting</title><link href="http://localhost:4000/blog/SecondTermStarting" rel="alternate" type="text/html" title="Second Coop Term starting" /><published>2021-09-01T00:00:00-04:00</published><updated>2021-09-01T00:00:00-04:00</updated><id>http://localhost:4000/blog/SecondTermStarting</id><content type="html" xml:base="http://localhost:4000/blog/SecondTermStarting">Learned part of the Exo Overdose dance!
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2022-09-06T12:03:05-04:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Leon’s Blog(n)</title><subtitle>Just some math notes, piano recordings, and animations</subtitle><author><name>Leon Yao</name></author><entry><title type="html">Second Coop Term starting</title><link href="http://localhost:4000/blog/SecondTermStarting" rel="alternate" type="text/html" title="Second Coop Term starting" /><published>2021-09-01T00:00:00-04:00</published><updated>2021-09-01T00:00:00-04:00</updated><id>http://localhost:4000/blog/SecondTermStarting</id><content type="html" xml:base="http://localhost:4000/blog/SecondTermStarting">&lt;p&gt;Learned part of the Exo Overdose dance!&lt;/p&gt;
 
-&lt;video controls loop autoplay muted&gt;
-&lt;source src=&quot;{{site.baseurl}}/assets/Sports/overdose.mp4&quot; type=&quot;video/mp4&quot;&gt;
+&lt;video controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Sports/overdose.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 
-Also saw some buskers on the street and asked if I could perform with them. Was fun! They were a really cool R&amp;B band.
+&lt;p&gt;Also saw some buskers on the street and asked if I could perform with them. Was fun! They were a really cool R&amp;amp;B band called Chrislordideals.&lt;/p&gt;
 
-&lt;video controls loop autoplay muted&gt;
-&lt;source src=&quot;{{site.baseurl}}/assets/Music/R&amp;B.mp4&quot; type=&quot;video/mp4&quot;&gt;
-&lt;/video&gt;</content><author><name>Leon Yao</name></author><summary type="html">Learned part of the Exo Overdose dance! Also saw some buskers on the street and asked if I could perform with them. Was fun! They were a really cool R&amp;amp;B band.</summary></entry><entry><title type="html">Lavish Sushi</title><link href="http://localhost:4000/blog/HadSushi" rel="alternate" type="text/html" title="Lavish Sushi" /><published>2021-08-12T00:00:00-04:00</published><updated>2021-08-12T00:00:00-04:00</updated><id>http://localhost:4000/blog/HadSushi</id><content type="html" xml:base="http://localhost:4000/blog/HadSushi">Went to Minami in Vancouver and ate one of their set menus, Shokai i think it was called?
+&lt;video controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Music/R&amp;amp;B.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;video controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Music/chrislordgeorgia.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;p&gt;Finished Beggars in Spain recently. Quite interesting! It is about a world where they discover a way to make people not require sleep at all and function better than normal humans. I should make a page about all the books I’ve read.&lt;/p&gt;</content><author><name>Leon Yao</name></author><summary type="html">Learned part of the Exo Overdose dance! Also saw some buskers on the street and asked if I could perform with them. Was fun! They were a really cool R&amp;amp;B band called Chrislordideals. Finished Beggars in Spain recently. Quite interesting! It is about a world where they discover a way to make people not require sleep at all and function better than normal humans. I should make a page about all the books I’ve read.</summary></entry><entry><title type="html">Lavish Sushi</title><link href="http://localhost:4000/blog/HadSushi" rel="alternate" type="text/html" title="Lavish Sushi" /><published>2021-08-12T00:00:00-04:00</published><updated>2021-08-12T00:00:00-04:00</updated><id>http://localhost:4000/blog/HadSushi</id><content type="html" xml:base="http://localhost:4000/blog/HadSushi">Went to Minami in Vancouver and ate one of their set menus, Shokai i think it was called?
 &lt;img src=&quot;{{site.baseurl}}/assets/Images/sushi/sushi_1.jpg&quot;&gt;
 &lt;!--more--&gt;
 &lt;img src=&quot;{{site.baseurl}}/assets/Images/sushi/sushi_2.jpg&quot;&gt;
