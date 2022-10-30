@@ -175,6 +175,40 @@
   
   <div class="post">
     <h1 class="post-title">
+      <a href="/blog///Halloween">
+        Halloween and Harrowing Heat equation
+      </a>
+    </h1>
+    
+    
+    <span class="post-date">31 Oct 2021</span>
+    
+    
+    
+    <p>Made an animation for the finite element method with time dependence!</p>
+<video width="500" height="100%" controls="" loop="" autoplay="" muted="">
+<source src="/blog///assets/Animations/Finite_Elements_Heat_Sim_Example.mp4" type="video/mp4" />
+</video>
+
+<p>It also looks cool when you plot it out with time as the third dimension (Thanks Leonidas for the suggestion).</p>
+
+<p><img src="/blog///assets/Images/Finite_Elements_Heat_Sim_Contour.jpg" /></p>
+
+<p>I then varied the initial condition. <br />It starts at $u(x, 0) = \sin(0x)$ and ends up at $\sin(5\pi x)$ over the duration of the video.</p>
+<video width="500" height="100%" controls="" loop="" autoplay="" muted="">
+<source src="/blog///assets/Animations/contour_animation.mp4" type="video/mp4" />
+</video>
+
+<p>Auto covid form completer seems to work with schtasks, though it seems my computer needs to be on for it to run. Hopefully, I can run it in the background with some permissions, so I can leave my computer asleep</p>
+
+<p>Helped my friend with a halloween murder mystery party script.
+I helped with some of the ideas. Was fun and tiring, as the players went in directions we did not anticipate. Also saw a lot of plotholes, its interesting to see the parts that needed more speficiation, generally crucial clues needed more details as player would make things up that weren’t exactly true, and such errors would cascade and cover up the real killers.</p>
+
+     
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="/blog///Reading-week-is-halfway-done">
         Reading Week, Part 2!
       </a>
@@ -185,11 +219,11 @@
     
     
     
-    Halfway through reading week.
+    <p>Halfway through reading week.</p>
 
-Today I worked on a possible research project, specifically the <a href="{{ site.baseurl }}/public/pages/Research#chebyshev_optimization">Integer Chebyshev Problem</a>, which I think is a cool optimzation problem. It'll be interesting to see if they are any real world applications.
+<p>Today I worked on a possible research project, specifically the <a href="/blog//public/pages/Research#chebyshev_optimization">Integer Chebyshev Problem</a>, which I think is a cool optimzation problem. It’ll be interesting to see if they are any real world applications.</p>
 
-I'm trying to get the <a href="https://github.com/leoncyao/autofill_covid_self_assesment">js script</a> I wrote last week to automatically run once every day, but I don't like using Windows Automatic Scheduler. Hopefully I can find a better script automater.
+<p>I’m trying to get the <a href="https://github.com/leoncyao/autofill_covid_self_assesment">js script</a> I wrote last week to automatically run once every day, but I don’t like using Windows Automatic Scheduler. Hopefully I can find a better script automater.</p>
 
 
      
@@ -207,14 +241,15 @@ I'm trying to get the <a href="https://github.com/leoncyao/autofill_covid_self_a
     
     
     
-    It's finally reading week.
+    <p>It’s finally reading week.</p>
 
-Didn't do much today, but made a <a href="https://github.com/leoncyao/autofill_covid_self_assesment">js script</a> to autofill the self assessment form we have to do. 
+<p>Didn’t do much today, but made a <a href="https://github.com/leoncyao/autofill_covid_self_assesment">js script</a> to autofill the self assessment form we have to do.</p>
 
-Also started kpop dancing!
-<video width="500" height="100%" controls loop autoplay muted>
-<source src="{{site.baseurl}}//assets/Sports/growl_practice_1.mp4" type="video/mp4">
+<p>Also started kpop dancing!</p>
+<video width="500" height="100%" controls="" loop="" autoplay="" muted="">
+<source src="/blog///assets/Sports/growl_practice_1.mp4" type="video/mp4" />
 </video>
+
      
   </div>
   
@@ -245,18 +280,27 @@ Also started kpop dancing!
   width: 200%;
 } -->
 <!-- h1 {text-align: left;}
-</style> --> 
+</style> -->
 
-
-{% for item in site.static_files %}
-{% if item.path contains "Cooking"%}
-  <div class="column">
-    {{item.name}}
-    <img src ="{{site.baseurl}}/{{ item.path }}" style="width:100%">
+<div class="column">
+    Steak and Smoothie.jpg
+    <img src="/blog///assets/Cooking/Steak and Smoothie.jpg" style="width:100%" />
   </div>
-{% endif %}
-{% endfor %}
 
+<div class="column">
+    Tofu.jpg
+    <img src="/blog///assets/Cooking/Tofu.jpg" style="width:100%" />
+  </div>
+
+<div class="column">
+    curry.jpg
+    <img src="/blog///assets/Cooking/curry.jpg" style="width:100%" />
+  </div>
+
+<div class="column">
+    shrimp_fried_rice.jpg
+    <img src="/blog///assets/Cooking/shrimp_fried_rice.jpg" style="width:100%" />
+  </div>
 
 
      
@@ -274,13 +318,14 @@ Also started kpop dancing!
     
     
     
-    Learning about the <a href="https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation#:~:text=The%20convection%E2%80%93diffusion%20equation%20is,two%20processes%3A%20diffusion%20and%20convection"> convection-diffusion-reaction system</a>, modelled by
+    <p>Learning about the <a href="https://en.wikipedia.org/wiki/Convection%E2%80%93diffusion_equation#:~:text=The%20convection%E2%80%93diffusion%20equation%20is,two%20processes%3A%20diffusion%20and%20convection"> convection-diffusion-reaction system</a>, modelled by</p>
 
-$$ \frac{\partial{c}}{\partial{t}} = \nabla \cdot (D\nabla c ) - \lambda \cdot (\textbf{v} c) + R$$
+\[\frac{\partial{c}}{\partial{t}} = \nabla \cdot (D\nabla c ) - \lambda \cdot (\textbf{v} c) + R\]
 
-This can be used to model the heat in a room, as shown here.
+<p>This can be used to model the heat in a room, as shown here.</p>
 
-I am also reading up on the <a href="https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model">Black-Scholes model</a> which is used in finance. More specifically, 
+<p>I am also reading up on the <a href="https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model">Black-Scholes model</a> which is used in finance. More specifically,</p>
+
      
   </div>
   
@@ -296,43 +341,41 @@ I am also reading up on the <a href="https://en.wikipedia.org/wiki/Black%E2%80%9
     
     
     
-    <a href="{{ site.baseurl }}/public/pages/Animations#中秋节.mp4" style="display:inline">Happy Mid Autumn Festival!</a>
+    <p><a href="/blog//public/pages/Animations#中秋节.mp4" style="display:inline">Happy Mid Autumn Festival!</a></p>
 
-I have some new ideas for projects, god knows if I ever finish any of them xD.
+<p>I have some new ideas for projects, god knows if I ever finish any of them xD.</p>
 
--Pdes heat/fluids game (ice age end of the world apocalypse where you assign heat sources in an apartment to keep people alive), planning to use ngsolve library.
+<p>-Pdes heat/fluids game (ice age end of the world apocalypse where you assign heat sources in an apartment to keep people alive), planning to use ngsolve library.</p>
 
--Text based job assignment fantasy game, planning to use gurobi to solve job assignment ip.
+<p>-Text based job assignment fantasy game, planning to use gurobi to solve job assignment ip.</p>
 
--Apply finite element method to black scholes
+<p>-Apply finite element method to black scholes</p>
 
-I'm also looking at one of my supervisor's papers. Yo, base golden ratio $$\phi$$ number systems are cool. 
+<p>I’m also looking at one of my supervisor’s papers. Yo, base golden ratio \(\phi\) number systems are cool.</p>
 
-In base $$\phi$$, where $$\phi$$ is the larger root of $$\phi^2 - \phi - 1 = 0$$ i.e $$\phi \approx 1.618$$ numbers are written $$\sum_{i=0}^{\infty}{a_n\phi^{-n}}$$, so it's the normal decimal system except we have $$\phi$$ instead of $10$. 
-It is also similar to binary, as $$a_n$$ are only allowed to be $$0$$ or $$1$$.
+<p>In base \(\phi\), where \(\phi\) is the larger root of \(\phi^2 - \phi - 1 = 0\) i.e \(\phi \approx 1.618\) numbers are written \(\sum_{i=0}^{\infty}{a_n\phi^{-n}}\), so it’s the normal decimal system except we have \(\phi\) instead of $10$. 
+It is also similar to binary, as \(a_n\) are only allowed to be \(0\) or \(1\).</p>
 
-Unlike the base 10 system, there are many different ways to write the same number (Infinite ways according to Erdős). 
+<p>Unlike the base 10 system, there are many different ways to write the same number (Infinite ways according to Erdős).</p>
 
-For example, the number $$1$$ in base $$10$$ can be written as $$1.0, 0.11, 0.1011$$ in base $$\phi$$, and there are trickier expansions such as $0.110110110110 ... $ and $0.10101011010$. These can be shown with a little algebra.
+<p>For example, the number \(1\) in base \(10\) can be written as \(1.0, 0.11, 0.1011\) in base \(\phi\), and there are trickier expansions such as $0.110110110110 … $ and $0.10101011010$. These can be shown with a little algebra.</p>
 <details> <summary> A little algebra showing the above </summary>
 $$
 \begin{align}
-\phi^2 - \phi - 1 &= 0 \text{ start with quadratic equation} \\
-1 - \frac{1}{\phi} - \frac{1}{\phi^2} &= 0 \text{ divide both sides by } \phi \\
-1 &= \frac{1}{\phi} + \frac{1}{\phi^2} \text{ rearrange, note that this would be } 0.11 \text{ in base } \phi  \\
-  &= \frac{1}{\phi} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2}}{\phi^2} \text{ sub in previous line for the 1 in the numerator of }\frac{1}{\phi^4} \\
-  &= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^4} \text{simplify, note that this would be } 0.1011 \text{ in base } \phi \\
-  &= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2} }{\phi^4} \text{ repeat substitution process always on the greatest power term}
+\phi^2 - \phi - 1 &amp;= 0 \text{ start with quadratic equation} \\
+1 - \frac{1}{\phi} - \frac{1}{\phi^2} &amp;= 0 \text{ divide both sides by } \phi \\
+1 &amp;= \frac{1}{\phi} + \frac{1}{\phi^2} \text{ rearrange, note that this would be } 0.11 \text{ in base } \phi  \\
+  &amp;= \frac{1}{\phi} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2}}{\phi^2} \text{ sub in previous line for the 1 in the numerator of }\frac{1}{\phi^4} \\
+  &amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^4} \text{simplify, note that this would be } 0.1011 \text{ in base } \phi \\
+  &amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{\frac{1}{\phi} + \frac{1}{\phi^2} }{\phi^4} \text{ repeat substitution process always on the greatest power term}
  \\
-  &= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^5} + \frac{1}{\phi^6} \\
-  & \vdots 
+  &amp;= \frac{1}{\phi} + \frac{1}{\phi^3} + \frac{1}{\phi^5} + \frac{1}{\phi^6} \\
+  &amp; \vdots 
 \end{align} 
 $$
 which then becomes $$0.10101010...$$ in base $\phi$.
 Other expansions such as $$0.110110110...$$ can be shown with a similar method, though you would replace the $1$ with $\frac{1}{\phi^2} - \frac{1}{\phi}$ in a different term (not always the greatest power one).  
 </details>
-
-
 
 
      
@@ -359,7 +402,6 @@ and the 2D version for the <a class="sidebar-nav-item" href="/blog//public/pages
 
 <p>The latter is the Finite Difference solution to \(\delta u = -2 \cdot (x + y - x^2 - y^2)\) on the domain \([0, 1]^2\) with \(0\) boundary conditions.</p>
 
-    <a href="/blog///Finishing_up_second_week"><h1>...</h1></a>
      
   </div>
   
@@ -379,7 +421,6 @@ and the 2D version for the <a class="sidebar-nav-item" href="/blog//public/pages
 Messed around with the starter code of the Computational PDEs course to make  <a class="sidebar-nav-item" href="/blog//public/pages/Animations#Heartbeat_final.mp4" style="display:inline">this</a>.</p>
 
 
-    <a href="/blog///Second_week_of_grad_school"><h1>...</h1></a>
      
   </div>
   
@@ -395,11 +436,12 @@ Messed around with the starter code of the Computational PDEs course to make  <a
     
     
     
-    Read the Leviathan series! Excited for Leviathan falls this fall. 
+    <p>Read the Leviathan series! Excited for Leviathan falls this fall.</p>
 
-I also read Ao Ashi, cool soccer manga like Blue Lock.
+<p>I also read Ao Ashi, cool soccer manga like Blue Lock.</p>
 
-Been learning "Autumn Leaves in 10 styles" on the piano. Learned the first 3 styles so far, 7 left. The funky latin looks fun. 
+<p>Been learning “Autumn Leaves in 10 styles” on the piano. Learned the first 3 styles so far, 7 left. The funky latin looks fun.</p>
+
      
   </div>
   
@@ -419,25 +461,6 @@ Been learning "Autumn Leaves in 10 styles" on the piano. Learned the first 3 sty
 
 <p>Also been trying to get my old physics assignment up on the blog. It’s written in C++, so I’m trying to get Google NACL to work but its making be me pretty salty so far …</p>
 
-    <a href="/blog///School_starts_in_three_weeks"><h1>...</h1></a>
-     
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/blog///Rebirth">
-        John 3-7. You should not be surprised at my saying, You must be born again.
-      </a>
-    </h1>
-    
-    
-    <span class="post-date">28 Jul 2021</span>
-    
-    
-    
-    <p>Restarting blog. Let’s see how long I can keep this updated for. This summer I didn’t do that much, but there’s some <a href="/blog//Animations">animations</a> I will show off! I also played a lot of <a href="/blog//piano">piano</a> as well!</p>
-
-    <a href="/blog///Rebirth"><h1>...</h1></a>
      
   </div>
   
@@ -457,7 +480,7 @@ Been learning "Autumn Leaves in 10 styles" on the piano. Learned the first 3 sty
       <div id="footer">
         <footer class="footer">
           <small>
-            &copy; <time datetime="2022-09-06T12:03:05-04:00">1984</time>. I have no rights reserved.
+            &copy; <time datetime="2022-10-03T01:52:51-04:00">1984</time>. I have no rights reserved.
           </small>
         </footer>
       </div>

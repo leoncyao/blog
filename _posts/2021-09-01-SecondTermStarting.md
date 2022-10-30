@@ -4,7 +4,7 @@ title: Second Coop Term starting
 time: 2021/09/01
 excerpt_separator: <!--more-->
 ---
-
+asdf
 Learned part of the Exo Overdose dance!
 
 <video controls loop autoplay muted>

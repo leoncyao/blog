@@ -1,0 +1,28 @@
+---
+layout: post
+title: Learned Maniac! 
+time: 2021/09/19
+excerpt_separator: <!--more-->
+---
+
+Learned part of the Stray kids Maniac dance!
+
+<video controls loop autoplay muted>
+<source src="{{site.baseurl}}/assets/Sports/maniac.mp4" type="video/mp4">
+</video>
+
+My friend said she would give me 1000 dollars if I could get a date with this pfp.
+
+
+I wrote this bio for the bio:
+
+My friend bet me 1000$ I couldn't get a date with this pfp, which also happens to be the amount I'd be willing to spend on our first date.
+
+<img src="{{site.baseurl}}/assets/Images/tinder.png">
+
+Sorry, it's 200$ now, she got scared I might win.
+
+I didn't follow through though, I started feeling bad because I thought I was leading girls on, and also I don't think I need a dating app to meet people (currently meeting so many people that when I get a message I can't remember who the person is xD)
+
+<!--more-->
+
