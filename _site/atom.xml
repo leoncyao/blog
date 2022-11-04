@@ -13,6 +13,30 @@
 
  
  <entry>
+   <title>Went to Iceland!</title>
+   <link href="http://localhost:4000/Visited-Iceland!"/>
+   <updated>2021-10-30T00:00:00-04:00</updated>
+   <id>http://localhost:4000/Visited Iceland!</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/blog///assets/Images/iceland/iceland (1).jpg&quot; /&gt;
+&lt;img src=&quot;/blog///assets/Images/iceland/iceland (2).jpg&quot; /&gt;
+&lt;img src=&quot;/blog///assets/Images/iceland/iceland (3).jpg&quot; /&gt;
+&lt;img src=&quot;/blog///assets/Images/iceland/iceland (4).jpg&quot; /&gt;
+&lt;img src=&quot;/blog///assets/Images/iceland/iceland (5).jpg&quot; /&gt;
+&lt;img src=&quot;/blog///assets/Images/iceland/iceland (6).jpg&quot; /&gt;
+&lt;img src=&quot;/blog///assets/Images/iceland/iceland (7).jpg&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Going to Iceland Next Week!</title>
+   <link href="http://localhost:4000/Going-to-Iceland-Next-Week"/>
+   <updated>2021-10-22T00:00:00-04:00</updated>
+   <id>http://localhost:4000/Going to Iceland Next Week</id>
+   <content type="html">&lt;p&gt;Going to Iceland Next Week! It’d be cool if I could somehow play music with laufey, would require lots of luck. I should see if I can rent an alto in Reykjavik.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Visitedfriendsoffice</title>
    <link href="http://localhost:4000/visitedfriendsoffice"/>
    <updated>2021-10-01T00:00:00-04:00</updated>
@@ -20,6 +44,10 @@
    <content type="html">&lt;p&gt;Loblaws Office is nice!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog//assets/Images/beanbag.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Planning to visit Reykjavik in October. It’d be ideal if I could be friend someone in the CS program at RU, who could show me around and also tell me about how the cs program there. Not sure how to go about that. I tried to talking to their registrar, but they haven’t responded to my request to a student’s contact.&lt;/p&gt;
+
+&lt;p&gt;If I was a incoming uoft student, how could I get a cs student’s contact here without being enrolled.&lt;/p&gt;
 </content>
  </entry>
  
