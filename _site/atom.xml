@@ -13,13 +13,35 @@
 
  
  <entry>
+   <title>Competed in a bunch of fencing tournaments!</title>
+   <link href="http://localhost:4000/FencingTournaments"/>
+   <updated>2021-11-21T00:00:00-05:00</updated>
+   <id>http://localhost:4000/FencingTournaments</id>
+   <content type="html">&lt;video controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Sports/on_practice_1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;video controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Sports/Flèche.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;video controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Sports/growl_uoft_kdc.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Went to Iceland!</title>
    <link href="http://localhost:4000/Visited-Iceland!"/>
    <updated>2021-10-30T00:00:00-04:00</updated>
    <id>http://localhost:4000/Visited Iceland!</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/blog///assets/Images/iceland/iceland (1).jpg&quot; /&gt;
+   <content type="html">&lt;p&gt;Met up with a guy to teach him Chinese, was fun!
+Laufey was so cool, she soloed in front of an orchestra in a formal dress while playing an electric guitar, then invited her twin sister to play with her on stage, and called her hairdo shit. Amazing. She is my goddess. I pray to her and Pierre every time I perform.
+&lt;img src=&quot;/blog///assets/Images/iceland/iceland (1).jpg&quot; /&gt;
 &lt;img src=&quot;/blog///assets/Images/iceland/iceland (2).jpg&quot; /&gt;
 &lt;img src=&quot;/blog///assets/Images/iceland/iceland (3).jpg&quot; /&gt;
+&lt;!--more--&gt;
 &lt;img src=&quot;/blog///assets/Images/iceland/iceland (4).jpg&quot; /&gt;
 &lt;img src=&quot;/blog///assets/Images/iceland/iceland (5).jpg&quot; /&gt;
 &lt;img src=&quot;/blog///assets/Images/iceland/iceland (6).jpg&quot; /&gt;
