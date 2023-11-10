@@ -10,6 +10,8 @@ host: "localhost"
 port: 4000
 # host: "10.32.226.35"
 
+# destination: /var/www/html
+
 kramdown:
   parse_span_html: false
 

@@ -13,20 +13,37 @@
 
  
  <entry>
+   <title>2022/12/11</title>
+   <link href="http://localhost:4000/backtoarts"/>
+   <updated>2021-12-11T00:00:00-05:00</updated>
+   <id>http://localhost:4000/backtoarts</id>
+   <content type="html">&lt;p&gt;早上十点半起了床（昨天晚上熬夜在韩流俱乐部跳舞）。
+跟了薛文傑和Tommy打了羽毛球和evolution桌游。
+中午在mabu吃了中餐。晚上吃了生下来的意大利面。&lt;/p&gt;
+
+&lt;p&gt;The day after I also played Board Games and had drinks at Anastasiia’s house. This girl got mad at me for not drinking, and then drank less than me. Also beat her in evolution while keeping track of her score count. 
+&lt;!-- (god im a genius) --&gt;&lt;/p&gt;
+
+&lt;!-- I&apos;ve also learned that 3 shots of coconut vodka is my alcohol tolerance. I&apos;m never drinking again, this shit makes me want to kill myself the next day, hangovers suck. --&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Competed in a bunch of fencing tournaments!</title>
    <link href="http://localhost:4000/FencingTournaments"/>
    <updated>2021-11-21T00:00:00-05:00</updated>
    <id>http://localhost:4000/FencingTournaments</id>
-   <content type="html">&lt;video controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
-&lt;source src=&quot;/blog//assets/Sports/on_practice_1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-&lt;/video&gt;
-
+   <content type="html">&lt;p&gt;RMC Team invitational. Slow mo clapping is distorted af. Can’t tell if it’s because instagram compression&lt;/p&gt;
 &lt;video controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Sports/Flèche.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 
 &lt;video controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
 &lt;source src=&quot;/blog//assets/Sports/growl_uoft_kdc.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;video controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
+&lt;source src=&quot;/blog//assets/Sports/on_practice_1.mp4&quot; type=&quot;video/mp4&quot; /&gt;
 &lt;/video&gt;
 </content>
  </entry>
@@ -75,9 +92,9 @@ Laufey was so cool, she soloed in front of an orchestra in a formal dress while 
  
  <entry>
    <title>Learned Maniac!</title>
-   <link href="http://localhost:4000/Maniac-copy"/>
+   <link href="http://localhost:4000/Maniac"/>
    <updated>2021-09-19T00:00:00-04:00</updated>
-   <id>http://localhost:4000/Maniac copy</id>
+   <id>http://localhost:4000/Maniac</id>
    <content type="html">&lt;p&gt;Learned part of the Stray kids Maniac dance!&lt;/p&gt;
 
 &lt;video controls=&quot;&quot; loop=&quot;&quot; autoplay=&quot;&quot; muted=&quot;&quot;&gt;
@@ -86,7 +103,7 @@ Laufey was so cool, she soloed in front of an orchestra in a formal dress while 
 
 &lt;p&gt;My friend said she would give me 1000 dollars if I could get a date with this pfp.&lt;/p&gt;
 
-&lt;p&gt;I wrote this bio for the bio:&lt;/p&gt;
+&lt;p&gt;I wrote this for the bio:&lt;/p&gt;
 
 &lt;p&gt;My friend bet me 1000$ I couldn’t get a date with this pfp, which also happens to be the amount I’d be willing to spend on our first date.&lt;/p&gt;
 
@@ -771,7 +788,7 @@ and the 2D version for the &lt;a class=&quot;sidebar-nav-item&quot; href=&quot;/
 
 &lt;!-- &lt;iframe src=&quot;/blog//public/pages/Animations#Finite_Difference_Example.mp4&quot; title=&quot;test&quot; width=&quot;500px&quot; height=&quot;500px&quot;&gt;&lt;/iframe&gt; --&gt;
 
-&lt;p&gt;The former is the Finite Difference solution to \(u''(x) = -(3 \cdot x + x^2) \cdot e^x\) on the domain \([0, 1]\) with \(0\) boundary conditions.&lt;/p&gt;
+&lt;p&gt;The former is the Finite Difference solution to \(u&apos;&apos;(x) = -(3 \cdot x + x^2) \cdot e^x\) on the domain \([0, 1]\) with \(0\) boundary conditions.&lt;/p&gt;
 
 &lt;p&gt;The latter is the Finite Difference solution to \(\delta u = -2 \cdot (x + y - x^2 - y^2)\) on the domain \([0, 1]^2\) with \(0\) boundary conditions.&lt;/p&gt;
 </content>
@@ -830,7 +847,7 @@ Messed around with the starter code of the Computational PDEs course to make  &l
 
 &lt;!-- 
 
-Last week I tried to calculate the 'small arc' invariant for some capped trivial tangles, but i misunderstand what makes the invariant small. I thought small meant that the last part of the chain dissapears, but I only need to count the number of vertices. 
+Last week I tried to calculate the &apos;small arc&apos; invariant for some capped trivial tangles, but i misunderstand what makes the invariant small. I thought small meant that the last part of the chain dissapears, but I only need to count the number of vertices. 
 
 So far I know that the immersed curve invariant corresponds some set of curves on the $4$ punctured disk.  
 It turns out that adding positive or negative twists to the ends of the tangle corresponds to switching the punctures on the $4$ punctured disk, which in turns simplifies the tangle. I am tasked with calculating the small arc for different rational tangles, and experimenting to see how different twists affect the invariant. (The invariant is unique up to these kinds of twists). 
