@@ -1,3 +1,0 @@
-{% comment %}{% assign pa = '_includes/' | append: test | append: '.html' %}
-{% capture KH_exists %}{% file_exists {{ pa }} %}{% endcapture %}
-{% if KH_exists == "true" %}
