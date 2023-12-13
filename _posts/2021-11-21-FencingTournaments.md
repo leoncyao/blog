@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Competed in a bunch of fencing tournaments!
-time: 2021/11-21
+time: 2021/11-12
 excerpt_separator: <!--more-->
 ---
 RMC Team invitational. Slow mo clapping is distorted af. Can't tell if it's because instagram compression
