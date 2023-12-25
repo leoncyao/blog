@@ -6,6 +6,7 @@ excerpt_separator: <!--more-->
 ---
 
 Recorded _All I want for Christmas_ with some friends. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/giQThCBFnHw?si=4qPJVBT-LE87GAV5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Not going to China for now, instead focusing on finding a job (and then going to China as soon as I get a job offer for a couple weeks)
 
