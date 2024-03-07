@@ -5,7 +5,7 @@ url: "/blog/"
 paginate: 10
 baseurl: "/blog/"
 permalink: :title
-description: "Part time Fencer, Kpop and Swing Dancer, Alto Sax and Piano Player, Animator, Mathematician, Football and Ultimate Frisbee Player, Fencer, Snowboarder, 풀타임 멍청이"
+description: "Part time Fencer, Kpop and Swing Dancer, Alto Sax and Piano Player, Animator, Mathematician, Football Player, Fencer, 풀타임 멍청이"
 host: "localhost"
 port: 4000
 # host: "10.32.226.35"
