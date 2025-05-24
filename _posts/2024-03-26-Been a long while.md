@@ -11,6 +11,6 @@ Finished a devops task, to integrate superblocks with github. Learning about git
 
 Band performed a bunch last month. Someone made a music video!
 
-https://www.youtube.com/watch?v=_Ioq2T6NvPg
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_Ioq2T6NvPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
