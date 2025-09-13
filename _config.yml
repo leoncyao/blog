@@ -4,7 +4,7 @@ tagline: "v.1.9.8.4"
 url: "/blog/" 
 paginate: 10
 baseurl: "/blog/"
-permalink: :title
+permalink: date
 description: "Part time Musician, 풀타임 멍청이"
 host: "localhost"
 port: 4000
