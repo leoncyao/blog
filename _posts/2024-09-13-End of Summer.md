@@ -13,6 +13,10 @@ Starting a new job on monday.
 
 was planning to go to a fencing tournament in waterloo today but fell ill. 
 
+New job is going well!
+
+Excited for spoopy halloween murder mystery party in NYC in Nov.
+
 
 
 
