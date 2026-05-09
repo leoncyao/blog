@@ -25,6 +25,7 @@ it was a bit disconcerting to hear what some of the lyrics meant
 "we can't live without you LG!!"
 imagine rows of children chanting this
 
+<!--more-->
 
 <div class="photo-gallery">
   {% for item in site.static_files %}
